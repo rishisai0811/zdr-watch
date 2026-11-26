@@ -188,7 +188,8 @@ class TestCauseWording:
         e["cause"] = "zdr_eligibility_lost"
         assert "lost ZDR eligibility" in title_for(e)
         e["cause"] = "model_retired"
-        assert "retired" in title_for(e)
+        assert "catalog at check time" in title_for(e)
+        assert "retired" not in title_for(e) or "at check time" in title_for(e)
 
     def test_free_variant_merging(self):
         snap = normalize([

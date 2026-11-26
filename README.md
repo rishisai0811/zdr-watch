@@ -86,19 +86,20 @@ by anything other than the date suffix.
   `safety_retention_changed`, `variants_changed`) to `data/history/events.jsonl`.
   Dated variant swaps (e.g. `model-20251022` -> `model-20251101`) are reported
   as variant changes, not as eligibility loss.
-- Continuous operation is two small GitHub Actions workflows (`watch.yml`
-  hourly check + commit, `pages.yml` deploy), free for public repos. They are
-  **not in this commit**: the token used to publish lacks the `workflow`
-  scope GitHub requires for pushing workflow files. To enable the live watch,
-  add the `workflow` scope to the token and push them, or add the two files
-  under `.github/workflows/` via the GitHub web UI once. Until then the site
-  shows the seeded history only and no new checks are running.
+- Continuous operation (free for public repos): an hourly `watch.yml`
+  GitHub Actions workflow commits changes; the site is served from `docs/`
+  on this branch, so every such commit redeploys it automatically.
+  **Current state:** the workflow is not in the repo yet (the publishing
+  token lacks the `workflow` scope GitHub requires for workflow files).
+  Interim: a scheduled agent run performs `check` + push **once daily**,
+  so the feed refreshes daily, not hourly. The hourly cadence starts once
+  `watch.yml` lands (via token scope or a web-UI commit).
 - `python -m zdrwatch backfill` seeds history from Internet Archive captures
   (already run; seeded events are committed).
 
 ## Alerts
 
-Subscribe to `feed.xml` in any feed reader, or point a Slack/Discord RSS
+Subscribe to `feed.xml` in any feed reader (currently refreshed daily; see above), or point a Slack/Discord RSS
 integration at it. You can also watch this repository; every eligibility
 change lands as a commit.
 

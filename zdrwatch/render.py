@@ -130,6 +130,9 @@ td, th {{ border: 1px solid #ddd; padding: 0.35rem 0.6rem; text-align: left; fon
 .limits {{ background: #f5f5f5; border-left: 4px solid #999; padding: 0.6rem 1rem; font-size: 0.9rem; }}
 </style></head><body>
 <h1>OpenRouter ZDR eligibility watch</h1>
+<p><small>Updated once daily by a scheduled run (interim). Hourly checks start
+once the GitHub Actions workflow is enabled; "Last observed" always shows the
+actual freshest observation.</small></p>
 <p>Last observed <strong>{html.escape(current_snap['captured_at'])}</strong>:
 <strong>{total}</strong> routes on the published ZDR list
 (<strong>{sr_count}</strong> flagged safety-retention).
