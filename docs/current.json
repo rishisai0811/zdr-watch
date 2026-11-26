@@ -1,0 +1,6564 @@
+{
+ "captured_at": "2026-11-26T06:46:45Z",
+ "source": "live",
+ "route_count": 725,
+ "routes": [
+  {
+   "route_key": "AkashML | google/gemma-4-26b-a4b-it",
+   "provider": "AkashML",
+   "model_base": "google/gemma-4-26b-a4b-it",
+   "variants": [
+    "AkashML | google/gemma-4-26b-a4b-it-20260403"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "AkashML | meta-llama/llama-3.3-70b-instruct",
+   "provider": "AkashML",
+   "model_base": "meta-llama/llama-3.3-70b-instruct",
+   "variants": [
+    "AkashML | meta-llama/llama-3.3-70b-instruct"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "AkashML | moonshotai/kimi-k3.1-pro",
+   "provider": "AkashML",
+   "model_base": "moonshotai/kimi-k3.1-pro",
+   "variants": [
+    "AkashML | moonshotai/kimi-k3.1-pro-20261023"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "AkashML | openai/gpt-oss-120b",
+   "provider": "AkashML",
+   "model_base": "openai/gpt-oss-120b",
+   "variants": [
+    "AkashML | openai/gpt-oss-120b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "AkashML | openai/gpt-oss-20b",
+   "provider": "AkashML",
+   "model_base": "openai/gpt-oss-20b",
+   "variants": [
+    "AkashML | openai/gpt-oss-20b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "AkashML | qwen/qwen3.6-35b-a3b",
+   "provider": "AkashML",
+   "model_base": "qwen/qwen3.6-35b-a3b",
+   "variants": [
+    "AkashML | qwen/qwen3.6-35b-a3b-20260415"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "AkashML | qwen/qwen3.8-27b",
+   "provider": "AkashML",
+   "model_base": "qwen/qwen3.8-27b",
+   "variants": [
+    "AkashML | qwen/qwen3.8-27b-20260814"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "AkashML | z-ai/glm-5.3",
+   "provider": "AkashML",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "AkashML | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | amazon/nova-2-lite-v1",
+   "provider": "Amazon Bedrock",
+   "model_base": "amazon/nova-2-lite-v1",
+   "variants": [
+    "Amazon Bedrock | amazon/nova-2-lite-v1"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | amazon/nova-lite-v1",
+   "provider": "Amazon Bedrock",
+   "model_base": "amazon/nova-lite-v1",
+   "variants": [
+    "Amazon Bedrock | amazon/nova-lite-v1"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | amazon/nova-micro-v1",
+   "provider": "Amazon Bedrock",
+   "model_base": "amazon/nova-micro-v1",
+   "variants": [
+    "Amazon Bedrock | amazon/nova-micro-v1"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | amazon/nova-premier-v1",
+   "provider": "Amazon Bedrock",
+   "model_base": "amazon/nova-premier-v1",
+   "variants": [
+    "Amazon Bedrock | amazon/nova-premier-v1"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | amazon/nova-pro-v1",
+   "provider": "Amazon Bedrock",
+   "model_base": "amazon/nova-pro-v1",
+   "variants": [
+    "Amazon Bedrock | amazon/nova-pro-v1"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | amazon/titan-embed-image-v1",
+   "provider": "Amazon Bedrock",
+   "model_base": "amazon/titan-embed-image-v1",
+   "variants": [
+    "Amazon Bedrock | amazon/titan-embed-image-v1-20261026"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | amazon/titan-embed-text-v1",
+   "provider": "Amazon Bedrock",
+   "model_base": "amazon/titan-embed-text-v1",
+   "variants": [
+    "Amazon Bedrock | amazon/titan-embed-text-v1-20261026"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | amazon/titan-embed-text-v2",
+   "provider": "Amazon Bedrock",
+   "model_base": "amazon/titan-embed-text-v2",
+   "variants": [
+    "Amazon Bedrock | amazon/titan-embed-text-v2-20261026"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | anthropic/claude-4.1-opus",
+   "provider": "Amazon Bedrock",
+   "model_base": "anthropic/claude-4.1-opus",
+   "variants": [
+    "Amazon Bedrock | anthropic/claude-4.1-opus-20250805"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | anthropic/claude-4.5-haiku",
+   "provider": "Amazon Bedrock",
+   "model_base": "anthropic/claude-4.5-haiku",
+   "variants": [
+    "Amazon Bedrock | anthropic/claude-4.5-haiku-20251001"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | anthropic/claude-4.5-opus",
+   "provider": "Amazon Bedrock",
+   "model_base": "anthropic/claude-4.5-opus",
+   "variants": [
+    "Amazon Bedrock | anthropic/claude-4.5-opus-20251124"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | anthropic/claude-4.5-sonnet",
+   "provider": "Amazon Bedrock",
+   "model_base": "anthropic/claude-4.5-sonnet",
+   "variants": [
+    "Amazon Bedrock | anthropic/claude-4.5-sonnet-20250929"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | anthropic/claude-4.6-opus",
+   "provider": "Amazon Bedrock",
+   "model_base": "anthropic/claude-4.6-opus",
+   "variants": [
+    "Amazon Bedrock | anthropic/claude-4.6-opus-20260205"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | anthropic/claude-4.6-sonnet",
+   "provider": "Amazon Bedrock",
+   "model_base": "anthropic/claude-4.6-sonnet",
+   "variants": [
+    "Amazon Bedrock | anthropic/claude-4.6-sonnet-20260217"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | anthropic/claude-4.7-opus",
+   "provider": "Amazon Bedrock",
+   "model_base": "anthropic/claude-4.7-opus",
+   "variants": [
+    "Amazon Bedrock | anthropic/claude-4.7-opus-20260416"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | anthropic/claude-4.8-opus",
+   "provider": "Amazon Bedrock",
+   "model_base": "anthropic/claude-4.8-opus",
+   "variants": [
+    "Amazon Bedrock | anthropic/claude-4.8-opus-20260528"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | anthropic/claude-haiku-5.5",
+   "provider": "Amazon Bedrock",
+   "model_base": "anthropic/claude-haiku-5.5",
+   "variants": [
+    "Amazon Bedrock | anthropic/claude-haiku-5.5-20261007"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | anthropic/claude-opus-5",
+   "provider": "Amazon Bedrock",
+   "model_base": "anthropic/claude-opus-5",
+   "variants": [
+    "Amazon Bedrock | anthropic/claude-opus-5-20260723"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | anthropic/claude-opus-5.5",
+   "provider": "Amazon Bedrock",
+   "model_base": "anthropic/claude-opus-5.5",
+   "variants": [
+    "Amazon Bedrock | anthropic/claude-opus-5.5-20260921"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | anthropic/claude-sonnet-5",
+   "provider": "Amazon Bedrock",
+   "model_base": "anthropic/claude-sonnet-5",
+   "variants": [
+    "Amazon Bedrock | anthropic/claude-sonnet-5-20260630"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | anthropic/claude-sonnet-5.5",
+   "provider": "Amazon Bedrock",
+   "model_base": "anthropic/claude-sonnet-5.5",
+   "variants": [
+    "Amazon Bedrock | anthropic/claude-sonnet-5.5-20260928"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | cohere/rerank-v3.5",
+   "provider": "Amazon Bedrock",
+   "model_base": "cohere/rerank-v3.5",
+   "variants": [
+    "Amazon Bedrock | cohere/rerank-v3.5"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | meta-llama/llama-3.1-70b-instruct",
+   "provider": "Amazon Bedrock",
+   "model_base": "meta-llama/llama-3.1-70b-instruct",
+   "variants": [
+    "Amazon Bedrock | meta-llama/llama-3.1-70b-instruct"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | meta-llama/llama-3.1-8b-instruct",
+   "provider": "Amazon Bedrock",
+   "model_base": "meta-llama/llama-3.1-8b-instruct",
+   "variants": [
+    "Amazon Bedrock | meta-llama/llama-3.1-8b-instruct"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | meta-llama/llama-3.3-70b-instruct",
+   "provider": "Amazon Bedrock",
+   "model_base": "meta-llama/llama-3.3-70b-instruct",
+   "variants": [
+    "Amazon Bedrock | meta-llama/llama-3.3-70b-instruct"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | mistralai/pixtral-large-2502",
+   "provider": "Amazon Bedrock",
+   "model_base": "mistralai/pixtral-large-2502",
+   "variants": [
+    "Amazon Bedrock | mistralai/pixtral-large-2502"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | moonshotai/kimi-k2.5-0127",
+   "provider": "Amazon Bedrock",
+   "model_base": "moonshotai/kimi-k2.5-0127",
+   "variants": [
+    "Amazon Bedrock | moonshotai/kimi-k2.5-0127"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | moonshotai/kimi-k3",
+   "provider": "Amazon Bedrock",
+   "model_base": "moonshotai/kimi-k3",
+   "variants": [
+    "Amazon Bedrock | moonshotai/kimi-k3-20260715"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | moonshotai/kimi-k3.1-pro",
+   "provider": "Amazon Bedrock",
+   "model_base": "moonshotai/kimi-k3.1-pro",
+   "variants": [
+    "Amazon Bedrock | moonshotai/kimi-k3.1-pro-20261023"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | openai/gpt-oss-120b",
+   "provider": "Amazon Bedrock",
+   "model_base": "openai/gpt-oss-120b",
+   "variants": [
+    "Amazon Bedrock | openai/gpt-oss-120b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | openai/gpt-oss-20b",
+   "provider": "Amazon Bedrock",
+   "model_base": "openai/gpt-oss-20b",
+   "variants": [
+    "Amazon Bedrock | openai/gpt-oss-20b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | openai/gpt-oss-safeguard-20b",
+   "provider": "Amazon Bedrock",
+   "model_base": "openai/gpt-oss-safeguard-20b",
+   "variants": [
+    "Amazon Bedrock | openai/gpt-oss-safeguard-20b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | qwen/qwen3-coder-30b-a3b-instruct",
+   "provider": "Amazon Bedrock",
+   "model_base": "qwen/qwen3-coder-30b-a3b-instruct",
+   "variants": [
+    "Amazon Bedrock | qwen/qwen3-coder-30b-a3b-instruct"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | writer/palmyra-x5",
+   "provider": "Amazon Bedrock",
+   "model_base": "writer/palmyra-x5",
+   "variants": [
+    "Amazon Bedrock | writer/palmyra-x5-20250428"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | x-ai/grok-4.7",
+   "provider": "Amazon Bedrock",
+   "model_base": "x-ai/grok-4.7",
+   "variants": [
+    "Amazon Bedrock | x-ai/grok-4.7-20260916"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | z-ai/glm-5",
+   "provider": "Amazon Bedrock",
+   "model_base": "z-ai/glm-5",
+   "variants": [
+    "Amazon Bedrock | z-ai/glm-5-20260211"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Amazon Bedrock | z-ai/glm-5.3",
+   "provider": "Amazon Bedrock",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "Amazon Bedrock | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "AssemblyAI | assemblyai/universal-3-5-pro",
+   "provider": "AssemblyAI",
+   "model_base": "assemblyai/universal-3-5-pro",
+   "variants": [
+    "AssemblyAI | assemblyai/universal-3-5-pro-20260914"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "AssemblyAI | assemblyai/universal-3-6-pro",
+   "provider": "AssemblyAI",
+   "model_base": "assemblyai/universal-3-6-pro",
+   "variants": [
+    "AssemblyAI | assemblyai/universal-3-6-pro-20261014"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | deepseek/deepseek-v4-flash",
+   "provider": "Azure",
+   "model_base": "deepseek/deepseek-v4-flash",
+   "variants": [
+    "Azure | deepseek/deepseek-v4-flash-20260423"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | deepseek/deepseek-v4-pro",
+   "provider": "Azure",
+   "model_base": "deepseek/deepseek-v4-pro",
+   "variants": [
+    "Azure | deepseek/deepseek-v4-pro-20260423"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | microsoft/mai-image-2.5",
+   "provider": "Azure",
+   "model_base": "microsoft/mai-image-2.5",
+   "variants": [
+    "Azure | microsoft/mai-image-2.5"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | microsoft/mai-image-2.5-pro",
+   "provider": "Azure",
+   "model_base": "microsoft/mai-image-2.5-pro",
+   "variants": [
+    "Azure | microsoft/mai-image-2.5-pro-20260723"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | microsoft/mai-image-2.6",
+   "provider": "Azure",
+   "model_base": "microsoft/mai-image-2.6",
+   "variants": [
+    "Azure | microsoft/mai-image-2.6-20260904"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | microsoft/mai-image-2.6-flash",
+   "provider": "Azure",
+   "model_base": "microsoft/mai-image-2.6-flash",
+   "variants": [
+    "Azure | microsoft/mai-image-2.6-flash-20260904"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | microsoft/mai-image-2.7",
+   "provider": "Azure",
+   "model_base": "microsoft/mai-image-2.7",
+   "variants": [
+    "Azure | microsoft/mai-image-2.7-20261117"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | microsoft/mai-image-2.7-flash",
+   "provider": "Azure",
+   "model_base": "microsoft/mai-image-2.7-flash",
+   "variants": [
+    "Azure | microsoft/mai-image-2.7-flash-20261117"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | microsoft/mai-transcribe-1.5",
+   "provider": "Azure",
+   "model_base": "microsoft/mai-transcribe-1.5",
+   "variants": [
+    "Azure | microsoft/mai-transcribe-1.5"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | microsoft/mai-transcribe-2",
+   "provider": "Azure",
+   "model_base": "microsoft/mai-transcribe-2",
+   "variants": [
+    "Azure | microsoft/mai-transcribe-2-20260903"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | microsoft/mai-voice-2",
+   "provider": "Azure",
+   "model_base": "microsoft/mai-voice-2",
+   "variants": [
+    "Azure | microsoft/mai-voice-2"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | microsoft/mai-voice-2-flash",
+   "provider": "Azure",
+   "model_base": "microsoft/mai-voice-2-flash",
+   "variants": [
+    "Azure | microsoft/mai-voice-2-flash-20260723"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | microsoft/mai-voice-2.1",
+   "provider": "Azure",
+   "model_base": "microsoft/mai-voice-2.1",
+   "variants": [
+    "Azure | microsoft/mai-voice-2.1-20261001"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | microsoft/mai-voice-2.1-flash",
+   "provider": "Azure",
+   "model_base": "microsoft/mai-voice-2.1-flash",
+   "variants": [
+    "Azure | microsoft/mai-voice-2.1-flash-20261001"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | microsoft/microsoft-decision-1",
+   "provider": "Azure",
+   "model_base": "microsoft/microsoft-decision-1",
+   "variants": [
+    "Azure | microsoft/microsoft-decision-1-20261009"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | microsoft/microsoft-decision-1.1",
+   "provider": "Azure",
+   "model_base": "microsoft/microsoft-decision-1.1",
+   "variants": [
+    "Azure | microsoft/microsoft-decision-1.1-20261117"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-3.5-turbo-0613",
+   "provider": "Azure",
+   "model_base": "openai/gpt-3.5-turbo-0613",
+   "variants": [
+    "Azure | openai/gpt-3.5-turbo-0613"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-3.5-turbo-16k",
+   "provider": "Azure",
+   "model_base": "openai/gpt-3.5-turbo-16k",
+   "variants": [
+    "Azure | openai/gpt-3.5-turbo-16k"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-4",
+   "provider": "Azure",
+   "model_base": "openai/gpt-4",
+   "variants": [
+    "Azure | openai/gpt-4"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-4.1-2025-04-14",
+   "provider": "Azure",
+   "model_base": "openai/gpt-4.1-2025-04-14",
+   "variants": [
+    "Azure | openai/gpt-4.1-2025-04-14"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-4.1-mini-2025-04-14",
+   "provider": "Azure",
+   "model_base": "openai/gpt-4.1-mini-2025-04-14",
+   "variants": [
+    "Azure | openai/gpt-4.1-mini-2025-04-14"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-4.1-nano-2025-04-14",
+   "provider": "Azure",
+   "model_base": "openai/gpt-4.1-nano-2025-04-14",
+   "variants": [
+    "Azure | openai/gpt-4.1-nano-2025-04-14"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-4o",
+   "provider": "Azure",
+   "model_base": "openai/gpt-4o",
+   "variants": [
+    "Azure | openai/gpt-4o"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-4o-2024-05-13",
+   "provider": "Azure",
+   "model_base": "openai/gpt-4o-2024-05-13",
+   "variants": [
+    "Azure | openai/gpt-4o-2024-05-13"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-4o-2024-08-06",
+   "provider": "Azure",
+   "model_base": "openai/gpt-4o-2024-08-06",
+   "variants": [
+    "Azure | openai/gpt-4o-2024-08-06"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-4o-mini",
+   "provider": "Azure",
+   "model_base": "openai/gpt-4o-mini",
+   "variants": [
+    "Azure | openai/gpt-4o-mini"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-5-2025-08-07",
+   "provider": "Azure",
+   "model_base": "openai/gpt-5-2025-08-07",
+   "variants": [
+    "Azure | openai/gpt-5-2025-08-07"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-5-mini-2025-08-07",
+   "provider": "Azure",
+   "model_base": "openai/gpt-5-mini-2025-08-07",
+   "variants": [
+    "Azure | openai/gpt-5-mini-2025-08-07"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-5-nano-2025-08-07",
+   "provider": "Azure",
+   "model_base": "openai/gpt-5-nano-2025-08-07",
+   "variants": [
+    "Azure | openai/gpt-5-nano-2025-08-07"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-5.1",
+   "provider": "Azure",
+   "model_base": "openai/gpt-5.1",
+   "variants": [
+    "Azure | openai/gpt-5.1-20251113"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-5.1-codex",
+   "provider": "Azure",
+   "model_base": "openai/gpt-5.1-codex",
+   "variants": [
+    "Azure | openai/gpt-5.1-codex-20251113"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-5.1-codex-max",
+   "provider": "Azure",
+   "model_base": "openai/gpt-5.1-codex-max",
+   "variants": [
+    "Azure | openai/gpt-5.1-codex-max-20251204"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-5.1-codex-mini",
+   "provider": "Azure",
+   "model_base": "openai/gpt-5.1-codex-mini",
+   "variants": [
+    "Azure | openai/gpt-5.1-codex-mini-20251113"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-5.2",
+   "provider": "Azure",
+   "model_base": "openai/gpt-5.2",
+   "variants": [
+    "Azure | openai/gpt-5.2-20251211"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-5.2-codex",
+   "provider": "Azure",
+   "model_base": "openai/gpt-5.2-codex",
+   "variants": [
+    "Azure | openai/gpt-5.2-codex-20260114"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-5.3-codex",
+   "provider": "Azure",
+   "model_base": "openai/gpt-5.3-codex",
+   "variants": [
+    "Azure | openai/gpt-5.3-codex-20260224"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-5.4",
+   "provider": "Azure",
+   "model_base": "openai/gpt-5.4",
+   "variants": [
+    "Azure | openai/gpt-5.4-20260305"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-5.4-mini",
+   "provider": "Azure",
+   "model_base": "openai/gpt-5.4-mini",
+   "variants": [
+    "Azure | openai/gpt-5.4-mini-20260317"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-5.4-nano",
+   "provider": "Azure",
+   "model_base": "openai/gpt-5.4-nano",
+   "variants": [
+    "Azure | openai/gpt-5.4-nano-20260317"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-5.4-pro",
+   "provider": "Azure",
+   "model_base": "openai/gpt-5.4-pro",
+   "variants": [
+    "Azure | openai/gpt-5.4-pro-20260305"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-5.5",
+   "provider": "Azure",
+   "model_base": "openai/gpt-5.5",
+   "variants": [
+    "Azure | openai/gpt-5.5-20260423"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-5.6-luna",
+   "provider": "Azure",
+   "model_base": "openai/gpt-5.6-luna",
+   "variants": [
+    "Azure | openai/gpt-5.6-luna-20260709"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-5.6-luna-pro",
+   "provider": "Azure",
+   "model_base": "openai/gpt-5.6-luna-pro",
+   "variants": [
+    "Azure | openai/gpt-5.6-luna-pro-20260709"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-5.6-sol",
+   "provider": "Azure",
+   "model_base": "openai/gpt-5.6-sol",
+   "variants": [
+    "Azure | openai/gpt-5.6-sol-20260709"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-5.6-sol-pro",
+   "provider": "Azure",
+   "model_base": "openai/gpt-5.6-sol-pro",
+   "variants": [
+    "Azure | openai/gpt-5.6-sol-pro-20260709"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-5.6-terra",
+   "provider": "Azure",
+   "model_base": "openai/gpt-5.6-terra",
+   "variants": [
+    "Azure | openai/gpt-5.6-terra-20260709"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-5.6-terra-pro",
+   "provider": "Azure",
+   "model_base": "openai/gpt-5.6-terra-pro",
+   "variants": [
+    "Azure | openai/gpt-5.6-terra-pro-20260709"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-6-astra",
+   "provider": "Azure",
+   "model_base": "openai/gpt-6-astra",
+   "variants": [
+    "Azure | openai/gpt-6-astra-20260903"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-6-astra-pro",
+   "provider": "Azure",
+   "model_base": "openai/gpt-6-astra-pro",
+   "variants": [
+    "Azure | openai/gpt-6-astra-pro-20260903"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-6-luna",
+   "provider": "Azure",
+   "model_base": "openai/gpt-6-luna",
+   "variants": [
+    "Azure | openai/gpt-6-luna-20260922"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-6-luna-pro",
+   "provider": "Azure",
+   "model_base": "openai/gpt-6-luna-pro",
+   "variants": [
+    "Azure | openai/gpt-6-luna-pro-20260922"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-6-sol",
+   "provider": "Azure",
+   "model_base": "openai/gpt-6-sol",
+   "variants": [
+    "Azure | openai/gpt-6-sol-20260922"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-6-sol-pro",
+   "provider": "Azure",
+   "model_base": "openai/gpt-6-sol-pro",
+   "variants": [
+    "Azure | openai/gpt-6-sol-pro-20260922"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-6.1-sol",
+   "provider": "Azure",
+   "model_base": "openai/gpt-6.1-sol",
+   "variants": [
+    "Azure | openai/gpt-6.1-sol-20260929"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-6.1-sol-pro",
+   "provider": "Azure",
+   "model_base": "openai/gpt-6.1-sol-pro",
+   "variants": [
+    "Azure | openai/gpt-6.1-sol-pro-20260929"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-6.1-terra",
+   "provider": "Azure",
+   "model_base": "openai/gpt-6.1-terra",
+   "variants": [
+    "Azure | openai/gpt-6.1-terra-20261026"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-6.1-terra-pro",
+   "provider": "Azure",
+   "model_base": "openai/gpt-6.1-terra-pro",
+   "variants": [
+    "Azure | openai/gpt-6.1-terra-pro-20261026"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-6.2-astra",
+   "provider": "Azure",
+   "model_base": "openai/gpt-6.2-astra",
+   "variants": [
+    "Azure | openai/gpt-6.2-astra-20261117"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-6.2-astra-pro",
+   "provider": "Azure",
+   "model_base": "openai/gpt-6.2-astra-pro",
+   "variants": [
+    "Azure | openai/gpt-6.2-astra-pro-20261117"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-6.2-sol",
+   "provider": "Azure",
+   "model_base": "openai/gpt-6.2-sol",
+   "variants": [
+    "Azure | openai/gpt-6.2-sol-20261117"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/gpt-6.2-sol-pro",
+   "provider": "Azure",
+   "model_base": "openai/gpt-6.2-sol-pro",
+   "variants": [
+    "Azure | openai/gpt-6.2-sol-pro-20261117"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/text-embedding-3-large",
+   "provider": "Azure",
+   "model_base": "openai/text-embedding-3-large",
+   "variants": [
+    "Azure | openai/text-embedding-3-large"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Azure | openai/text-embedding-3-small",
+   "provider": "Azure",
+   "model_base": "openai/text-embedding-3-small",
+   "variants": [
+    "Azure | openai/text-embedding-3-small"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "BaseTen | baseten/bison-1",
+   "provider": "BaseTen",
+   "model_base": "baseten/bison-1",
+   "variants": [
+    "BaseTen | baseten/bison-1-20261120"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "BaseTen | baseten/elephant-1",
+   "provider": "BaseTen",
+   "model_base": "baseten/elephant-1",
+   "variants": [
+    "BaseTen | baseten/elephant-1-20261021"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "BaseTen | baseten/groundhog-1",
+   "provider": "BaseTen",
+   "model_base": "baseten/groundhog-1",
+   "variants": [
+    "BaseTen | baseten/groundhog-1-20261120"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "BaseTen | baseten/joey-1",
+   "provider": "BaseTen",
+   "model_base": "baseten/joey-1",
+   "variants": [
+    "BaseTen | baseten/joey-1-20261029"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "BaseTen | baseten/mammoth-1",
+   "provider": "BaseTen",
+   "model_base": "baseten/mammoth-1",
+   "variants": [
+    "BaseTen | baseten/mammoth-1-20261021"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "BaseTen | deepseek/deepseek-v4-flash",
+   "provider": "BaseTen",
+   "model_base": "deepseek/deepseek-v4-flash",
+   "variants": [
+    "BaseTen | deepseek/deepseek-v4-flash-20260731"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "BaseTen | deepseek/deepseek-v4-pro",
+   "provider": "BaseTen",
+   "model_base": "deepseek/deepseek-v4-pro",
+   "variants": [
+    "BaseTen | deepseek/deepseek-v4-pro-20260813"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "BaseTen | deepseek/deepseek-v4.1-flash",
+   "provider": "BaseTen",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "BaseTen | deepseek/deepseek-v4.1-flash-20260910",
+    "BaseTen | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "BaseTen | meta/muse-spark-open",
+   "provider": "BaseTen",
+   "model_base": "meta/muse-spark-open",
+   "variants": [
+    "BaseTen | meta/muse-spark-open-20261015"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "BaseTen | moonshotai/kimi-k3",
+   "provider": "BaseTen",
+   "model_base": "moonshotai/kimi-k3",
+   "variants": [
+    "BaseTen | moonshotai/kimi-k3-20260715"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "BaseTen | nvidia/nemotron-3-ultra-550b-a55b",
+   "provider": "BaseTen",
+   "model_base": "nvidia/nemotron-3-ultra-550b-a55b",
+   "variants": [
+    "BaseTen | nvidia/nemotron-3-ultra-550b-a55b-20260604"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "BaseTen | nvidia/nemotron-3.5-super-vl",
+   "provider": "BaseTen",
+   "model_base": "nvidia/nemotron-3.5-super-vl",
+   "variants": [
+    "BaseTen | nvidia/nemotron-3.5-super-vl-20261015"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "BaseTen | openai/gpt-oss-120b",
+   "provider": "BaseTen",
+   "model_base": "openai/gpt-oss-120b",
+   "variants": [
+    "BaseTen | openai/gpt-oss-120b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "BaseTen | reflection/beam-1.0-501b-a23b",
+   "provider": "BaseTen",
+   "model_base": "reflection/beam-1.0-501b-a23b",
+   "variants": [
+    "BaseTen | reflection/beam-1.0-501b-a23b-20261016"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "BaseTen | z-ai/glm-5.2",
+   "provider": "BaseTen",
+   "model_base": "z-ai/glm-5.2",
+   "variants": [
+    "BaseTen | z-ai/glm-5.2-20260616"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "BaseTen | z-ai/glm-5.3",
+   "provider": "BaseTen",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "BaseTen | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "BaseTen | z-ai/glm-5.3-flash",
+   "provider": "BaseTen",
+   "model_base": "z-ai/glm-5.3-flash",
+   "variants": [
+    "BaseTen | z-ai/glm-5.3-flash-20260826"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Cerebras | openai/gpt-oss-120b",
+   "provider": "Cerebras",
+   "model_base": "openai/gpt-oss-120b",
+   "variants": [
+    "Cerebras | openai/gpt-oss-120b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Cerebras | qwen/qwen3.8-27b",
+   "provider": "Cerebras",
+   "model_base": "qwen/qwen3.8-27b",
+   "variants": [
+    "Cerebras | qwen/qwen3.8-27b-20260814"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Cloudflare | cloudflare/clairic",
+   "provider": "Cloudflare",
+   "model_base": "cloudflare/clairic",
+   "variants": [
+    "Cloudflare | cloudflare/clairic-20261029"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Cloudflare | cloudflare/clef",
+   "provider": "Cloudflare",
+   "model_base": "cloudflare/clef",
+   "variants": [
+    "Cloudflare | cloudflare/clef"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Cloudflare | cloudflare/clef-flash",
+   "provider": "Cloudflare",
+   "model_base": "cloudflare/clef-flash",
+   "variants": [
+    "Cloudflare | cloudflare/clef-flash"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Cloudflare | cloudflare/clef-omni",
+   "provider": "Cloudflare",
+   "model_base": "cloudflare/clef-omni",
+   "variants": [
+    "Cloudflare | cloudflare/clef-omni-20261009"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Cloudflare | deepseek/deepseek-v4.1-flash",
+   "provider": "Cloudflare",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "Cloudflare | deepseek/deepseek-v4.1-flash-20260910",
+    "Cloudflare | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Cloudflare | google/gemma-4-26b-a4b-it",
+   "provider": "Cloudflare",
+   "model_base": "google/gemma-4-26b-a4b-it",
+   "variants": [
+    "Cloudflare | google/gemma-4-26b-a4b-it-20260403"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Cloudflare | meta-llama/llama-3.3-70b-instruct",
+   "provider": "Cloudflare",
+   "model_base": "meta-llama/llama-3.3-70b-instruct",
+   "variants": [
+    "Cloudflare | meta-llama/llama-3.3-70b-instruct"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Cloudflare | mistralai/mistral-small-3.1-24b-instruct-2503",
+   "provider": "Cloudflare",
+   "model_base": "mistralai/mistral-small-3.1-24b-instruct-2503",
+   "variants": [
+    "Cloudflare | mistralai/mistral-small-3.1-24b-instruct-2503"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Cloudflare | qwen/qwen-2.5-coder-32b-instruct",
+   "provider": "Cloudflare",
+   "model_base": "qwen/qwen-2.5-coder-32b-instruct",
+   "variants": [
+    "Cloudflare | qwen/qwen-2.5-coder-32b-instruct"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Cloudflare | qwen/qwen3.8-27b",
+   "provider": "Cloudflare",
+   "model_base": "qwen/qwen3.8-27b",
+   "variants": [
+    "Cloudflare | qwen/qwen3.8-27b-20260814"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Cloudflare | thinkingmachines/inkling-2-small",
+   "provider": "Cloudflare",
+   "model_base": "thinkingmachines/inkling-2-small",
+   "variants": [
+    "Cloudflare | thinkingmachines/inkling-2-small-20261107"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Cloudflare | z-ai/glm-4.7-flash",
+   "provider": "Cloudflare",
+   "model_base": "z-ai/glm-4.7-flash",
+   "variants": [
+    "Cloudflare | z-ai/glm-4.7-flash-20260119"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Cloudflare | z-ai/glm-5.3",
+   "provider": "Cloudflare",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "Cloudflare | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Cohere | cohere/command-a-plus-05-2026",
+   "provider": "Cohere",
+   "model_base": "cohere/command-a-plus-05-2026",
+   "variants": [
+    "Cohere | cohere/command-a-plus-05-2026"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Cohere | deepseek/deepseek-v4-flash",
+   "provider": "Cohere",
+   "model_base": "deepseek/deepseek-v4-flash",
+   "variants": [
+    "Cohere | deepseek/deepseek-v4-flash-20260731"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Cohere | deepseek/deepseek-v4.1-flash",
+   "provider": "Cohere",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "Cohere | deepseek/deepseek-v4.1-flash-20260910",
+    "Cohere | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Cohere | xiaomi/mimo-v2.6-flash",
+   "provider": "Cohere",
+   "model_base": "xiaomi/mimo-v2.6-flash",
+   "variants": [
+    "Cohere | xiaomi/mimo-v2.6-flash-20260921"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Cohere | z-ai/glm-5.3",
+   "provider": "Cohere",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "Cohere | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Cohere | z-ai/glm-5.3-flash",
+   "provider": "Cohere",
+   "model_base": "z-ai/glm-5.3-flash",
+   "variants": [
+    "Cohere | z-ai/glm-5.3-flash-20260826"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "CoreWeave | deepseek/deepseek-chat-v3.1",
+   "provider": "CoreWeave",
+   "model_base": "deepseek/deepseek-chat-v3.1",
+   "variants": [
+    "CoreWeave | deepseek/deepseek-chat-v3.1"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "CoreWeave | deepseek/deepseek-v4-flash",
+   "provider": "CoreWeave",
+   "model_base": "deepseek/deepseek-v4-flash",
+   "variants": [
+    "CoreWeave | deepseek/deepseek-v4-flash-20260731"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "CoreWeave | deepseek/deepseek-v4-pro",
+   "provider": "CoreWeave",
+   "model_base": "deepseek/deepseek-v4-pro",
+   "variants": [
+    "CoreWeave | deepseek/deepseek-v4-pro-20260813"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "CoreWeave | deepseek/deepseek-v4.1-flash",
+   "provider": "CoreWeave",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "CoreWeave | deepseek/deepseek-v4.1-flash-20260910",
+    "CoreWeave | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "CoreWeave | google/gemma-4-26b-a4b-it",
+   "provider": "CoreWeave",
+   "model_base": "google/gemma-4-26b-a4b-it",
+   "variants": [
+    "CoreWeave | google/gemma-4-26b-a4b-it-20260403"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "CoreWeave | google/gemma-4-31b-it",
+   "provider": "CoreWeave",
+   "model_base": "google/gemma-4-31b-it",
+   "variants": [
+    "CoreWeave | google/gemma-4-31b-it-20260402"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "CoreWeave | ibm-granite/granite-4.2-8b",
+   "provider": "CoreWeave",
+   "model_base": "ibm-granite/granite-4.2-8b",
+   "variants": [
+    "CoreWeave | ibm-granite/granite-4.2-8b-20260831"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "CoreWeave | meta-llama/llama-3.1-8b-instruct",
+   "provider": "CoreWeave",
+   "model_base": "meta-llama/llama-3.1-8b-instruct",
+   "variants": [
+    "CoreWeave | meta-llama/llama-3.1-8b-instruct"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "CoreWeave | meta-llama/llama-3.3-70b-instruct",
+   "provider": "CoreWeave",
+   "model_base": "meta-llama/llama-3.3-70b-instruct",
+   "variants": [
+    "CoreWeave | meta-llama/llama-3.3-70b-instruct"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "CoreWeave | minimax/minimax-m3",
+   "provider": "CoreWeave",
+   "model_base": "minimax/minimax-m3",
+   "variants": [
+    "CoreWeave | minimax/minimax-m3-20260531"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "CoreWeave | moonshotai/kimi-k2.6",
+   "provider": "CoreWeave",
+   "model_base": "moonshotai/kimi-k2.6",
+   "variants": [
+    "CoreWeave | moonshotai/kimi-k2.6-20260420"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "CoreWeave | moonshotai/kimi-k2.7-code",
+   "provider": "CoreWeave",
+   "model_base": "moonshotai/kimi-k2.7-code",
+   "variants": [
+    "CoreWeave | moonshotai/kimi-k2.7-code-20260612"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "CoreWeave | nvidia/nemotron-3-ultra-550b-a55b",
+   "provider": "CoreWeave",
+   "model_base": "nvidia/nemotron-3-ultra-550b-a55b",
+   "variants": [
+    "CoreWeave | nvidia/nemotron-3-ultra-550b-a55b-20260604"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "CoreWeave | nvidia/nemotron-3.5-lightning",
+   "provider": "CoreWeave",
+   "model_base": "nvidia/nemotron-3.5-lightning",
+   "variants": [
+    "CoreWeave | nvidia/nemotron-3.5-lightning-20260807"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "CoreWeave | nvidia/nemotron-3.5-super-vl",
+   "provider": "CoreWeave",
+   "model_base": "nvidia/nemotron-3.5-super-vl",
+   "variants": [
+    "CoreWeave | nvidia/nemotron-3.5-super-vl-20261015"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "CoreWeave | openai/gpt-oss-120b",
+   "provider": "CoreWeave",
+   "model_base": "openai/gpt-oss-120b",
+   "variants": [
+    "CoreWeave | openai/gpt-oss-120b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "CoreWeave | openai/gpt-oss-20b",
+   "provider": "CoreWeave",
+   "model_base": "openai/gpt-oss-20b",
+   "variants": [
+    "CoreWeave | openai/gpt-oss-20b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "CoreWeave | qwen/qwen3.6-35b-a3b",
+   "provider": "CoreWeave",
+   "model_base": "qwen/qwen3.6-35b-a3b",
+   "variants": [
+    "CoreWeave | qwen/qwen3.6-35b-a3b-20260415"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "CoreWeave | qwen/qwen3.8-27b",
+   "provider": "CoreWeave",
+   "model_base": "qwen/qwen3.8-27b",
+   "variants": [
+    "CoreWeave | qwen/qwen3.8-27b-20260814"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "CoreWeave | reflection/beam-1.0-501b-a23b",
+   "provider": "CoreWeave",
+   "model_base": "reflection/beam-1.0-501b-a23b",
+   "variants": [
+    "CoreWeave | reflection/beam-1.0-501b-a23b-20261016"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "CoreWeave | z-ai/glm-5.2",
+   "provider": "CoreWeave",
+   "model_base": "z-ai/glm-5.2",
+   "variants": [
+    "CoreWeave | z-ai/glm-5.2-20260616"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "CoreWeave | z-ai/glm-5.3",
+   "provider": "CoreWeave",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "CoreWeave | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "CoreWeave | z-ai/glm-5.3-flash",
+   "provider": "CoreWeave",
+   "model_base": "z-ai/glm-5.3-flash",
+   "variants": [
+    "CoreWeave | z-ai/glm-5.3-flash-20260826"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Crusoe | deepseek/deepseek-v4.1-flash",
+   "provider": "Crusoe",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "Crusoe | deepseek/deepseek-v4.1-flash-20260910",
+    "Crusoe | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Crusoe | google/gemma-4-31b-it",
+   "provider": "Crusoe",
+   "model_base": "google/gemma-4-31b-it",
+   "variants": [
+    "Crusoe | google/gemma-4-31b-it-20260402"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Crusoe | moonshotai/kimi-k2.6",
+   "provider": "Crusoe",
+   "model_base": "moonshotai/kimi-k2.6",
+   "variants": [
+    "Crusoe | moonshotai/kimi-k2.6-20260420"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Crusoe | nvidia/nemotron-3.5-super-vl",
+   "provider": "Crusoe",
+   "model_base": "nvidia/nemotron-3.5-super-vl",
+   "variants": [
+    "Crusoe | nvidia/nemotron-3.5-super-vl-20261015"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Crusoe | openai/gpt-oss-120b",
+   "provider": "Crusoe",
+   "model_base": "openai/gpt-oss-120b",
+   "variants": [
+    "Crusoe | openai/gpt-oss-120b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Crusoe | z-ai/glm-5.3",
+   "provider": "Crusoe",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "Crusoe | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Crusoe | z-ai/glm-5.3-flash",
+   "provider": "Crusoe",
+   "model_base": "z-ai/glm-5.3-flash",
+   "variants": [
+    "Crusoe | z-ai/glm-5.3-flash-20260826"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Decart | moonshotai/kimi-k3.1-pro",
+   "provider": "Decart",
+   "model_base": "moonshotai/kimi-k3.1-pro",
+   "variants": [
+    "Decart | moonshotai/kimi-k3.1-pro-20261023"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Decart | z-ai/glm-5.3",
+   "provider": "Decart",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "Decart | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | baai/bge-base-en-v1.5",
+   "provider": "DeepInfra",
+   "model_base": "baai/bge-base-en-v1.5",
+   "variants": [
+    "DeepInfra | baai/bge-base-en-v1.5-20251117"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | baai/bge-large-en-v1.5",
+   "provider": "DeepInfra",
+   "model_base": "baai/bge-large-en-v1.5",
+   "variants": [
+    "DeepInfra | baai/bge-large-en-v1.5-20251117"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | baai/bge-m3",
+   "provider": "DeepInfra",
+   "model_base": "baai/bge-m3",
+   "variants": [
+    "DeepInfra | baai/bge-m3-20251117"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | canopylabs/orpheus-3b-0.1-ft",
+   "provider": "DeepInfra",
+   "model_base": "canopylabs/orpheus-3b-0.1-ft",
+   "variants": [
+    "DeepInfra | canopylabs/orpheus-3b-0.1-ft"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | cloudflare/clef",
+   "provider": "DeepInfra",
+   "model_base": "cloudflare/clef",
+   "variants": [
+    "DeepInfra | cloudflare/clef"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | cloudflare/clef-flash",
+   "provider": "DeepInfra",
+   "model_base": "cloudflare/clef-flash",
+   "variants": [
+    "DeepInfra | cloudflare/clef-flash"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | deepseek/deepseek-chat-v3",
+   "provider": "DeepInfra",
+   "model_base": "deepseek/deepseek-chat-v3",
+   "variants": [
+    "DeepInfra | deepseek/deepseek-chat-v3"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | deepseek/deepseek-chat-v3.1",
+   "provider": "DeepInfra",
+   "model_base": "deepseek/deepseek-chat-v3.1",
+   "variants": [
+    "DeepInfra | deepseek/deepseek-chat-v3.1"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | deepseek/deepseek-r1-0528",
+   "provider": "DeepInfra",
+   "model_base": "deepseek/deepseek-r1-0528",
+   "variants": [
+    "DeepInfra | deepseek/deepseek-r1-0528"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | deepseek/deepseek-v3.2",
+   "provider": "DeepInfra",
+   "model_base": "deepseek/deepseek-v3.2",
+   "variants": [
+    "DeepInfra | deepseek/deepseek-v3.2-20251201"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | deepseek/deepseek-v4-flash",
+   "provider": "DeepInfra",
+   "model_base": "deepseek/deepseek-v4-flash",
+   "variants": [
+    "DeepInfra | deepseek/deepseek-v4-flash-20260423",
+    "DeepInfra | deepseek/deepseek-v4-flash-20260731"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | deepseek/deepseek-v4-flash-vision-exp",
+   "provider": "DeepInfra",
+   "model_base": "deepseek/deepseek-v4-flash-vision-exp",
+   "variants": [
+    "DeepInfra | deepseek/deepseek-v4-flash-vision-exp-20260821"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | deepseek/deepseek-v4-pro",
+   "provider": "DeepInfra",
+   "model_base": "deepseek/deepseek-v4-pro",
+   "variants": [
+    "DeepInfra | deepseek/deepseek-v4-pro-20260423",
+    "DeepInfra | deepseek/deepseek-v4-pro-20260813"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | deepseek/deepseek-v4.1-flash",
+   "provider": "DeepInfra",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "DeepInfra | deepseek/deepseek-v4.1-flash-20260910",
+    "DeepInfra | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | google/gemma-3-12b-it",
+   "provider": "DeepInfra",
+   "model_base": "google/gemma-3-12b-it",
+   "variants": [
+    "DeepInfra | google/gemma-3-12b-it"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | google/gemma-3-27b-it",
+   "provider": "DeepInfra",
+   "model_base": "google/gemma-3-27b-it",
+   "variants": [
+    "DeepInfra | google/gemma-3-27b-it"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | google/gemma-3-4b-it",
+   "provider": "DeepInfra",
+   "model_base": "google/gemma-3-4b-it",
+   "variants": [
+    "DeepInfra | google/gemma-3-4b-it"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | google/gemma-4-26b-a4b-it",
+   "provider": "DeepInfra",
+   "model_base": "google/gemma-4-26b-a4b-it",
+   "variants": [
+    "DeepInfra | google/gemma-4-26b-a4b-it-20260403"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | google/gemma-4-31b-it",
+   "provider": "DeepInfra",
+   "model_base": "google/gemma-4-31b-it",
+   "variants": [
+    "DeepInfra | google/gemma-4-31b-it-20260402"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | hexgrad/kokoro-82m",
+   "provider": "DeepInfra",
+   "model_base": "hexgrad/kokoro-82m",
+   "variants": [
+    "DeepInfra | hexgrad/kokoro-82m"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | ibm-granite/granite-4.2-8b",
+   "provider": "DeepInfra",
+   "model_base": "ibm-granite/granite-4.2-8b",
+   "variants": [
+    "DeepInfra | ibm-granite/granite-4.2-8b-20260831"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | inclusionai/ling-3.0-flash",
+   "provider": "DeepInfra",
+   "model_base": "inclusionai/ling-3.0-flash",
+   "variants": [
+    "DeepInfra | inclusionai/ling-3.0-flash-20260723"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | inclusionai/ling-3.0-flash-vl",
+   "provider": "DeepInfra",
+   "model_base": "inclusionai/ling-3.0-flash-vl",
+   "variants": [
+    "DeepInfra | inclusionai/ling-3.0-flash-vl-20260910"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | intfloat/e5-base-v2",
+   "provider": "DeepInfra",
+   "model_base": "intfloat/e5-base-v2",
+   "variants": [
+    "DeepInfra | intfloat/e5-base-v2-20251117"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | intfloat/e5-large-v2",
+   "provider": "DeepInfra",
+   "model_base": "intfloat/e5-large-v2",
+   "variants": [
+    "DeepInfra | intfloat/e5-large-v2-20251117"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | intfloat/multilingual-e5-large",
+   "provider": "DeepInfra",
+   "model_base": "intfloat/multilingual-e5-large",
+   "variants": [
+    "DeepInfra | intfloat/multilingual-e5-large-20251117"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | meta-llama/llama-3.1-8b-instruct",
+   "provider": "DeepInfra",
+   "model_base": "meta-llama/llama-3.1-8b-instruct",
+   "variants": [
+    "DeepInfra | meta-llama/llama-3.1-8b-instruct"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | meta-llama/llama-3.3-70b-instruct",
+   "provider": "DeepInfra",
+   "model_base": "meta-llama/llama-3.3-70b-instruct",
+   "variants": [
+    "DeepInfra | meta-llama/llama-3.3-70b-instruct"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | meta-llama/llama-4-scout-17b-16e-instruct",
+   "provider": "DeepInfra",
+   "model_base": "meta-llama/llama-4-scout-17b-16e-instruct",
+   "variants": [
+    "DeepInfra | meta-llama/llama-4-scout-17b-16e-instruct"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | meta-llama/llama-guard-4-12b",
+   "provider": "DeepInfra",
+   "model_base": "meta-llama/llama-guard-4-12b",
+   "variants": [
+    "DeepInfra | meta-llama/llama-guard-4-12b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | meta/muse-glimmer-30b",
+   "provider": "DeepInfra",
+   "model_base": "meta/muse-glimmer-30b",
+   "variants": [
+    "DeepInfra | meta/muse-glimmer-30b-20260810"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | microsoft/phi-4",
+   "provider": "DeepInfra",
+   "model_base": "microsoft/phi-4",
+   "variants": [
+    "DeepInfra | microsoft/phi-4"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | minimax/minimax-m3",
+   "provider": "DeepInfra",
+   "model_base": "minimax/minimax-m3",
+   "variants": [
+    "DeepInfra | minimax/minimax-m3-20260531"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | mistralai/mistral-nemo",
+   "provider": "DeepInfra",
+   "model_base": "mistralai/mistral-nemo",
+   "variants": [
+    "DeepInfra | mistralai/mistral-nemo"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | mistralai/mistral-small-24b-instruct-2501",
+   "provider": "DeepInfra",
+   "model_base": "mistralai/mistral-small-24b-instruct-2501",
+   "variants": [
+    "DeepInfra | mistralai/mistral-small-24b-instruct-2501"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | mistralai/mistral-small-3.2-24b-instruct-2506",
+   "provider": "DeepInfra",
+   "model_base": "mistralai/mistral-small-3.2-24b-instruct-2506",
+   "variants": [
+    "DeepInfra | mistralai/mistral-small-3.2-24b-instruct-2506"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | mistralai/voxtral-mini-3b-2507",
+   "provider": "DeepInfra",
+   "model_base": "mistralai/voxtral-mini-3b-2507",
+   "variants": [
+    "DeepInfra | mistralai/voxtral-mini-3b-2507-20260813"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | mistralai/voxtral-small-24b-2507-stt",
+   "provider": "DeepInfra",
+   "model_base": "mistralai/voxtral-small-24b-2507-stt",
+   "variants": [
+    "DeepInfra | mistralai/voxtral-small-24b-2507-stt-20260813"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | moonshotai/kimi-k2.6",
+   "provider": "DeepInfra",
+   "model_base": "moonshotai/kimi-k2.6",
+   "variants": [
+    "DeepInfra | moonshotai/kimi-k2.6-20260420"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | moonshotai/kimi-k3",
+   "provider": "DeepInfra",
+   "model_base": "moonshotai/kimi-k3",
+   "variants": [
+    "DeepInfra | moonshotai/kimi-k3-20260715"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | moonshotai/kimi-k3.1-pro",
+   "provider": "DeepInfra",
+   "model_base": "moonshotai/kimi-k3.1-pro",
+   "variants": [
+    "DeepInfra | moonshotai/kimi-k3.1-pro-20261023"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | nace-ai/drex-max",
+   "provider": "DeepInfra",
+   "model_base": "nace-ai/drex-max",
+   "variants": [
+    "DeepInfra | nace-ai/drex-max-20261016"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | nace-ai/drex-max-finance",
+   "provider": "DeepInfra",
+   "model_base": "nace-ai/drex-max-finance",
+   "variants": [
+    "DeepInfra | nace-ai/drex-max-finance-20261110"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | nace-ai/drex-v1.5",
+   "provider": "DeepInfra",
+   "model_base": "nace-ai/drex-v1.5",
+   "variants": [
+    "DeepInfra | nace-ai/drex-v1.5-20261009"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | nace-ai/drex-v2.0",
+   "provider": "DeepInfra",
+   "model_base": "nace-ai/drex-v2.0",
+   "variants": [
+    "DeepInfra | nace-ai/drex-v2.0-20261009"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | nvidia/nemotron-3-super-120b-a12b",
+   "provider": "DeepInfra",
+   "model_base": "nvidia/nemotron-3-super-120b-a12b",
+   "variants": [
+    "DeepInfra | nvidia/nemotron-3-super-120b-a12b-20230311"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | nvidia/nemotron-3-ultra-550b-a55b",
+   "provider": "DeepInfra",
+   "model_base": "nvidia/nemotron-3-ultra-550b-a55b",
+   "variants": [
+    "DeepInfra | nvidia/nemotron-3-ultra-550b-a55b-20260604"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | nvidia/nemotron-3.5-asr-streaming-multilingual-0.6b",
+   "provider": "DeepInfra",
+   "model_base": "nvidia/nemotron-3.5-asr-streaming-multilingual-0.6b",
+   "variants": [
+    "DeepInfra | nvidia/nemotron-3.5-asr-streaming-multilingual-0.6b-20260813"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | nvidia/nemotron-3.5-content-safety",
+   "provider": "DeepInfra",
+   "model_base": "nvidia/nemotron-3.5-content-safety",
+   "variants": [
+    "DeepInfra | nvidia/nemotron-3.5-content-safety-20260604"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | nvidia/nemotron-3.5-lightning",
+   "provider": "DeepInfra",
+   "model_base": "nvidia/nemotron-3.5-lightning",
+   "variants": [
+    "DeepInfra | nvidia/nemotron-3.5-lightning-20260807"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | nvidia/nemotron-3.5-super-vl",
+   "provider": "DeepInfra",
+   "model_base": "nvidia/nemotron-3.5-super-vl",
+   "variants": [
+    "DeepInfra | nvidia/nemotron-3.5-super-vl-20261015"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | nvidia/nemotron-3.5-transcribe",
+   "provider": "DeepInfra",
+   "model_base": "nvidia/nemotron-3.5-transcribe",
+   "variants": [
+    "DeepInfra | nvidia/nemotron-3.5-transcribe-20261028"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | openai/gpt-oss-120b",
+   "provider": "DeepInfra",
+   "model_base": "openai/gpt-oss-120b",
+   "variants": [
+    "DeepInfra | openai/gpt-oss-120b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | openai/gpt-oss-20b",
+   "provider": "DeepInfra",
+   "model_base": "openai/gpt-oss-20b",
+   "variants": [
+    "DeepInfra | openai/gpt-oss-20b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | openai/whisper-large-v3",
+   "provider": "DeepInfra",
+   "model_base": "openai/whisper-large-v3",
+   "variants": [
+    "DeepInfra | openai/whisper-large-v3"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | openai/whisper-large-v3-turbo",
+   "provider": "DeepInfra",
+   "model_base": "openai/whisper-large-v3-turbo",
+   "variants": [
+    "DeepInfra | openai/whisper-large-v3-turbo"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | qwen/qwen-2.5-72b-instruct",
+   "provider": "DeepInfra",
+   "model_base": "qwen/qwen-2.5-72b-instruct",
+   "variants": [
+    "DeepInfra | qwen/qwen-2.5-72b-instruct"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | qwen/qwen3-14b-04-28",
+   "provider": "DeepInfra",
+   "model_base": "qwen/qwen3-14b-04-28",
+   "variants": [
+    "DeepInfra | qwen/qwen3-14b-04-28"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | qwen/qwen3-235b-a22b-07-25",
+   "provider": "DeepInfra",
+   "model_base": "qwen/qwen3-235b-a22b-07-25",
+   "variants": [
+    "DeepInfra | qwen/qwen3-235b-a22b-07-25"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | qwen/qwen3-30b-a3b-04-28",
+   "provider": "DeepInfra",
+   "model_base": "qwen/qwen3-30b-a3b-04-28",
+   "variants": [
+    "DeepInfra | qwen/qwen3-30b-a3b-04-28"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | qwen/qwen3-32b-04-28",
+   "provider": "DeepInfra",
+   "model_base": "qwen/qwen3-32b-04-28",
+   "variants": [
+    "DeepInfra | qwen/qwen3-32b-04-28"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | qwen/qwen3-asr-0.6b",
+   "provider": "DeepInfra",
+   "model_base": "qwen/qwen3-asr-0.6b",
+   "variants": [
+    "DeepInfra | qwen/qwen3-asr-0.6b-20260813"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | qwen/qwen3-asr-1.7b",
+   "provider": "DeepInfra",
+   "model_base": "qwen/qwen3-asr-1.7b",
+   "variants": [
+    "DeepInfra | qwen/qwen3-asr-1.7b-20260813"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | qwen/qwen3-coder-480b-a35b-07-25",
+   "provider": "DeepInfra",
+   "model_base": "qwen/qwen3-coder-480b-a35b-07-25",
+   "variants": [
+    "DeepInfra | qwen/qwen3-coder-480b-a35b-07-25"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | qwen/qwen3-embedding-4b",
+   "provider": "DeepInfra",
+   "model_base": "qwen/qwen3-embedding-4b",
+   "variants": [
+    "DeepInfra | qwen/qwen3-embedding-4b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | qwen/qwen3-embedding-8b",
+   "provider": "DeepInfra",
+   "model_base": "qwen/qwen3-embedding-8b",
+   "variants": [
+    "DeepInfra | qwen/qwen3-embedding-8b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | qwen/qwen3-next-80b-a3b-instruct-2509",
+   "provider": "DeepInfra",
+   "model_base": "qwen/qwen3-next-80b-a3b-instruct-2509",
+   "variants": [
+    "DeepInfra | qwen/qwen3-next-80b-a3b-instruct-2509"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | qwen/qwen3-vl-235b-a22b-instruct",
+   "provider": "DeepInfra",
+   "model_base": "qwen/qwen3-vl-235b-a22b-instruct",
+   "variants": [
+    "DeepInfra | qwen/qwen3-vl-235b-a22b-instruct"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | qwen/qwen3-vl-30b-a3b-instruct",
+   "provider": "DeepInfra",
+   "model_base": "qwen/qwen3-vl-30b-a3b-instruct",
+   "variants": [
+    "DeepInfra | qwen/qwen3-vl-30b-a3b-instruct"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | qwen/qwen3.5-27b",
+   "provider": "DeepInfra",
+   "model_base": "qwen/qwen3.5-27b",
+   "variants": [
+    "DeepInfra | qwen/qwen3.5-27b-20260224"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | qwen/qwen3.5-35b-a3b",
+   "provider": "DeepInfra",
+   "model_base": "qwen/qwen3.5-35b-a3b",
+   "variants": [
+    "DeepInfra | qwen/qwen3.5-35b-a3b-20260224"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | qwen/qwen3.5-397b-a17b",
+   "provider": "DeepInfra",
+   "model_base": "qwen/qwen3.5-397b-a17b",
+   "variants": [
+    "DeepInfra | qwen/qwen3.5-397b-a17b-20260216"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | qwen/qwen3.5-9b",
+   "provider": "DeepInfra",
+   "model_base": "qwen/qwen3.5-9b",
+   "variants": [
+    "DeepInfra | qwen/qwen3.5-9b-20260310"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | qwen/qwen3.6-27b",
+   "provider": "DeepInfra",
+   "model_base": "qwen/qwen3.6-27b",
+   "variants": [
+    "DeepInfra | qwen/qwen3.6-27b-20260422"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | qwen/qwen3.6-35b-a3b",
+   "provider": "DeepInfra",
+   "model_base": "qwen/qwen3.6-35b-a3b",
+   "variants": [
+    "DeepInfra | qwen/qwen3.6-35b-a3b-20260415"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | qwen/qwen3.8-27b",
+   "provider": "DeepInfra",
+   "model_base": "qwen/qwen3.8-27b",
+   "variants": [
+    "DeepInfra | qwen/qwen3.8-27b-20260814"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | radixark/daisyrose-27b",
+   "provider": "DeepInfra",
+   "model_base": "radixark/daisyrose-27b",
+   "variants": [
+    "DeepInfra | radixark/daisyrose-27b-20261120"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | sao10k/l3-lunaris-8b",
+   "provider": "DeepInfra",
+   "model_base": "sao10k/l3-lunaris-8b",
+   "variants": [
+    "DeepInfra | sao10k/l3-lunaris-8b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | sao10k/l3.1-euryale-70b",
+   "provider": "DeepInfra",
+   "model_base": "sao10k/l3.1-euryale-70b",
+   "variants": [
+    "DeepInfra | sao10k/l3.1-euryale-70b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | sentence-transformers/all-minilm-l12-v2",
+   "provider": "DeepInfra",
+   "model_base": "sentence-transformers/all-minilm-l12-v2",
+   "variants": [
+    "DeepInfra | sentence-transformers/all-minilm-l12-v2-20251117"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | sentence-transformers/all-minilm-l6-v2",
+   "provider": "DeepInfra",
+   "model_base": "sentence-transformers/all-minilm-l6-v2",
+   "variants": [
+    "DeepInfra | sentence-transformers/all-minilm-l6-v2-20251117"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | sentence-transformers/all-mpnet-base-v2",
+   "provider": "DeepInfra",
+   "model_base": "sentence-transformers/all-mpnet-base-v2",
+   "variants": [
+    "DeepInfra | sentence-transformers/all-mpnet-base-v2-20251117"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | sentence-transformers/multi-qa-mpnet-base-dot-v1",
+   "provider": "DeepInfra",
+   "model_base": "sentence-transformers/multi-qa-mpnet-base-dot-v1",
+   "variants": [
+    "DeepInfra | sentence-transformers/multi-qa-mpnet-base-dot-v1-20251117"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | sentence-transformers/paraphrase-minilm-l6-v2",
+   "provider": "DeepInfra",
+   "model_base": "sentence-transformers/paraphrase-minilm-l6-v2",
+   "variants": [
+    "DeepInfra | sentence-transformers/paraphrase-minilm-l6-v2-20251117"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | sesame/csm-1b",
+   "provider": "DeepInfra",
+   "model_base": "sesame/csm-1b",
+   "variants": [
+    "DeepInfra | sesame/csm-1b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | tencent/hy4",
+   "provider": "DeepInfra",
+   "model_base": "tencent/hy4",
+   "variants": [
+    "DeepInfra | tencent/hy4-20261104"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | tencent/hy4-flash",
+   "provider": "DeepInfra",
+   "model_base": "tencent/hy4-flash",
+   "variants": [
+    "DeepInfra | tencent/hy4-flash-20261116"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | tencent/hy4-preview",
+   "provider": "DeepInfra",
+   "model_base": "tencent/hy4-preview",
+   "variants": [
+    "DeepInfra | tencent/hy4-preview-20260827"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | thenlper/gte-base",
+   "provider": "DeepInfra",
+   "model_base": "thenlper/gte-base",
+   "variants": [
+    "DeepInfra | thenlper/gte-base-20251117"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | thenlper/gte-large",
+   "provider": "DeepInfra",
+   "model_base": "thenlper/gte-large",
+   "variants": [
+    "DeepInfra | thenlper/gte-large-20251117"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | thinkingmachines/inkling-2-mini",
+   "provider": "DeepInfra",
+   "model_base": "thinkingmachines/inkling-2-mini",
+   "variants": [
+    "DeepInfra | thinkingmachines/inkling-2-mini-20261120"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | thinkingmachines/inkling-2-small",
+   "provider": "DeepInfra",
+   "model_base": "thinkingmachines/inkling-2-small",
+   "variants": [
+    "DeepInfra | thinkingmachines/inkling-2-small-20261107"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | thinkingmachines/inkling-small",
+   "provider": "DeepInfra",
+   "model_base": "thinkingmachines/inkling-small",
+   "variants": [
+    "DeepInfra | thinkingmachines/inkling-small-20260730"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | xiaomi/mimo-v2.6-flash",
+   "provider": "DeepInfra",
+   "model_base": "xiaomi/mimo-v2.6-flash",
+   "variants": [
+    "DeepInfra | xiaomi/mimo-v2.6-flash-20260921"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | xiaomi/mimo-v2.6-pro",
+   "provider": "DeepInfra",
+   "model_base": "xiaomi/mimo-v2.6-pro",
+   "variants": [
+    "DeepInfra | xiaomi/mimo-v2.6-pro-20260921"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | z-ai/glm-4.6",
+   "provider": "DeepInfra",
+   "model_base": "z-ai/glm-4.6",
+   "variants": [
+    "DeepInfra | z-ai/glm-4.6"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | z-ai/glm-4.7",
+   "provider": "DeepInfra",
+   "model_base": "z-ai/glm-4.7",
+   "variants": [
+    "DeepInfra | z-ai/glm-4.7-20251222"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | z-ai/glm-5.2",
+   "provider": "DeepInfra",
+   "model_base": "z-ai/glm-5.2",
+   "variants": [
+    "DeepInfra | z-ai/glm-5.2-20260616"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | z-ai/glm-5.3",
+   "provider": "DeepInfra",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "DeepInfra | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | z-ai/glm-5.3-flash",
+   "provider": "DeepInfra",
+   "model_base": "z-ai/glm-5.3-flash",
+   "variants": [
+    "DeepInfra | z-ai/glm-5.3-flash-20260826"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Deepgram | deepgram/aura-2",
+   "provider": "Deepgram",
+   "model_base": "deepgram/aura-2",
+   "variants": [
+    "Deepgram | deepgram/aura-2-20260716"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Deepgram | deepgram/flux-tts",
+   "provider": "Deepgram",
+   "model_base": "deepgram/flux-tts",
+   "variants": [
+    "Deepgram | deepgram/flux-tts-20260812"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Deepgram | deepgram/nova-3",
+   "provider": "Deepgram",
+   "model_base": "deepgram/nova-3",
+   "variants": [
+    "Deepgram | deepgram/nova-3-20260714"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DigitalOcean | deepseek/deepseek-v4-flash",
+   "provider": "DigitalOcean",
+   "model_base": "deepseek/deepseek-v4-flash",
+   "variants": [
+    "DigitalOcean | deepseek/deepseek-v4-flash-20260731"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DigitalOcean | deepseek/deepseek-v4-pro",
+   "provider": "DigitalOcean",
+   "model_base": "deepseek/deepseek-v4-pro",
+   "variants": [
+    "DigitalOcean | deepseek/deepseek-v4-pro-20260813"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DigitalOcean | deepseek/deepseek-v4.1-flash",
+   "provider": "DigitalOcean",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "DigitalOcean | deepseek/deepseek-v4.1-flash-20260910",
+    "DigitalOcean | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DigitalOcean | minimax/minimax-m2.5",
+   "provider": "DigitalOcean",
+   "model_base": "minimax/minimax-m2.5",
+   "variants": [
+    "DigitalOcean | minimax/minimax-m2.5-20260211"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DigitalOcean | minimax/minimax-m3.1-flash",
+   "provider": "DigitalOcean",
+   "model_base": "minimax/minimax-m3.1-flash",
+   "variants": [
+    "DigitalOcean | minimax/minimax-m3.1-flash-20261019"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DigitalOcean | moonshotai/kimi-k2.6",
+   "provider": "DigitalOcean",
+   "model_base": "moonshotai/kimi-k2.6",
+   "variants": [
+    "DigitalOcean | moonshotai/kimi-k2.6-20260420"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DigitalOcean | moonshotai/kimi-k3",
+   "provider": "DigitalOcean",
+   "model_base": "moonshotai/kimi-k3",
+   "variants": [
+    "DigitalOcean | moonshotai/kimi-k3-20260715"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DigitalOcean | moonshotai/kimi-k3.1-pro",
+   "provider": "DigitalOcean",
+   "model_base": "moonshotai/kimi-k3.1-pro",
+   "variants": [
+    "DigitalOcean | moonshotai/kimi-k3.1-pro-20261023"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DigitalOcean | openai/gpt-oss-120b",
+   "provider": "DigitalOcean",
+   "model_base": "openai/gpt-oss-120b",
+   "variants": [
+    "DigitalOcean | openai/gpt-oss-120b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DigitalOcean | reflection/beam-1.0-501b-a23b",
+   "provider": "DigitalOcean",
+   "model_base": "reflection/beam-1.0-501b-a23b",
+   "variants": [
+    "DigitalOcean | reflection/beam-1.0-501b-a23b-20261016"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DigitalOcean | z-ai/glm-5.2",
+   "provider": "DigitalOcean",
+   "model_base": "z-ai/glm-5.2",
+   "variants": [
+    "DigitalOcean | z-ai/glm-5.2-20260616"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DigitalOcean | z-ai/glm-5.3",
+   "provider": "DigitalOcean",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "DigitalOcean | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DigitalOcean | z-ai/glm-5.3-flash",
+   "provider": "DigitalOcean",
+   "model_base": "z-ai/glm-5.3-flash",
+   "variants": [
+    "DigitalOcean | z-ai/glm-5.3-flash-20260826"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Doubleword | moonshotai/kimi-k3.1-pro",
+   "provider": "Doubleword",
+   "model_base": "moonshotai/kimi-k3.1-pro",
+   "variants": [
+    "Doubleword | moonshotai/kimi-k3.1-pro-20261023"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Doubleword | z-ai/glm-5.3",
+   "provider": "Doubleword",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "Doubleword | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "ElevenLabs | elevenlabs/eleven-flash-v2",
+   "provider": "ElevenLabs",
+   "model_base": "elevenlabs/eleven-flash-v2",
+   "variants": [
+    "ElevenLabs | elevenlabs/eleven-flash-v2-20260930"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "ElevenLabs | elevenlabs/eleven-flash-v2.5",
+   "provider": "ElevenLabs",
+   "model_base": "elevenlabs/eleven-flash-v2.5",
+   "variants": [
+    "ElevenLabs | elevenlabs/eleven-flash-v2.5-20260930"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "ElevenLabs | elevenlabs/eleven-multilingual-v2",
+   "provider": "ElevenLabs",
+   "model_base": "elevenlabs/eleven-multilingual-v2",
+   "variants": [
+    "ElevenLabs | elevenlabs/eleven-multilingual-v2-20260930"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "ElevenLabs | elevenlabs/eleven-turbo-v2",
+   "provider": "ElevenLabs",
+   "model_base": "elevenlabs/eleven-turbo-v2",
+   "variants": [
+    "ElevenLabs | elevenlabs/eleven-turbo-v2-20260930"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "ElevenLabs | elevenlabs/eleven-turbo-v2.5",
+   "provider": "ElevenLabs",
+   "model_base": "elevenlabs/eleven-turbo-v2.5",
+   "variants": [
+    "ElevenLabs | elevenlabs/eleven-turbo-v2.5-20260930"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "ElevenLabs | elevenlabs/eleven-v3",
+   "provider": "ElevenLabs",
+   "model_base": "elevenlabs/eleven-v3",
+   "variants": [
+    "ElevenLabs | elevenlabs/eleven-v3-20260930"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "ElevenLabs | elevenlabs/eleven-v3-conversational",
+   "provider": "ElevenLabs",
+   "model_base": "elevenlabs/eleven-v3-conversational",
+   "variants": [
+    "ElevenLabs | elevenlabs/eleven-v3-conversational-20260930"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "ElevenLabs | elevenlabs/eleven-v4",
+   "provider": "ElevenLabs",
+   "model_base": "elevenlabs/eleven-v4",
+   "variants": [
+    "ElevenLabs | elevenlabs/eleven-v4-20260930"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "ElevenLabs | elevenlabs/eleven-v4-turbo",
+   "provider": "ElevenLabs",
+   "model_base": "elevenlabs/eleven-v4-turbo",
+   "variants": [
+    "ElevenLabs | elevenlabs/eleven-v4-turbo-20260930"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "ElevenLabs | elevenlabs/scribe-v2",
+   "provider": "ElevenLabs",
+   "model_base": "elevenlabs/scribe-v2",
+   "variants": [
+    "ElevenLabs | elevenlabs/scribe-v2-20260929"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "ElevenLabs | elevenlabs/scribe-v2-medical",
+   "provider": "ElevenLabs",
+   "model_base": "elevenlabs/scribe-v2-medical",
+   "variants": [
+    "ElevenLabs | elevenlabs/scribe-v2-medical-20260929"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Featherless | deepseek/deepseek-chat-v3-0324",
+   "provider": "Featherless",
+   "model_base": "deepseek/deepseek-chat-v3-0324",
+   "variants": [
+    "Featherless | deepseek/deepseek-chat-v3-0324"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Featherless | deepseek/deepseek-v3.2",
+   "provider": "Featherless",
+   "model_base": "deepseek/deepseek-v3.2",
+   "variants": [
+    "Featherless | deepseek/deepseek-v3.2-20251201"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Featherless | deepseek/deepseek-v4-flash",
+   "provider": "Featherless",
+   "model_base": "deepseek/deepseek-v4-flash",
+   "variants": [
+    "Featherless | deepseek/deepseek-v4-flash-20260423"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Featherless | deepseek/deepseek-v4.1-flash",
+   "provider": "Featherless",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "Featherless | deepseek/deepseek-v4.1-flash-20260910",
+    "Featherless | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Featherless | minimax/minimax-m3",
+   "provider": "Featherless",
+   "model_base": "minimax/minimax-m3",
+   "variants": [
+    "Featherless | minimax/minimax-m3-20260531"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Featherless | qwen/qwen3.8-flash",
+   "provider": "Featherless",
+   "model_base": "qwen/qwen3.8-flash",
+   "variants": [
+    "Featherless | qwen/qwen3.8-flash-20260826"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Featherless | stepfun/step-5-preview",
+   "provider": "Featherless",
+   "model_base": "stepfun/step-5-preview",
+   "variants": [
+    "Featherless | stepfun/step-5-preview-20261008"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Featherless | tngtech/deepseek-r1t2-chimera",
+   "provider": "Featherless",
+   "model_base": "tngtech/deepseek-r1t2-chimera",
+   "variants": [
+    "Featherless | tngtech/deepseek-r1t2-chimera"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Featherless | xiaomi/mimo-v2.6-flash",
+   "provider": "Featherless",
+   "model_base": "xiaomi/mimo-v2.6-flash",
+   "variants": [
+    "Featherless | xiaomi/mimo-v2.6-flash-20260921"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Featherless | xiaomi/mimo-v2.6-flash-mopd",
+   "provider": "Featherless",
+   "model_base": "xiaomi/mimo-v2.6-flash-mopd",
+   "variants": [
+    "Featherless | xiaomi/mimo-v2.6-flash-mopd-20260927"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Featherless | z-ai/glm-5.2",
+   "provider": "Featherless",
+   "model_base": "z-ai/glm-5.2",
+   "variants": [
+    "Featherless | z-ai/glm-5.2-20260616"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Featherless | z-ai/glm-5.3",
+   "provider": "Featherless",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "Featherless | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Fireworks | deepseek/deepseek-v4-flash",
+   "provider": "Fireworks",
+   "model_base": "deepseek/deepseek-v4-flash",
+   "variants": [
+    "Fireworks | deepseek/deepseek-v4-flash-20260423"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Fireworks | deepseek/deepseek-v4.1-flash",
+   "provider": "Fireworks",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "Fireworks | deepseek/deepseek-v4.1-flash-20260910",
+    "Fireworks | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Fireworks | fireworks/ember-1",
+   "provider": "Fireworks",
+   "model_base": "fireworks/ember-1",
+   "variants": [
+    "Fireworks | fireworks/ember-1-20260923"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Fireworks | meta/muse-spark-open",
+   "provider": "Fireworks",
+   "model_base": "meta/muse-spark-open",
+   "variants": [
+    "Fireworks | meta/muse-spark-open-20261015"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Fireworks | minimax/minimax-m3.1-flash",
+   "provider": "Fireworks",
+   "model_base": "minimax/minimax-m3.1-flash",
+   "variants": [
+    "Fireworks | minimax/minimax-m3.1-flash-20261019"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Fireworks | moonshotai/kimi-k3",
+   "provider": "Fireworks",
+   "model_base": "moonshotai/kimi-k3",
+   "variants": [
+    "Fireworks | moonshotai/kimi-k3-20260715"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Fireworks | moonshotai/kimi-k3.1-pro",
+   "provider": "Fireworks",
+   "model_base": "moonshotai/kimi-k3.1-pro",
+   "variants": [
+    "Fireworks | moonshotai/kimi-k3.1-pro-20261023"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Fireworks | nvidia/nemotron-3-ultra-550b-a55b",
+   "provider": "Fireworks",
+   "model_base": "nvidia/nemotron-3-ultra-550b-a55b",
+   "variants": [
+    "Fireworks | nvidia/nemotron-3-ultra-550b-a55b-20260604"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Fireworks | nvidia/nemotron-3.5-lightning",
+   "provider": "Fireworks",
+   "model_base": "nvidia/nemotron-3.5-lightning",
+   "variants": [
+    "Fireworks | nvidia/nemotron-3.5-lightning-20260807"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Fireworks | openai/gpt-oss-120b",
+   "provider": "Fireworks",
+   "model_base": "openai/gpt-oss-120b",
+   "variants": [
+    "Fireworks | openai/gpt-oss-120b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Fireworks | qwen/qwen3-reranker-8b",
+   "provider": "Fireworks",
+   "model_base": "qwen/qwen3-reranker-8b",
+   "variants": [
+    "Fireworks | qwen/qwen3-reranker-8b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Fireworks | qwen/qwen3.8-2.4t-a95b",
+   "provider": "Fireworks",
+   "model_base": "qwen/qwen3.8-2.4t-a95b",
+   "variants": [
+    "Fireworks | qwen/qwen3.8-2.4t-a95b-20260812"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Fireworks | tencent/hy4-flash",
+   "provider": "Fireworks",
+   "model_base": "tencent/hy4-flash",
+   "variants": [
+    "Fireworks | tencent/hy4-flash-20261116"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Fireworks | z-ai/glm-5.3",
+   "provider": "Fireworks",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "Fireworks | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Fireworks | z-ai/glm-5.3-flash",
+   "provider": "Fireworks",
+   "model_base": "z-ai/glm-5.3-flash",
+   "variants": [
+    "Fireworks | z-ai/glm-5.3-flash-20260826"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Google | anthropic/claude-4.5-haiku",
+   "provider": "Google",
+   "model_base": "anthropic/claude-4.5-haiku",
+   "variants": [
+    "Google | anthropic/claude-4.5-haiku-20251001"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Google | anthropic/claude-4.5-opus",
+   "provider": "Google",
+   "model_base": "anthropic/claude-4.5-opus",
+   "variants": [
+    "Google | anthropic/claude-4.5-opus-20251124"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Google | anthropic/claude-4.5-sonnet",
+   "provider": "Google",
+   "model_base": "anthropic/claude-4.5-sonnet",
+   "variants": [
+    "Google | anthropic/claude-4.5-sonnet-20250929"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Google | anthropic/claude-4.6-opus",
+   "provider": "Google",
+   "model_base": "anthropic/claude-4.6-opus",
+   "variants": [
+    "Google | anthropic/claude-4.6-opus-20260205"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Google | anthropic/claude-4.6-sonnet",
+   "provider": "Google",
+   "model_base": "anthropic/claude-4.6-sonnet",
+   "variants": [
+    "Google | anthropic/claude-4.6-sonnet-20260217"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Google | anthropic/claude-4.7-opus",
+   "provider": "Google",
+   "model_base": "anthropic/claude-4.7-opus",
+   "variants": [
+    "Google | anthropic/claude-4.7-opus-20260416"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Google | anthropic/claude-4.8-opus",
+   "provider": "Google",
+   "model_base": "anthropic/claude-4.8-opus",
+   "variants": [
+    "Google | anthropic/claude-4.8-opus-20260528"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Google | anthropic/claude-haiku-5.5",
+   "provider": "Google",
+   "model_base": "anthropic/claude-haiku-5.5",
+   "variants": [
+    "Google | anthropic/claude-haiku-5.5-20261007"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Google | anthropic/claude-opus-5",
+   "provider": "Google",
+   "model_base": "anthropic/claude-opus-5",
+   "variants": [
+    "Google | anthropic/claude-opus-5-20260723"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Google | anthropic/claude-opus-5.5",
+   "provider": "Google",
+   "model_base": "anthropic/claude-opus-5.5",
+   "variants": [
+    "Google | anthropic/claude-opus-5.5-20260921"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Google | anthropic/claude-sonnet-5",
+   "provider": "Google",
+   "model_base": "anthropic/claude-sonnet-5",
+   "variants": [
+    "Google | anthropic/claude-sonnet-5-20260630"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Google | anthropic/claude-sonnet-5.5",
+   "provider": "Google",
+   "model_base": "anthropic/claude-sonnet-5.5",
+   "variants": [
+    "Google | anthropic/claude-sonnet-5.5-20260928"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Google | deepseek/deepseek-v4.1-flash",
+   "provider": "Google",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "Google | deepseek/deepseek-v4.1-flash-20260910",
+    "Google | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | google/chirp-3",
+   "provider": "Google",
+   "model_base": "google/chirp-3",
+   "variants": [
+    "Google | google/chirp-3"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | google/gemini-2.5-flash-image",
+   "provider": "Google",
+   "model_base": "google/gemini-2.5-flash-image",
+   "variants": [
+    "Google | google/gemini-2.5-flash-image"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | google/gemini-2.5-flash-tts",
+   "provider": "Google",
+   "model_base": "google/gemini-2.5-flash-tts",
+   "variants": [
+    "Google | google/gemini-2.5-flash-tts"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | google/gemini-2.5-pro-preview-06-05",
+   "provider": "Google",
+   "model_base": "google/gemini-2.5-pro-preview-06-05",
+   "variants": [
+    "Google | google/gemini-2.5-pro-preview-06-05"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | google/gemini-2.5-pro-tts",
+   "provider": "Google",
+   "model_base": "google/gemini-2.5-pro-tts",
+   "variants": [
+    "Google | google/gemini-2.5-pro-tts"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | google/gemini-3-flash-preview",
+   "provider": "Google",
+   "model_base": "google/gemini-3-flash-preview",
+   "variants": [
+    "Google | google/gemini-3-flash-preview-20251217"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | google/gemini-3-pro-image",
+   "provider": "Google",
+   "model_base": "google/gemini-3-pro-image",
+   "variants": [
+    "Google | google/gemini-3-pro-image-20260528"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | google/gemini-3.1-flash-image",
+   "provider": "Google",
+   "model_base": "google/gemini-3.1-flash-image",
+   "variants": [
+    "Google | google/gemini-3.1-flash-image-20260528"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | google/gemini-3.1-flash-lite",
+   "provider": "Google",
+   "model_base": "google/gemini-3.1-flash-lite",
+   "variants": [
+    "Google | google/gemini-3.1-flash-lite-20260507"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | google/gemini-3.1-flash-lite-image",
+   "provider": "Google",
+   "model_base": "google/gemini-3.1-flash-lite-image",
+   "variants": [
+    "Google | google/gemini-3.1-flash-lite-image-20260630"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | google/gemini-3.1-flash-tts-preview",
+   "provider": "Google",
+   "model_base": "google/gemini-3.1-flash-tts-preview",
+   "variants": [
+    "Google | google/gemini-3.1-flash-tts-preview"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | google/gemini-3.1-pro-preview",
+   "provider": "Google",
+   "model_base": "google/gemini-3.1-pro-preview",
+   "variants": [
+    "Google | google/gemini-3.1-pro-preview-20260219"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | google/gemini-3.5-flash",
+   "provider": "Google",
+   "model_base": "google/gemini-3.5-flash",
+   "variants": [
+    "Google | google/gemini-3.5-flash-20260519"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | google/gemini-3.5-flash-lite",
+   "provider": "Google",
+   "model_base": "google/gemini-3.5-flash-lite",
+   "variants": [
+    "Google | google/gemini-3.5-flash-lite-20260721"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | google/gemini-3.6-flash",
+   "provider": "Google",
+   "model_base": "google/gemini-3.6-flash",
+   "variants": [
+    "Google | google/gemini-3.6-flash-20260721"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | google/gemini-3.7-flash",
+   "provider": "Google",
+   "model_base": "google/gemini-3.7-flash",
+   "variants": [
+    "Google | google/gemini-3.7-flash-20260813"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | google/gemini-3.8-flash",
+   "provider": "Google",
+   "model_base": "google/gemini-3.8-flash",
+   "variants": [
+    "Google | google/gemini-3.8-flash-20260902"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | google/gemini-3.8-flash-lite-tts",
+   "provider": "Google",
+   "model_base": "google/gemini-3.8-flash-lite-tts",
+   "variants": [
+    "Google | google/gemini-3.8-flash-lite-tts-20260922"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | google/gemini-3.8-flash-tts",
+   "provider": "Google",
+   "model_base": "google/gemini-3.8-flash-tts",
+   "variants": [
+    "Google | google/gemini-3.8-flash-tts-20260922"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | google/gemini-4-argon",
+   "provider": "Google",
+   "model_base": "google/gemini-4-argon",
+   "variants": [
+    "Google | google/gemini-4-argon-20261013"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | google/gemini-4-carbon",
+   "provider": "Google",
+   "model_base": "google/gemini-4-carbon",
+   "variants": [
+    "Google | google/gemini-4-carbon-20261110"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | google/gemini-4-hydrogen",
+   "provider": "Google",
+   "model_base": "google/gemini-4-hydrogen",
+   "variants": [
+    "Google | google/gemini-4-hydrogen-20261112"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | google/gemini-4-neon",
+   "provider": "Google",
+   "model_base": "google/gemini-4-neon",
+   "variants": [
+    "Google | google/gemini-4-neon-20261118"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | google/gemini-embedding-001",
+   "provider": "Google",
+   "model_base": "google/gemini-embedding-001",
+   "variants": [
+    "Google | google/gemini-embedding-001"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | google/gemini-embedding-2",
+   "provider": "Google",
+   "model_base": "google/gemini-embedding-2",
+   "variants": [
+    "Google | google/gemini-embedding-2"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | google/gemini-nano-banana-2.1",
+   "provider": "Google",
+   "model_base": "google/gemini-nano-banana-2.1",
+   "variants": [
+    "Google | google/gemini-nano-banana-2.1-20261006"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | google/gemma-4-26b-a4b-it",
+   "provider": "Google",
+   "model_base": "google/gemma-4-26b-a4b-it",
+   "variants": [
+    "Google | google/gemma-4-26b-a4b-it-20260403"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | meta/muse-ember",
+   "provider": "Google",
+   "model_base": "meta/muse-ember",
+   "variants": [
+    "Google | meta/muse-ember-20261109"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | meta/muse-spark-1.3",
+   "provider": "Google",
+   "model_base": "meta/muse-spark-1.3",
+   "variants": [
+    "Google | meta/muse-spark-1.3-20260902"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | meta/muse-wonder",
+   "provider": "Google",
+   "model_base": "meta/muse-wonder",
+   "variants": [
+    "Google | meta/muse-wonder-20261012"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Google | openai/gpt-oss-120b",
+   "provider": "Google",
+   "model_base": "openai/gpt-oss-120b",
+   "variants": [
+    "Google | openai/gpt-oss-120b"
+   ],
+   "safety_retention": true
+  },
+  {
+   "route_key": "Groq | meta-llama/llama-3.1-8b-instruct",
+   "provider": "Groq",
+   "model_base": "meta-llama/llama-3.1-8b-instruct",
+   "variants": [
+    "Groq | meta-llama/llama-3.1-8b-instruct"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Groq | meta-llama/llama-3.3-70b-instruct",
+   "provider": "Groq",
+   "model_base": "meta-llama/llama-3.3-70b-instruct",
+   "variants": [
+    "Groq | meta-llama/llama-3.3-70b-instruct"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Groq | minimax/minimax-m2.7",
+   "provider": "Groq",
+   "model_base": "minimax/minimax-m2.7",
+   "variants": [
+    "Groq | minimax/minimax-m2.7-20260318"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Groq | openai/gpt-oss-120b",
+   "provider": "Groq",
+   "model_base": "openai/gpt-oss-120b",
+   "variants": [
+    "Groq | openai/gpt-oss-120b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Groq | openai/gpt-oss-20b",
+   "provider": "Groq",
+   "model_base": "openai/gpt-oss-20b",
+   "variants": [
+    "Groq | openai/gpt-oss-20b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Groq | openai/gpt-oss-safeguard-20b",
+   "provider": "Groq",
+   "model_base": "openai/gpt-oss-safeguard-20b",
+   "variants": [
+    "Groq | openai/gpt-oss-safeguard-20b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Groq | openai/whisper-large-v3",
+   "provider": "Groq",
+   "model_base": "openai/whisper-large-v3",
+   "variants": [
+    "Groq | openai/whisper-large-v3"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Groq | openai/whisper-large-v3-turbo",
+   "provider": "Groq",
+   "model_base": "openai/whisper-large-v3-turbo",
+   "variants": [
+    "Groq | openai/whisper-large-v3-turbo"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Inceptron | deepseek/deepseek-v4-flash",
+   "provider": "Inceptron",
+   "model_base": "deepseek/deepseek-v4-flash",
+   "variants": [
+    "Inceptron | deepseek/deepseek-v4-flash-20260731"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Inceptron | deepseek/deepseek-v4.1-flash",
+   "provider": "Inceptron",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "Inceptron | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Inceptron | moonshotai/kimi-k2.6",
+   "provider": "Inceptron",
+   "model_base": "moonshotai/kimi-k2.6",
+   "variants": [
+    "Inceptron | moonshotai/kimi-k2.6-20260420"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Inceptron | moonshotai/kimi-k2.7-code",
+   "provider": "Inceptron",
+   "model_base": "moonshotai/kimi-k2.7-code",
+   "variants": [
+    "Inceptron | moonshotai/kimi-k2.7-code-20260612"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Inceptron | z-ai/glm-5.3",
+   "provider": "Inceptron",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "Inceptron | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Inceptron | z-ai/glm-5.3-flash",
+   "provider": "Inceptron",
+   "model_base": "z-ai/glm-5.3-flash",
+   "variants": [
+    "Inceptron | z-ai/glm-5.3-flash-20260826"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Inferact vLLM | minimax/minimax-m3.1-flash",
+   "provider": "Inferact vLLM",
+   "model_base": "minimax/minimax-m3.1-flash",
+   "variants": [
+    "Inferact vLLM | minimax/minimax-m3.1-flash-20261019"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "InferenceNet | deepseek/deepseek-v4.1-flash",
+   "provider": "InferenceNet",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "InferenceNet | deepseek/deepseek-v4.1-flash-20260910",
+    "InferenceNet | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "InferenceNet | inference-net/schematron-v2-small",
+   "provider": "InferenceNet",
+   "model_base": "inference-net/schematron-v2-small",
+   "variants": [
+    "InferenceNet | inference-net/schematron-v2-small-20260902"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "InferenceNet | inference-net/schematron-v2-turbo",
+   "provider": "InferenceNet",
+   "model_base": "inference-net/schematron-v2-turbo",
+   "variants": [
+    "InferenceNet | inference-net/schematron-v2-turbo-20260902"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "InferenceNet | minimax/minimax-m3.1-flash",
+   "provider": "InferenceNet",
+   "model_base": "minimax/minimax-m3.1-flash",
+   "variants": [
+    "InferenceNet | minimax/minimax-m3.1-flash-20261019"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "InferenceNet | moonshotai/kimi-k3",
+   "provider": "InferenceNet",
+   "model_base": "moonshotai/kimi-k3",
+   "variants": [
+    "InferenceNet | moonshotai/kimi-k3-20260715"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "InferenceNet | moonshotai/kimi-k3.1-pro",
+   "provider": "InferenceNet",
+   "model_base": "moonshotai/kimi-k3.1-pro",
+   "variants": [
+    "InferenceNet | moonshotai/kimi-k3.1-pro-20261023"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "InferenceNet | z-ai/glm-5.3",
+   "provider": "InferenceNet",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "InferenceNet | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "InferenceNet | z-ai/glm-5.3-flash",
+   "provider": "InferenceNet",
+   "model_base": "z-ai/glm-5.3-flash",
+   "variants": [
+    "InferenceNet | z-ai/glm-5.3-flash-20260826"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Io Net | google/gemma-4-26b-a4b-it",
+   "provider": "Io Net",
+   "model_base": "google/gemma-4-26b-a4b-it",
+   "variants": [
+    "Io Net | google/gemma-4-26b-a4b-it-20260403"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Io Net | mistralai/mistral-nemo",
+   "provider": "Io Net",
+   "model_base": "mistralai/mistral-nemo",
+   "variants": [
+    "Io Net | mistralai/mistral-nemo"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Io Net | moonshotai/kimi-k3.1-pro",
+   "provider": "Io Net",
+   "model_base": "moonshotai/kimi-k3.1-pro",
+   "variants": [
+    "Io Net | moonshotai/kimi-k3.1-pro-20261023"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Io Net | nvidia/nemotron-3.5-super-vl",
+   "provider": "Io Net",
+   "model_base": "nvidia/nemotron-3.5-super-vl",
+   "variants": [
+    "Io Net | nvidia/nemotron-3.5-super-vl-20261015"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Io Net | thinkingmachines/inkling-2-mini",
+   "provider": "Io Net",
+   "model_base": "thinkingmachines/inkling-2-mini",
+   "variants": [
+    "Io Net | thinkingmachines/inkling-2-mini-20261120"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Ionstream | deepseek/deepseek-v4.1-flash",
+   "provider": "Ionstream",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "Ionstream | deepseek/deepseek-v4.1-flash-20260910",
+    "Ionstream | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Ionstream | qwen/qwen3.8-27b",
+   "provider": "Ionstream",
+   "model_base": "qwen/qwen3.8-27b",
+   "variants": [
+    "Ionstream | qwen/qwen3.8-27b-20260814"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Krea | deepseek/deepseek-v4.1-flash",
+   "provider": "Krea",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "Krea | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Krea | krea/k3-edit",
+   "provider": "Krea",
+   "model_base": "krea/k3-edit",
+   "variants": [
+    "Krea | krea/k3-edit-20260914"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Krea | krea/krea-2-large",
+   "provider": "Krea",
+   "model_base": "krea/krea-2-large",
+   "variants": [
+    "Krea | krea/krea-2-large-20260720"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Krea | krea/krea-2-medium",
+   "provider": "Krea",
+   "model_base": "krea/krea-2-medium",
+   "variants": [
+    "Krea | krea/krea-2-medium-20260720"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Krea | krea/krea-2-medium-turbo",
+   "provider": "Krea",
+   "model_base": "krea/krea-2-medium-turbo",
+   "variants": [
+    "Krea | krea/krea-2-medium-turbo-20260720"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Krea | z-ai/glm-5.3",
+   "provider": "Krea",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "Krea | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Liquid | liquid/d1-ultra",
+   "provider": "Liquid",
+   "model_base": "liquid/d1-ultra",
+   "variants": [
+    "Liquid | liquid/d1-ultra-20261015"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Liquid | liquid/d1.2",
+   "provider": "Liquid",
+   "model_base": "liquid/d1.2",
+   "variants": [
+    "Liquid | liquid/d1.2-20261116"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Liquid | liquid/d1.2-ultra",
+   "provider": "Liquid",
+   "model_base": "liquid/d1.2-ultra",
+   "variants": [
+    "Liquid | liquid/d1.2-ultra-20261116"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Liquid | liquid/lfm-2.5-24b-a2b",
+   "provider": "Liquid",
+   "model_base": "liquid/lfm-2.5-24b-a2b",
+   "variants": [
+    "Liquid | liquid/lfm-2.5-24b-a2b-20261012"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Liquid | liquid/lfm-3-1.7b",
+   "provider": "Liquid",
+   "model_base": "liquid/lfm-3-1.7b",
+   "variants": [
+    "Liquid | liquid/lfm-3-1.7b-20261106"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Makora | deepseek/deepseek-v4.1-flash",
+   "provider": "Makora",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "Makora | deepseek/deepseek-v4.1-flash-20260910",
+    "Makora | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Makora | google/gemma-4-26b-a4b-it",
+   "provider": "Makora",
+   "model_base": "google/gemma-4-26b-a4b-it",
+   "variants": [
+    "Makora | google/gemma-4-26b-a4b-it-20260403"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Makora | moonshotai/kimi-k3",
+   "provider": "Makora",
+   "model_base": "moonshotai/kimi-k3",
+   "variants": [
+    "Makora | moonshotai/kimi-k3-20260715"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Makora | moonshotai/kimi-k3.1-pro",
+   "provider": "Makora",
+   "model_base": "moonshotai/kimi-k3.1-pro",
+   "variants": [
+    "Makora | moonshotai/kimi-k3.1-pro-20261023"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Makora | xiaomi/mimo-v2.6-flash",
+   "provider": "Makora",
+   "model_base": "xiaomi/mimo-v2.6-flash",
+   "variants": [
+    "Makora | xiaomi/mimo-v2.6-flash-20260921"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Makora | z-ai/glm-5.3",
+   "provider": "Makora",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "Makora | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Makora | z-ai/glm-5.3-flash",
+   "provider": "Makora",
+   "model_base": "z-ai/glm-5.3-flash",
+   "variants": [
+    "Makora | z-ai/glm-5.3-flash-20260826"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mancer 2 | anthracite-org/magnum-v4-72b",
+   "provider": "Mancer 2",
+   "model_base": "anthracite-org/magnum-v4-72b",
+   "variants": [
+    "Mancer 2 | anthracite-org/magnum-v4-72b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mancer 2 | deepseek/deepseek-v4-flash",
+   "provider": "Mancer 2",
+   "model_base": "deepseek/deepseek-v4-flash",
+   "variants": [
+    "Mancer 2 | deepseek/deepseek-v4-flash-20260423",
+    "Mancer 2 | deepseek/deepseek-v4-flash-20260731"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mancer 2 | deepseek/deepseek-v4.1-flash",
+   "provider": "Mancer 2",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "Mancer 2 | deepseek/deepseek-v4.1-flash-20260910"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mancer 2 | gryphe/mythomax-l2-13b",
+   "provider": "Mancer 2",
+   "model_base": "gryphe/mythomax-l2-13b",
+   "variants": [
+    "Mancer 2 | gryphe/mythomax-l2-13b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mancer 2 | mancer/weaver",
+   "provider": "Mancer 2",
+   "model_base": "mancer/weaver",
+   "variants": [
+    "Mancer 2 | mancer/weaver"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mancer 2 | openai/gpt-oss-120b",
+   "provider": "Mancer 2",
+   "model_base": "openai/gpt-oss-120b",
+   "variants": [
+    "Mancer 2 | openai/gpt-oss-120b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mancer 2 | qwen/qwen3.8-27b",
+   "provider": "Mancer 2",
+   "model_base": "qwen/qwen3.8-27b",
+   "variants": [
+    "Mancer 2 | qwen/qwen3.8-27b-20260814"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mancer 2 | undi95/remm-slerp-l2-13b",
+   "provider": "Mancer 2",
+   "model_base": "undi95/remm-slerp-l2-13b",
+   "variants": [
+    "Mancer 2 | undi95/remm-slerp-l2-13b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mancer 2 | z-ai/glm-4.7",
+   "provider": "Mancer 2",
+   "model_base": "z-ai/glm-4.7",
+   "variants": [
+    "Mancer 2 | z-ai/glm-4.7-20251222"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mistral | deepseek/deepseek-v4.1-flash",
+   "provider": "Mistral",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "Mistral | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mistral | mistralai/codestral-2508",
+   "provider": "Mistral",
+   "model_base": "mistralai/codestral-2508",
+   "variants": [
+    "Mistral | mistralai/codestral-2508"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mistral | mistralai/codestral-embed-2505",
+   "provider": "Mistral",
+   "model_base": "mistralai/codestral-embed-2505",
+   "variants": [
+    "Mistral | mistralai/codestral-embed-2505"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mistral | mistralai/devstral-2512",
+   "provider": "Mistral",
+   "model_base": "mistralai/devstral-2512",
+   "variants": [
+    "Mistral | mistralai/devstral-2512"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mistral | mistralai/ministral-14b-2512",
+   "provider": "Mistral",
+   "model_base": "mistralai/ministral-14b-2512",
+   "variants": [
+    "Mistral | mistralai/ministral-14b-2512"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mistral | mistralai/ministral-3b-2512",
+   "provider": "Mistral",
+   "model_base": "mistralai/ministral-3b-2512",
+   "variants": [
+    "Mistral | mistralai/ministral-3b-2512"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mistral | mistralai/ministral-8b-2512",
+   "provider": "Mistral",
+   "model_base": "mistralai/ministral-8b-2512",
+   "variants": [
+    "Mistral | mistralai/ministral-8b-2512"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mistral | mistralai/mistral-embed-2312",
+   "provider": "Mistral",
+   "model_base": "mistralai/mistral-embed-2312",
+   "variants": [
+    "Mistral | mistralai/mistral-embed-2312"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mistral | mistralai/mistral-large-2407",
+   "provider": "Mistral",
+   "model_base": "mistralai/mistral-large-2407",
+   "variants": [
+    "Mistral | mistralai/mistral-large-2407"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mistral | mistralai/mistral-large-2512",
+   "provider": "Mistral",
+   "model_base": "mistralai/mistral-large-2512",
+   "variants": [
+    "Mistral | mistralai/mistral-large-2512"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mistral | mistralai/mistral-large-4-0",
+   "provider": "Mistral",
+   "model_base": "mistralai/mistral-large-4-0",
+   "variants": [
+    "Mistral | mistralai/mistral-large-4-0-20261006"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mistral | mistralai/mistral-medium-3.5",
+   "provider": "Mistral",
+   "model_base": "mistralai/mistral-medium-3.5",
+   "variants": [
+    "Mistral | mistralai/mistral-medium-3.5-20260430"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mistral | mistralai/mistral-nemo",
+   "provider": "Mistral",
+   "model_base": "mistralai/mistral-nemo",
+   "variants": [
+    "Mistral | mistralai/mistral-nemo"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mistral | mistralai/mistral-saba-2502",
+   "provider": "Mistral",
+   "model_base": "mistralai/mistral-saba-2502",
+   "variants": [
+    "Mistral | mistralai/mistral-saba-2502"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mistral | mistralai/mistral-small-2603",
+   "provider": "Mistral",
+   "model_base": "mistralai/mistral-small-2603",
+   "variants": [
+    "Mistral | mistralai/mistral-small-2603"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mistral | mistralai/mixtral-8x22b-instruct",
+   "provider": "Mistral",
+   "model_base": "mistralai/mixtral-8x22b-instruct",
+   "variants": [
+    "Mistral | mistralai/mixtral-8x22b-instruct"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mistral | mistralai/voxtral-mini-transcribe-2602",
+   "provider": "Mistral",
+   "model_base": "mistralai/voxtral-mini-transcribe-2602",
+   "variants": [
+    "Mistral | mistralai/voxtral-mini-transcribe-2602"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mistral | mistralai/voxtral-mini-transcribe-3-0",
+   "provider": "Mistral",
+   "model_base": "mistralai/voxtral-mini-transcribe-3-0",
+   "variants": [
+    "Mistral | mistralai/voxtral-mini-transcribe-3-0-20261020"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mistral | mistralai/voxtral-mini-tts-2603",
+   "provider": "Mistral",
+   "model_base": "mistralai/voxtral-mini-tts-2603",
+   "variants": [
+    "Mistral | mistralai/voxtral-mini-tts-2603"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mistral | mistralai/voxtral-mini-tts-3-0",
+   "provider": "Mistral",
+   "model_base": "mistralai/voxtral-mini-tts-3-0",
+   "variants": [
+    "Mistral | mistralai/voxtral-mini-tts-3-0-20261020"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mistral | mistralai/voxtral-small-24b-2507",
+   "provider": "Mistral",
+   "model_base": "mistralai/voxtral-small-24b-2507",
+   "variants": [
+    "Mistral | mistralai/voxtral-small-24b-2507"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mistral | mistralai/voxtral-small-transcribe-3-0",
+   "provider": "Mistral",
+   "model_base": "mistralai/voxtral-small-transcribe-3-0",
+   "variants": [
+    "Mistral | mistralai/voxtral-small-transcribe-3-0-20261020"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mistral | z-ai/glm-5.2",
+   "provider": "Mistral",
+   "model_base": "z-ai/glm-5.2",
+   "variants": [
+    "Mistral | z-ai/glm-5.2-20260616"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mistral | z-ai/glm-5.3",
+   "provider": "Mistral",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "Mistral | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Mistral | z-ai/glm-5.3-flash",
+   "provider": "Mistral",
+   "model_base": "z-ai/glm-5.3-flash",
+   "variants": [
+    "Mistral | z-ai/glm-5.3-flash-20260826"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Modal | deepseek/deepseek-v4.1-flash",
+   "provider": "Modal",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "Modal | deepseek/deepseek-v4.1-flash-20260910",
+    "Modal | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Modal | google/gemma-4-31b-it",
+   "provider": "Modal",
+   "model_base": "google/gemma-4-31b-it",
+   "variants": [
+    "Modal | google/gemma-4-31b-it-20260402"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Modal | meta/muse-spark-open",
+   "provider": "Modal",
+   "model_base": "meta/muse-spark-open",
+   "variants": [
+    "Modal | meta/muse-spark-open-20261015"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Modal | moonshotai/kimi-k3",
+   "provider": "Modal",
+   "model_base": "moonshotai/kimi-k3",
+   "variants": [
+    "Modal | moonshotai/kimi-k3-20260715"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Modal | moonshotai/kimi-k3.1-pro",
+   "provider": "Modal",
+   "model_base": "moonshotai/kimi-k3.1-pro",
+   "variants": [
+    "Modal | moonshotai/kimi-k3.1-pro-20261023"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Modal | qwen/qwen3.8-27b",
+   "provider": "Modal",
+   "model_base": "qwen/qwen3.8-27b",
+   "variants": [
+    "Modal | qwen/qwen3.8-27b-20260814"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Modal | thinkingmachines/inkling",
+   "provider": "Modal",
+   "model_base": "thinkingmachines/inkling",
+   "variants": [
+    "Modal | thinkingmachines/inkling-20260715"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Modal | thinkingmachines/inkling-2-small",
+   "provider": "Modal",
+   "model_base": "thinkingmachines/inkling-2-small",
+   "variants": [
+    "Modal | thinkingmachines/inkling-2-small-20261107"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Modal | z-ai/glm-5.3",
+   "provider": "Modal",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "Modal | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Modal | z-ai/glm-5.3-flash",
+   "provider": "Modal",
+   "model_base": "z-ai/glm-5.3-flash",
+   "variants": [
+    "Modal | z-ai/glm-5.3-flash-20260826"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "ModelRun | deepseek/deepseek-v4.1-flash",
+   "provider": "ModelRun",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "ModelRun | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "ModelRun | google/gemma-4-31b-it",
+   "provider": "ModelRun",
+   "model_base": "google/gemma-4-31b-it",
+   "variants": [
+    "ModelRun | google/gemma-4-31b-it-20260402"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "ModelRun | meta/muse-glimmer-30b",
+   "provider": "ModelRun",
+   "model_base": "meta/muse-glimmer-30b",
+   "variants": [
+    "ModelRun | meta/muse-glimmer-30b-20260810"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "ModelRun | minimax/minimax-m3.1-flash",
+   "provider": "ModelRun",
+   "model_base": "minimax/minimax-m3.1-flash",
+   "variants": [
+    "ModelRun | minimax/minimax-m3.1-flash-20261019"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "ModelRun | nvidia/nemotron-3.5-lightning",
+   "provider": "ModelRun",
+   "model_base": "nvidia/nemotron-3.5-lightning",
+   "variants": [
+    "ModelRun | nvidia/nemotron-3.5-lightning-20260807"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "ModelRun | qwen/qwen3.8-27b",
+   "provider": "ModelRun",
+   "model_base": "qwen/qwen3.8-27b",
+   "variants": [
+    "ModelRun | qwen/qwen3.8-27b-20260814"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "ModelRun | z-ai/glm-5.3",
+   "provider": "ModelRun",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "ModelRun | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Morph | deepseek/deepseek-v4.1-flash",
+   "provider": "Morph",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "Morph | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Morph | moonshotai/kimi-k3.1-pro",
+   "provider": "Morph",
+   "model_base": "moonshotai/kimi-k3.1-pro",
+   "variants": [
+    "Morph | moonshotai/kimi-k3.1-pro-20261023"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Morph | morph/morph-v3-fast",
+   "provider": "Morph",
+   "model_base": "morph/morph-v3-fast",
+   "variants": [
+    "Morph | morph/morph-v3-fast"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Morph | morph/morph-v3-large",
+   "provider": "Morph",
+   "model_base": "morph/morph-v3-large",
+   "variants": [
+    "Morph | morph/morph-v3-large"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Morph | morph/reflex",
+   "provider": "Morph",
+   "model_base": "morph/reflex",
+   "variants": [
+    "Morph | morph/reflex-20261103"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Morph | z-ai/glm-5.2",
+   "provider": "Morph",
+   "model_base": "z-ai/glm-5.2",
+   "variants": [
+    "Morph | z-ai/glm-5.2-20260616"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Morph | z-ai/glm-5.3",
+   "provider": "Morph",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "Morph | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Morph | z-ai/glm-5.3-flash",
+   "provider": "Morph",
+   "model_base": "z-ai/glm-5.3-flash",
+   "variants": [
+    "Morph | z-ai/glm-5.3-flash-20260826"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Near AI | deepseek/deepseek-v4.1-flash",
+   "provider": "Near AI",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "Near AI | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Near AI | openai/gpt-oss-120b",
+   "provider": "Near AI",
+   "model_base": "openai/gpt-oss-120b",
+   "variants": [
+    "Near AI | openai/gpt-oss-120b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Near AI | qwen/qwen3.8-27b",
+   "provider": "Near AI",
+   "model_base": "qwen/qwen3.8-27b",
+   "variants": [
+    "Near AI | qwen/qwen3.8-27b-20260814"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Near AI | z-ai/glm-5.3-flash",
+   "provider": "Near AI",
+   "model_base": "z-ai/glm-5.3-flash",
+   "variants": [
+    "Near AI | z-ai/glm-5.3-flash-20260826"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Nebius | deepseek/deepseek-v4-flash",
+   "provider": "Nebius",
+   "model_base": "deepseek/deepseek-v4-flash",
+   "variants": [
+    "Nebius | deepseek/deepseek-v4-flash-20260731"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Nebius | deepseek/deepseek-v4-pro",
+   "provider": "Nebius",
+   "model_base": "deepseek/deepseek-v4-pro",
+   "variants": [
+    "Nebius | deepseek/deepseek-v4-pro-20260813"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Nebius | deepseek/deepseek-v4.1-flash",
+   "provider": "Nebius",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "Nebius | deepseek/deepseek-v4.1-flash-20260910",
+    "Nebius | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Nebius | google/gemma-3-27b-it",
+   "provider": "Nebius",
+   "model_base": "google/gemma-3-27b-it",
+   "variants": [
+    "Nebius | google/gemma-3-27b-it"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Nebius | meta/muse-spark-open",
+   "provider": "Nebius",
+   "model_base": "meta/muse-spark-open",
+   "variants": [
+    "Nebius | meta/muse-spark-open-20261015"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Nebius | minimax/minimax-m3.1-flash",
+   "provider": "Nebius",
+   "model_base": "minimax/minimax-m3.1-flash",
+   "variants": [
+    "Nebius | minimax/minimax-m3.1-flash-20261019"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Nebius | moonshotai/kimi-k3",
+   "provider": "Nebius",
+   "model_base": "moonshotai/kimi-k3",
+   "variants": [
+    "Nebius | moonshotai/kimi-k3-20260715"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Nebius | moonshotai/kimi-k3.1-pro",
+   "provider": "Nebius",
+   "model_base": "moonshotai/kimi-k3.1-pro",
+   "variants": [
+    "Nebius | moonshotai/kimi-k3.1-pro-20261023"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Nebius | nousresearch/hermes-4-405b",
+   "provider": "Nebius",
+   "model_base": "nousresearch/hermes-4-405b",
+   "variants": [
+    "Nebius | nousresearch/hermes-4-405b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Nebius | nvidia/nemotron-3-nano-30b-a3b",
+   "provider": "Nebius",
+   "model_base": "nvidia/nemotron-3-nano-30b-a3b",
+   "variants": [
+    "Nebius | nvidia/nemotron-3-nano-30b-a3b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Nebius | nvidia/nemotron-3.5-super-vl",
+   "provider": "Nebius",
+   "model_base": "nvidia/nemotron-3.5-super-vl",
+   "variants": [
+    "Nebius | nvidia/nemotron-3.5-super-vl-20261015"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Nebius | openai/gpt-oss-120b",
+   "provider": "Nebius",
+   "model_base": "openai/gpt-oss-120b",
+   "variants": [
+    "Nebius | openai/gpt-oss-120b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Nebius | qwen/qwen3-30b-a3b-instruct-2507",
+   "provider": "Nebius",
+   "model_base": "qwen/qwen3-30b-a3b-instruct-2507",
+   "variants": [
+    "Nebius | qwen/qwen3-30b-a3b-instruct-2507"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Nebius | qwen/qwen3-embedding-8b",
+   "provider": "Nebius",
+   "model_base": "qwen/qwen3-embedding-8b",
+   "variants": [
+    "Nebius | qwen/qwen3-embedding-8b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Nebius | qwen/qwen3.8-27b",
+   "provider": "Nebius",
+   "model_base": "qwen/qwen3.8-27b",
+   "variants": [
+    "Nebius | qwen/qwen3.8-27b-20260814"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Nebius | reflection/beam-1.0-501b-a23b",
+   "provider": "Nebius",
+   "model_base": "reflection/beam-1.0-501b-a23b",
+   "variants": [
+    "Nebius | reflection/beam-1.0-501b-a23b-20261016"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Nebius | thinkingmachines/inkling-2-small",
+   "provider": "Nebius",
+   "model_base": "thinkingmachines/inkling-2-small",
+   "variants": [
+    "Nebius | thinkingmachines/inkling-2-small-20261107"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Nebius | z-ai/glm-5.2",
+   "provider": "Nebius",
+   "model_base": "z-ai/glm-5.2",
+   "variants": [
+    "Nebius | z-ai/glm-5.2-20260616"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Nebius | z-ai/glm-5.3",
+   "provider": "Nebius",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "Nebius | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Nebius | z-ai/glm-5.3-flash",
+   "provider": "Nebius",
+   "model_base": "z-ai/glm-5.3-flash",
+   "variants": [
+    "Nebius | z-ai/glm-5.3-flash-20260826"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "NextBit | google/gemma-2-27b-it",
+   "provider": "NextBit",
+   "model_base": "google/gemma-2-27b-it",
+   "variants": [
+    "NextBit | google/gemma-2-27b-it"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "NextBit | google/gemma-3-12b-it",
+   "provider": "NextBit",
+   "model_base": "google/gemma-3-12b-it",
+   "variants": [
+    "NextBit | google/gemma-3-12b-it"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "NextBit | google/gemma-3-27b-it",
+   "provider": "NextBit",
+   "model_base": "google/gemma-3-27b-it",
+   "variants": [
+    "NextBit | google/gemma-3-27b-it"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "NextBit | google/gemma-4-26b-a4b-it",
+   "provider": "NextBit",
+   "model_base": "google/gemma-4-26b-a4b-it",
+   "variants": [
+    "NextBit | google/gemma-4-26b-a4b-it-20260403"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "NextBit | google/gemma-4-31b-it",
+   "provider": "NextBit",
+   "model_base": "google/gemma-4-31b-it",
+   "variants": [
+    "NextBit | google/gemma-4-31b-it-20260402"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "NextBit | qwen/qwen3-14b-04-28",
+   "provider": "NextBit",
+   "model_base": "qwen/qwen3-14b-04-28",
+   "variants": [
+    "NextBit | qwen/qwen3-14b-04-28"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "OpenInference | deepseek/deepseek-v4.1-flash",
+   "provider": "OpenInference",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "OpenInference | deepseek/deepseek-v4.1-flash-20260910",
+    "OpenInference | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "OpenInference | z-ai/glm-5.3-flash",
+   "provider": "OpenInference",
+   "model_base": "z-ai/glm-5.3-flash",
+   "variants": [
+    "OpenInference | z-ai/glm-5.3-flash-20260826"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | baai/bge-m3",
+   "provider": "Parasail",
+   "model_base": "baai/bge-m3",
+   "variants": [
+    "Parasail | baai/bge-m3-20251117"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | bytedance/ui-tars-1.5-7b",
+   "provider": "Parasail",
+   "model_base": "bytedance/ui-tars-1.5-7b",
+   "variants": [
+    "Parasail | bytedance/ui-tars-1.5-7b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | deepseek/deepseek-v4-flash",
+   "provider": "Parasail",
+   "model_base": "deepseek/deepseek-v4-flash",
+   "variants": [
+    "Parasail | deepseek/deepseek-v4-flash-20260423",
+    "Parasail | deepseek/deepseek-v4-flash-20260731"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | deepseek/deepseek-v4-pro",
+   "provider": "Parasail",
+   "model_base": "deepseek/deepseek-v4-pro",
+   "variants": [
+    "Parasail | deepseek/deepseek-v4-pro-20260813"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | deepseek/deepseek-v4.1-flash",
+   "provider": "Parasail",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "Parasail | deepseek/deepseek-v4.1-flash-20260910",
+    "Parasail | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | google/gemma-3-27b-it",
+   "provider": "Parasail",
+   "model_base": "google/gemma-3-27b-it",
+   "variants": [
+    "Parasail | google/gemma-3-27b-it"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | google/gemma-3-4b-it",
+   "provider": "Parasail",
+   "model_base": "google/gemma-3-4b-it",
+   "variants": [
+    "Parasail | google/gemma-3-4b-it"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | google/gemma-4-26b-a4b-it",
+   "provider": "Parasail",
+   "model_base": "google/gemma-4-26b-a4b-it",
+   "variants": [
+    "Parasail | google/gemma-4-26b-a4b-it-20260403"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | google/gemma-4-31b-it",
+   "provider": "Parasail",
+   "model_base": "google/gemma-4-31b-it",
+   "variants": [
+    "Parasail | google/gemma-4-31b-it-20260402"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | gryphe/mythomax-l2-13b",
+   "provider": "Parasail",
+   "model_base": "gryphe/mythomax-l2-13b",
+   "variants": [
+    "Parasail | gryphe/mythomax-l2-13b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | meta-llama/llama-3.2-3b-instruct",
+   "provider": "Parasail",
+   "model_base": "meta-llama/llama-3.2-3b-instruct",
+   "variants": [
+    "Parasail | meta-llama/llama-3.2-3b-instruct"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | meta-llama/llama-3.3-70b-instruct",
+   "provider": "Parasail",
+   "model_base": "meta-llama/llama-3.3-70b-instruct",
+   "variants": [
+    "Parasail | meta-llama/llama-3.3-70b-instruct"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | meta-llama/llama-4-maverick-17b-128e-instruct",
+   "provider": "Parasail",
+   "model_base": "meta-llama/llama-4-maverick-17b-128e-instruct",
+   "variants": [
+    "Parasail | meta-llama/llama-4-maverick-17b-128e-instruct"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | minimax/minimax-m3",
+   "provider": "Parasail",
+   "model_base": "minimax/minimax-m3",
+   "variants": [
+    "Parasail | minimax/minimax-m3-20260531"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | minimax/minimax-m3.1-flash",
+   "provider": "Parasail",
+   "model_base": "minimax/minimax-m3.1-flash",
+   "variants": [
+    "Parasail | minimax/minimax-m3.1-flash-20261019"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | mistralai/mistral-nemo",
+   "provider": "Parasail",
+   "model_base": "mistralai/mistral-nemo",
+   "variants": [
+    "Parasail | mistralai/mistral-nemo"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | mistralai/mistral-small-3.2-24b-instruct-2506",
+   "provider": "Parasail",
+   "model_base": "mistralai/mistral-small-3.2-24b-instruct-2506",
+   "variants": [
+    "Parasail | mistralai/mistral-small-3.2-24b-instruct-2506"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | moonshotai/kimi-k2.6",
+   "provider": "Parasail",
+   "model_base": "moonshotai/kimi-k2.6",
+   "variants": [
+    "Parasail | moonshotai/kimi-k2.6-20260420"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | moonshotai/kimi-k3",
+   "provider": "Parasail",
+   "model_base": "moonshotai/kimi-k3",
+   "variants": [
+    "Parasail | moonshotai/kimi-k3-20260715"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | moonshotai/kimi-k3.1-pro",
+   "provider": "Parasail",
+   "model_base": "moonshotai/kimi-k3.1-pro",
+   "variants": [
+    "Parasail | moonshotai/kimi-k3.1-pro-20261023"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | openai/gpt-oss-120b",
+   "provider": "Parasail",
+   "model_base": "openai/gpt-oss-120b",
+   "variants": [
+    "Parasail | openai/gpt-oss-120b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | openai/gpt-oss-20b",
+   "provider": "Parasail",
+   "model_base": "openai/gpt-oss-20b",
+   "variants": [
+    "Parasail | openai/gpt-oss-20b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | qwen/qwen2.5-vl-72b-instruct",
+   "provider": "Parasail",
+   "model_base": "qwen/qwen2.5-vl-72b-instruct",
+   "variants": [
+    "Parasail | qwen/qwen2.5-vl-72b-instruct"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | qwen/qwen3-235b-a22b-07-25",
+   "provider": "Parasail",
+   "model_base": "qwen/qwen3-235b-a22b-07-25",
+   "variants": [
+    "Parasail | qwen/qwen3-235b-a22b-07-25"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | qwen/qwen3-coder-next-2025-02-03",
+   "provider": "Parasail",
+   "model_base": "qwen/qwen3-coder-next-2025-02-03",
+   "variants": [
+    "Parasail | qwen/qwen3-coder-next-2025-02-03"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | qwen/qwen3-next-80b-a3b-instruct-2509",
+   "provider": "Parasail",
+   "model_base": "qwen/qwen3-next-80b-a3b-instruct-2509",
+   "variants": [
+    "Parasail | qwen/qwen3-next-80b-a3b-instruct-2509"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | qwen/qwen3-vl-235b-a22b-instruct",
+   "provider": "Parasail",
+   "model_base": "qwen/qwen3-vl-235b-a22b-instruct",
+   "variants": [
+    "Parasail | qwen/qwen3-vl-235b-a22b-instruct"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | qwen/qwen3-vl-8b-instruct",
+   "provider": "Parasail",
+   "model_base": "qwen/qwen3-vl-8b-instruct",
+   "variants": [
+    "Parasail | qwen/qwen3-vl-8b-instruct"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | qwen/qwen3.5-35b-a3b",
+   "provider": "Parasail",
+   "model_base": "qwen/qwen3.5-35b-a3b",
+   "variants": [
+    "Parasail | qwen/qwen3.5-35b-a3b-20260224"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | qwen/qwen3.5-397b-a17b",
+   "provider": "Parasail",
+   "model_base": "qwen/qwen3.5-397b-a17b",
+   "variants": [
+    "Parasail | qwen/qwen3.5-397b-a17b-20260216"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | qwen/qwen3.5-9b",
+   "provider": "Parasail",
+   "model_base": "qwen/qwen3.5-9b",
+   "variants": [
+    "Parasail | qwen/qwen3.5-9b-20260310"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | qwen/qwen3.8-27b",
+   "provider": "Parasail",
+   "model_base": "qwen/qwen3.8-27b",
+   "variants": [
+    "Parasail | qwen/qwen3.8-27b-20260814"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | sao10k/l3-lunaris-8b",
+   "provider": "Parasail",
+   "model_base": "sao10k/l3-lunaris-8b",
+   "variants": [
+    "Parasail | sao10k/l3-lunaris-8b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | thedrummer/cydonia-24b-v4.1",
+   "provider": "Parasail",
+   "model_base": "thedrummer/cydonia-24b-v4.1",
+   "variants": [
+    "Parasail | thedrummer/cydonia-24b-v4.1"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | thedrummer/skyfall-36b-v2",
+   "provider": "Parasail",
+   "model_base": "thedrummer/skyfall-36b-v2",
+   "variants": [
+    "Parasail | thedrummer/skyfall-36b-v2"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | thedrummer/unslopnemo-12b",
+   "provider": "Parasail",
+   "model_base": "thedrummer/unslopnemo-12b",
+   "variants": [
+    "Parasail | thedrummer/unslopnemo-12b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | z-ai/glm-5.2",
+   "provider": "Parasail",
+   "model_base": "z-ai/glm-5.2",
+   "variants": [
+    "Parasail | z-ai/glm-5.2-20260616"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | z-ai/glm-5.3",
+   "provider": "Parasail",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "Parasail | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Parasail | z-ai/glm-5.3-flash",
+   "provider": "Parasail",
+   "model_base": "z-ai/glm-5.3-flash",
+   "variants": [
+    "Parasail | z-ai/glm-5.3-flash-20260826"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Particle AI | deepseek/deepseek-v4.1-flash",
+   "provider": "Particle AI",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "Particle AI | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Particle AI | particle-ai/particle-1",
+   "provider": "Particle AI",
+   "model_base": "particle-ai/particle-1",
+   "variants": [
+    "Particle AI | particle-ai/particle-1-20261027"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Particle AI | z-ai/glm-5.3-flash",
+   "provider": "Particle AI",
+   "model_base": "z-ai/glm-5.3-flash",
+   "variants": [
+    "Particle AI | z-ai/glm-5.3-flash-20260826"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Pearl Research | deepseek/deepseek-v4-pro",
+   "provider": "Pearl Research",
+   "model_base": "deepseek/deepseek-v4-pro",
+   "variants": [
+    "Pearl Research | deepseek/deepseek-v4-pro-20260813"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Pearl Research | deepseek/deepseek-v4.1-flash",
+   "provider": "Pearl Research",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "Pearl Research | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Pearl Research | qwen/qwen3.8-27b",
+   "provider": "Pearl Research",
+   "model_base": "qwen/qwen3.8-27b",
+   "variants": [
+    "Pearl Research | qwen/qwen3.8-27b-20260814"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Perceptron | perceptron/perceptron-mk1",
+   "provider": "Perceptron",
+   "model_base": "perceptron/perceptron-mk1",
+   "variants": [
+    "Perceptron | perceptron/perceptron-mk1-20260512"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Perceptron | perceptron/perceptron-mk1.5",
+   "provider": "Perceptron",
+   "model_base": "perceptron/perceptron-mk1.5",
+   "variants": [
+    "Perceptron | perceptron/perceptron-mk1.5-20260925"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Perplexity | perplexity/pplx-decider-flash-v1.2",
+   "provider": "Perplexity",
+   "model_base": "perplexity/pplx-decider-flash-v1.2",
+   "variants": [
+    "Perplexity | perplexity/pplx-decider-flash-v1.2-20261016"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Perplexity | perplexity/pplx-decider-flash-v1.3:free",
+   "provider": "Perplexity",
+   "model_base": "perplexity/pplx-decider-flash-v1.3:free",
+   "variants": [
+    "Perplexity | perplexity/pplx-decider-flash-v1.3-20261112:free"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Perplexity | perplexity/pplx-decider-v1.2",
+   "provider": "Perplexity",
+   "model_base": "perplexity/pplx-decider-v1.2",
+   "variants": [
+    "Perplexity | perplexity/pplx-decider-v1.2-20261016"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Perplexity | perplexity/pplx-decider-v1.3:free",
+   "provider": "Perplexity",
+   "model_base": "perplexity/pplx-decider-v1.3:free",
+   "variants": [
+    "Perplexity | perplexity/pplx-decider-v1.3-20261112:free"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Perplexity | perplexity/pplx-embed-v1-0.6B",
+   "provider": "Perplexity",
+   "model_base": "perplexity/pplx-embed-v1-0.6B",
+   "variants": [
+    "Perplexity | perplexity/pplx-embed-v1-0.6B"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Perplexity | perplexity/pplx-embed-v1-4B",
+   "provider": "Perplexity",
+   "model_base": "perplexity/pplx-embed-v1-4B",
+   "variants": [
+    "Perplexity | perplexity/pplx-embed-v1-4B"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Perplexity | perplexity/pplx-embed-v2-context-0.6b",
+   "provider": "Perplexity",
+   "model_base": "perplexity/pplx-embed-v2-context-0.6b",
+   "variants": [
+    "Perplexity | perplexity/pplx-embed-v2-context-0.6b-20261120"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Perplexity | perplexity/pplx-embed-v2-context-9b",
+   "provider": "Perplexity",
+   "model_base": "perplexity/pplx-embed-v2-context-9b",
+   "variants": [
+    "Perplexity | perplexity/pplx-embed-v2-context-9b-20261120"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Perplexity | perplexity/sonar",
+   "provider": "Perplexity",
+   "model_base": "perplexity/sonar",
+   "variants": [
+    "Perplexity | perplexity/sonar"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Perplexity | perplexity/sonar-deep-research",
+   "provider": "Perplexity",
+   "model_base": "perplexity/sonar-deep-research",
+   "variants": [
+    "Perplexity | perplexity/sonar-deep-research"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Perplexity | perplexity/sonar-pro",
+   "provider": "Perplexity",
+   "model_base": "perplexity/sonar-pro",
+   "variants": [
+    "Perplexity | perplexity/sonar-pro"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Perplexity | perplexity/sonar-pro-search",
+   "provider": "Perplexity",
+   "model_base": "perplexity/sonar-pro-search",
+   "variants": [
+    "Perplexity | perplexity/sonar-pro-search"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Perplexity | perplexity/sonar-reasoning-pro",
+   "provider": "Perplexity",
+   "model_base": "perplexity/sonar-reasoning-pro",
+   "variants": [
+    "Perplexity | perplexity/sonar-reasoning-pro"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimaLabs | deepseek/deepseek-v4.1-flash",
+   "provider": "PrimaLabs",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "PrimaLabs | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimaLabs | moonshotai/kimi-k3.1-pro",
+   "provider": "PrimaLabs",
+   "model_base": "moonshotai/kimi-k3.1-pro",
+   "variants": [
+    "PrimaLabs | moonshotai/kimi-k3.1-pro-20261023"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimaLabs | nvidia/nemotron-3.5-super-vl",
+   "provider": "PrimaLabs",
+   "model_base": "nvidia/nemotron-3.5-super-vl",
+   "variants": [
+    "PrimaLabs | nvidia/nemotron-3.5-super-vl-20261015"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimaLabs | xiaomi/mimo-v2.6-pro",
+   "provider": "PrimaLabs",
+   "model_base": "xiaomi/mimo-v2.6-pro",
+   "variants": [
+    "PrimaLabs | xiaomi/mimo-v2.6-pro-20260921"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimeIntellect | cloudflare/clef",
+   "provider": "PrimeIntellect",
+   "model_base": "cloudflare/clef",
+   "variants": [
+    "PrimeIntellect | cloudflare/clef"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimeIntellect | cloudflare/clef-flash",
+   "provider": "PrimeIntellect",
+   "model_base": "cloudflare/clef-flash",
+   "variants": [
+    "PrimeIntellect | cloudflare/clef-flash"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimeIntellect | deepseek/deepseek-v4.1-flash",
+   "provider": "PrimeIntellect",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "PrimeIntellect | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimeIntellect | google/gemma-4-26b-a4b-it",
+   "provider": "PrimeIntellect",
+   "model_base": "google/gemma-4-26b-a4b-it",
+   "variants": [
+    "PrimeIntellect | google/gemma-4-26b-a4b-it-20260403"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimeIntellect | google/gemma-4-31b-it",
+   "provider": "PrimeIntellect",
+   "model_base": "google/gemma-4-31b-it",
+   "variants": [
+    "PrimeIntellect | google/gemma-4-31b-it-20260402"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimeIntellect | moondream/moondream3-preview",
+   "provider": "PrimeIntellect",
+   "model_base": "moondream/moondream3-preview",
+   "variants": [
+    "PrimeIntellect | moondream/moondream3-preview-20261013"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimeIntellect | moondream/moondream3.1-9b-a2b",
+   "provider": "PrimeIntellect",
+   "model_base": "moondream/moondream3.1-9b-a2b",
+   "variants": [
+    "PrimeIntellect | moondream/moondream3.1-9b-a2b-20261013"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimeIntellect | moondream/parakeet-ultra",
+   "provider": "PrimeIntellect",
+   "model_base": "moondream/parakeet-ultra",
+   "variants": [
+    "PrimeIntellect | moondream/parakeet-ultra-20261102"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimeIntellect | nvidia/nemotron-3.5-super-vl",
+   "provider": "PrimeIntellect",
+   "model_base": "nvidia/nemotron-3.5-super-vl",
+   "variants": [
+    "PrimeIntellect | nvidia/nemotron-3.5-super-vl-20261015"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimeIntellect | nvidia/nemotron-3.5-transcribe",
+   "provider": "PrimeIntellect",
+   "model_base": "nvidia/nemotron-3.5-transcribe",
+   "variants": [
+    "PrimeIntellect | nvidia/nemotron-3.5-transcribe-20261028"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimeIntellect | nvidia/parakeet-tdt-0.6b-v3",
+   "provider": "PrimeIntellect",
+   "model_base": "nvidia/parakeet-tdt-0.6b-v3",
+   "variants": [
+    "PrimeIntellect | nvidia/parakeet-tdt-0.6b-v3"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimeIntellect | openai/gpt-oss-120b",
+   "provider": "PrimeIntellect",
+   "model_base": "openai/gpt-oss-120b",
+   "variants": [
+    "PrimeIntellect | openai/gpt-oss-120b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimeIntellect | openai/gpt-oss-20b",
+   "provider": "PrimeIntellect",
+   "model_base": "openai/gpt-oss-20b",
+   "variants": [
+    "PrimeIntellect | openai/gpt-oss-20b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimeIntellect | openai/whisper-large-v3-turbo",
+   "provider": "PrimeIntellect",
+   "model_base": "openai/whisper-large-v3-turbo",
+   "variants": [
+    "PrimeIntellect | openai/whisper-large-v3-turbo"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimeIntellect | qwen/qwen3-asr-0.6b",
+   "provider": "PrimeIntellect",
+   "model_base": "qwen/qwen3-asr-0.6b",
+   "variants": [
+    "PrimeIntellect | qwen/qwen3-asr-0.6b-20260813"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimeIntellect | qwen/qwen3-asr-1.7b",
+   "provider": "PrimeIntellect",
+   "model_base": "qwen/qwen3-asr-1.7b",
+   "variants": [
+    "PrimeIntellect | qwen/qwen3-asr-1.7b-20260813"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimeIntellect | qwen/qwen3-reranker-0.6b",
+   "provider": "PrimeIntellect",
+   "model_base": "qwen/qwen3-reranker-0.6b",
+   "variants": [
+    "PrimeIntellect | qwen/qwen3-reranker-0.6b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimeIntellect | qwen/qwen3-reranker-8b",
+   "provider": "PrimeIntellect",
+   "model_base": "qwen/qwen3-reranker-8b",
+   "variants": [
+    "PrimeIntellect | qwen/qwen3-reranker-8b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimeIntellect | qwen/qwen3.5-9b",
+   "provider": "PrimeIntellect",
+   "model_base": "qwen/qwen3.5-9b",
+   "variants": [
+    "PrimeIntellect | qwen/qwen3.5-9b-20260310"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimeIntellect | qwen/qwen3.6-35b-a3b",
+   "provider": "PrimeIntellect",
+   "model_base": "qwen/qwen3.6-35b-a3b",
+   "variants": [
+    "PrimeIntellect | qwen/qwen3.6-35b-a3b-20260415"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimeIntellect | qwen/qwen3.8-27b",
+   "provider": "PrimeIntellect",
+   "model_base": "qwen/qwen3.8-27b",
+   "variants": [
+    "PrimeIntellect | qwen/qwen3.8-27b-20260814"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimeIntellect | ricursiveai/ripple-65b-preview",
+   "provider": "PrimeIntellect",
+   "model_base": "ricursiveai/ripple-65b-preview",
+   "variants": [
+    "PrimeIntellect | ricursiveai/ripple-65b-preview-20261104"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimeIntellect | thinkingmachines/inkling-2-mini",
+   "provider": "PrimeIntellect",
+   "model_base": "thinkingmachines/inkling-2-mini",
+   "variants": [
+    "PrimeIntellect | thinkingmachines/inkling-2-mini-20261120"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "PrimeIntellect | thinkingmachines/inkling-2-small",
+   "provider": "PrimeIntellect",
+   "model_base": "thinkingmachines/inkling-2-small",
+   "variants": [
+    "PrimeIntellect | thinkingmachines/inkling-2-small-20261107"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Reka | deepseek/deepseek-v4.1-flash",
+   "provider": "Reka",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "Reka | deepseek/deepseek-v4.1-flash-20260910",
+    "Reka | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Reka | qwen/qwen3.6-27b",
+   "provider": "Reka",
+   "model_base": "qwen/qwen3.6-27b",
+   "variants": [
+    "Reka | qwen/qwen3.6-27b-20260422"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Reka | qwen/qwen3.8-27b",
+   "provider": "Reka",
+   "model_base": "qwen/qwen3.8-27b",
+   "variants": [
+    "Reka | qwen/qwen3.8-27b-20260814"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Reka | rekaai/reka-edge-2603",
+   "provider": "Reka",
+   "model_base": "rekaai/reka-edge-2603",
+   "variants": [
+    "Reka | rekaai/reka-edge-2603"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Reka | rekaai/reka-flash-3",
+   "provider": "Reka",
+   "model_base": "rekaai/reka-flash-3",
+   "variants": [
+    "Reka | rekaai/reka-flash-3"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Reka | z-ai/glm-5.3-flash",
+   "provider": "Reka",
+   "model_base": "z-ai/glm-5.3-flash",
+   "variants": [
+    "Reka | z-ai/glm-5.3-flash-20260826"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Relace | deepseek/deepseek-v4-flash",
+   "provider": "Relace",
+   "model_base": "deepseek/deepseek-v4-flash",
+   "variants": [
+    "Relace | deepseek/deepseek-v4-flash-20260423",
+    "Relace | deepseek/deepseek-v4-flash-20260731"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Relace | deepseek/deepseek-v4-pro",
+   "provider": "Relace",
+   "model_base": "deepseek/deepseek-v4-pro",
+   "variants": [
+    "Relace | deepseek/deepseek-v4-pro-20260423",
+    "Relace | deepseek/deepseek-v4-pro-20260813"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Relace | deepseek/deepseek-v4.1-flash",
+   "provider": "Relace",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "Relace | deepseek/deepseek-v4.1-flash-20260910",
+    "Relace | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Relace | moonshotai/kimi-k3",
+   "provider": "Relace",
+   "model_base": "moonshotai/kimi-k3",
+   "variants": [
+    "Relace | moonshotai/kimi-k3-20260715"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Relace | moonshotai/kimi-k3.1-pro",
+   "provider": "Relace",
+   "model_base": "moonshotai/kimi-k3.1-pro",
+   "variants": [
+    "Relace | moonshotai/kimi-k3.1-pro-20261023"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Relace | relace/relace-apply-3",
+   "provider": "Relace",
+   "model_base": "relace/relace-apply-3",
+   "variants": [
+    "Relace | relace/relace-apply-3"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Relace | relace/relace-search",
+   "provider": "Relace",
+   "model_base": "relace/relace-search",
+   "variants": [
+    "Relace | relace/relace-search-20251208"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Relace | thinkingmachines/inkling-2-mini",
+   "provider": "Relace",
+   "model_base": "thinkingmachines/inkling-2-mini",
+   "variants": [
+    "Relace | thinkingmachines/inkling-2-mini-20261120"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Relace | z-ai/glm-5.2",
+   "provider": "Relace",
+   "model_base": "z-ai/glm-5.2",
+   "variants": [
+    "Relace | z-ai/glm-5.2-20260616"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Relace | z-ai/glm-5.3",
+   "provider": "Relace",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "Relace | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Relace | z-ai/glm-5.3-flash",
+   "provider": "Relace",
+   "model_base": "z-ai/glm-5.3-flash",
+   "variants": [
+    "Relace | z-ai/glm-5.3-flash-20260826"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "River | deepseek/deepseek-v4.1-flash",
+   "provider": "River",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "River | deepseek/deepseek-v4.1-flash-20260910",
+    "River | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "River | moonshotai/kimi-k3",
+   "provider": "River",
+   "model_base": "moonshotai/kimi-k3",
+   "variants": [
+    "River | moonshotai/kimi-k3-20260715"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "River | moonshotai/kimi-k3.1-pro",
+   "provider": "River",
+   "model_base": "moonshotai/kimi-k3.1-pro",
+   "variants": [
+    "River | moonshotai/kimi-k3.1-pro-20261023"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "River | z-ai/glm-5.3",
+   "provider": "River",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "River | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "River | z-ai/glm-5.3-flash",
+   "provider": "River",
+   "model_base": "z-ai/glm-5.3-flash",
+   "variants": [
+    "River | z-ai/glm-5.3-flash-20260826"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Sail Research | deepseek/deepseek-v4-flash",
+   "provider": "Sail Research",
+   "model_base": "deepseek/deepseek-v4-flash",
+   "variants": [
+    "Sail Research | deepseek/deepseek-v4-flash-20260731"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Sail Research | deepseek/deepseek-v4.1-flash",
+   "provider": "Sail Research",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "Sail Research | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Sail Research | moonshotai/kimi-k3",
+   "provider": "Sail Research",
+   "model_base": "moonshotai/kimi-k3",
+   "variants": [
+    "Sail Research | moonshotai/kimi-k3-20260715"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Sail Research | moonshotai/kimi-k3.1-pro",
+   "provider": "Sail Research",
+   "model_base": "moonshotai/kimi-k3.1-pro",
+   "variants": [
+    "Sail Research | moonshotai/kimi-k3.1-pro-20261023"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Sail Research | z-ai/glm-5.3",
+   "provider": "Sail Research",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "Sail Research | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Sail Research | z-ai/glm-5.3-flash",
+   "provider": "Sail Research",
+   "model_base": "z-ai/glm-5.3-flash",
+   "variants": [
+    "Sail Research | z-ai/glm-5.3-flash-20260826"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "SambaNova | google/gemma-4-31b-it",
+   "provider": "SambaNova",
+   "model_base": "google/gemma-4-31b-it",
+   "variants": [
+    "SambaNova | google/gemma-4-31b-it-20260402"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "SambaNova | minimax/minimax-m3.1-flash",
+   "provider": "SambaNova",
+   "model_base": "minimax/minimax-m3.1-flash",
+   "variants": [
+    "SambaNova | minimax/minimax-m3.1-flash-20261019"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "SambaNova | openai/gpt-oss-120b",
+   "provider": "SambaNova",
+   "model_base": "openai/gpt-oss-120b",
+   "variants": [
+    "SambaNova | openai/gpt-oss-120b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "SambaNova | z-ai/glm-5.3",
+   "provider": "SambaNova",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "SambaNova | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "ScaleDown | scaledown/classify-1",
+   "provider": "ScaleDown",
+   "model_base": "scaledown/classify-1",
+   "variants": [
+    "ScaleDown | scaledown/classify-1-20260928"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "ScaleDown | scaledown/extract",
+   "provider": "ScaleDown",
+   "model_base": "scaledown/extract",
+   "variants": [
+    "ScaleDown | scaledown/extract-20260928"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "ScaleDown | scaledown/summarize",
+   "provider": "ScaleDown",
+   "model_base": "scaledown/summarize",
+   "variants": [
+    "ScaleDown | scaledown/summarize-20260928"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Speechify | speechify/simba-3.5",
+   "provider": "Speechify",
+   "model_base": "speechify/simba-3.5",
+   "variants": [
+    "Speechify | speechify/simba-3.5-20261111"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Tenstorrent | deepseek/deepseek-v4.1-flash",
+   "provider": "Tenstorrent",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "Tenstorrent | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Tenstorrent | qwen/qwen3-32b-04-28",
+   "provider": "Tenstorrent",
+   "model_base": "qwen/qwen3-32b-04-28",
+   "variants": [
+    "Tenstorrent | qwen/qwen3-32b-04-28"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Tenstorrent | qwen/qwen3.8-27b",
+   "provider": "Tenstorrent",
+   "model_base": "qwen/qwen3.8-27b",
+   "variants": [
+    "Tenstorrent | qwen/qwen3.8-27b-20260814"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Tenstorrent | xiaomi/mimo-v2.6-flash",
+   "provider": "Tenstorrent",
+   "model_base": "xiaomi/mimo-v2.6-flash",
+   "variants": [
+    "Tenstorrent | xiaomi/mimo-v2.6-flash-20260921"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Tenstorrent | z-ai/glm-5.3",
+   "provider": "Tenstorrent",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "Tenstorrent | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Tenstorrent | z-ai/glm-5.3-flash",
+   "provider": "Tenstorrent",
+   "model_base": "z-ai/glm-5.3-flash",
+   "variants": [
+    "Tenstorrent | z-ai/glm-5.3-flash-20260826"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Together | canopylabs/orpheus-3b-0.1-ft",
+   "provider": "Together",
+   "model_base": "canopylabs/orpheus-3b-0.1-ft",
+   "variants": [
+    "Together | canopylabs/orpheus-3b-0.1-ft"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Together | deepseek/deepseek-v4-pro",
+   "provider": "Together",
+   "model_base": "deepseek/deepseek-v4-pro",
+   "variants": [
+    "Together | deepseek/deepseek-v4-pro-20260813"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Together | deepseek/deepseek-v4.1-flash",
+   "provider": "Together",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "Together | deepseek/deepseek-v4.1-flash-20260910",
+    "Together | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Together | elorian/glimpse",
+   "provider": "Together",
+   "model_base": "elorian/glimpse",
+   "variants": [
+    "Together | elorian/glimpse-20261016"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Together | hexgrad/kokoro-82m",
+   "provider": "Together",
+   "model_base": "hexgrad/kokoro-82m",
+   "variants": [
+    "Together | hexgrad/kokoro-82m"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Together | meta/muse-glimmer-30b",
+   "provider": "Together",
+   "model_base": "meta/muse-glimmer-30b",
+   "variants": [
+    "Together | meta/muse-glimmer-30b-20260810"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Together | meta/muse-spark-open",
+   "provider": "Together",
+   "model_base": "meta/muse-spark-open",
+   "variants": [
+    "Together | meta/muse-spark-open-20261015"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Together | minimax/minimax-m3.1-flash",
+   "provider": "Together",
+   "model_base": "minimax/minimax-m3.1-flash",
+   "variants": [
+    "Together | minimax/minimax-m3.1-flash-20261019"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Together | moonshotai/kimi-k3",
+   "provider": "Together",
+   "model_base": "moonshotai/kimi-k3",
+   "variants": [
+    "Together | moonshotai/kimi-k3-20260715"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Together | moonshotai/kimi-k3.1-pro",
+   "provider": "Together",
+   "model_base": "moonshotai/kimi-k3.1-pro",
+   "variants": [
+    "Together | moonshotai/kimi-k3.1-pro-20261023"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Together | nvidia/nemotron-3.5-super-vl",
+   "provider": "Together",
+   "model_base": "nvidia/nemotron-3.5-super-vl",
+   "variants": [
+    "Together | nvidia/nemotron-3.5-super-vl-20261015"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Together | nvidia/parakeet-tdt-0.6b-v3",
+   "provider": "Together",
+   "model_base": "nvidia/parakeet-tdt-0.6b-v3",
+   "variants": [
+    "Together | nvidia/parakeet-tdt-0.6b-v3"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Together | openai/gpt-oss-120b",
+   "provider": "Together",
+   "model_base": "openai/gpt-oss-120b",
+   "variants": [
+    "Together | openai/gpt-oss-120b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Together | openai/whisper-large-v3",
+   "provider": "Together",
+   "model_base": "openai/whisper-large-v3",
+   "variants": [
+    "Together | openai/whisper-large-v3"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Together | qwen/qwen3-tts-1.7b",
+   "provider": "Together",
+   "model_base": "qwen/qwen3-tts-1.7b",
+   "variants": [
+    "Together | qwen/qwen3-tts-1.7b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Together | qwen/qwen3.5-9b",
+   "provider": "Together",
+   "model_base": "qwen/qwen3.5-9b",
+   "variants": [
+    "Together | qwen/qwen3.5-9b-20260310"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Together | reflection/beam-1.0-501b-a23b",
+   "provider": "Together",
+   "model_base": "reflection/beam-1.0-501b-a23b",
+   "variants": [
+    "Together | reflection/beam-1.0-501b-a23b-20261016"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Together | ricursiveai/ripple-65b-preview",
+   "provider": "Together",
+   "model_base": "ricursiveai/ripple-65b-preview",
+   "variants": [
+    "Together | ricursiveai/ripple-65b-preview-20261104"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Together | tencent/hy4",
+   "provider": "Together",
+   "model_base": "tencent/hy4",
+   "variants": [
+    "Together | tencent/hy4-20261104"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Together | thinkingmachines/inkling",
+   "provider": "Together",
+   "model_base": "thinkingmachines/inkling",
+   "variants": [
+    "Together | thinkingmachines/inkling-20260715"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Together | thinkingmachines/inkling-2-small",
+   "provider": "Together",
+   "model_base": "thinkingmachines/inkling-2-small",
+   "variants": [
+    "Together | thinkingmachines/inkling-2-small-20261107"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Together | togethercomputer/tev1-4b-experimental",
+   "provider": "Together",
+   "model_base": "togethercomputer/tev1-4b-experimental",
+   "variants": [
+    "Together | togethercomputer/tev1-4b-experimental-20260923"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Together | z-ai/glm-5.2",
+   "provider": "Together",
+   "model_base": "z-ai/glm-5.2",
+   "variants": [
+    "Together | z-ai/glm-5.2-20260616"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Together | z-ai/glm-5.3",
+   "provider": "Together",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "Together | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Together | z-ai/glm-5.3-flash",
+   "provider": "Together",
+   "model_base": "z-ai/glm-5.3-flash",
+   "variants": [
+    "Together | z-ai/glm-5.3-flash-20260826"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "TypeSafe | typesafe/jev-1.13",
+   "provider": "TypeSafe",
+   "model_base": "typesafe/jev-1.13",
+   "variants": [
+    "TypeSafe | typesafe/jev-1.13-20260917"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "TypeSafe | typesafe/jev-1.14",
+   "provider": "TypeSafe",
+   "model_base": "typesafe/jev-1.14",
+   "variants": [
+    "TypeSafe | typesafe/jev-1.14-20261014"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Upstage | upstage/solar-decide",
+   "provider": "Upstage",
+   "model_base": "upstage/solar-decide",
+   "variants": [
+    "Upstage | upstage/solar-decide-20260928"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Upstage | upstage/solar-decide-flash",
+   "provider": "Upstage",
+   "model_base": "upstage/solar-decide-flash",
+   "variants": [
+    "Upstage | upstage/solar-decide-flash-20261008"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Upstage | upstage/solar-mini-4-5",
+   "provider": "Upstage",
+   "model_base": "upstage/solar-mini-4-5",
+   "variants": [
+    "Upstage | upstage/solar-mini-4-5-20261125"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Upstage | upstage/solar-mini4",
+   "provider": "Upstage",
+   "model_base": "upstage/solar-mini4",
+   "variants": [
+    "Upstage | upstage/solar-mini4-20260922"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Upstage | upstage/solar-pro4",
+   "provider": "Upstage",
+   "model_base": "upstage/solar-pro4",
+   "variants": [
+    "Upstage | upstage/solar-pro4-20260810"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | deepseek/deepseek-v4-flash",
+   "provider": "Venice",
+   "model_base": "deepseek/deepseek-v4-flash",
+   "variants": [
+    "Venice | deepseek/deepseek-v4-flash-20260423",
+    "Venice | deepseek/deepseek-v4-flash-20260731"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | deepseek/deepseek-v4-pro",
+   "provider": "Venice",
+   "model_base": "deepseek/deepseek-v4-pro",
+   "variants": [
+    "Venice | deepseek/deepseek-v4-pro-20260423",
+    "Venice | deepseek/deepseek-v4-pro-20260813"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | deepseek/deepseek-v4.1-flash",
+   "provider": "Venice",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "Venice | deepseek/deepseek-v4.1-flash-20260910",
+    "Venice | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | google/gemma-4-26b-a4b-it",
+   "provider": "Venice",
+   "model_base": "google/gemma-4-26b-a4b-it",
+   "variants": [
+    "Venice | google/gemma-4-26b-a4b-it-20260403"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | google/gemma-4-31b-it",
+   "provider": "Venice",
+   "model_base": "google/gemma-4-31b-it",
+   "variants": [
+    "Venice | google/gemma-4-31b-it-20260402"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | minimax/minimax-m3",
+   "provider": "Venice",
+   "model_base": "minimax/minimax-m3",
+   "variants": [
+    "Venice | minimax/minimax-m3-20260531"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | mistralai/mistral-small-3.2-24b-instruct-2506",
+   "provider": "Venice",
+   "model_base": "mistralai/mistral-small-3.2-24b-instruct-2506",
+   "variants": [
+    "Venice | mistralai/mistral-small-3.2-24b-instruct-2506"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | moonshotai/kimi-k2.6",
+   "provider": "Venice",
+   "model_base": "moonshotai/kimi-k2.6",
+   "variants": [
+    "Venice | moonshotai/kimi-k2.6-20260420"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | nvidia/nemotron-3-ultra-550b-a55b",
+   "provider": "Venice",
+   "model_base": "nvidia/nemotron-3-ultra-550b-a55b",
+   "variants": [
+    "Venice | nvidia/nemotron-3-ultra-550b-a55b-20260604"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | nvidia/nemotron-3.5-super-vl",
+   "provider": "Venice",
+   "model_base": "nvidia/nemotron-3.5-super-vl",
+   "variants": [
+    "Venice | nvidia/nemotron-3.5-super-vl-20261015"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | openai/gpt-oss-120b",
+   "provider": "Venice",
+   "model_base": "openai/gpt-oss-120b",
+   "variants": [
+    "Venice | openai/gpt-oss-120b"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | qwen/qwen3-235b-a22b-07-25",
+   "provider": "Venice",
+   "model_base": "qwen/qwen3-235b-a22b-07-25",
+   "variants": [
+    "Venice | qwen/qwen3-235b-a22b-07-25"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | qwen/qwen3-235b-a22b-thinking-2507",
+   "provider": "Venice",
+   "model_base": "qwen/qwen3-235b-a22b-thinking-2507",
+   "variants": [
+    "Venice | qwen/qwen3-235b-a22b-thinking-2507"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | qwen/qwen3-coder-480b-a35b-07-25",
+   "provider": "Venice",
+   "model_base": "qwen/qwen3-coder-480b-a35b-07-25",
+   "variants": [
+    "Venice | qwen/qwen3-coder-480b-a35b-07-25"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | qwen/qwen3-vl-235b-a22b-instruct",
+   "provider": "Venice",
+   "model_base": "qwen/qwen3-vl-235b-a22b-instruct",
+   "variants": [
+    "Venice | qwen/qwen3-vl-235b-a22b-instruct"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | qwen/qwen3.5-35b-a3b",
+   "provider": "Venice",
+   "model_base": "qwen/qwen3.5-35b-a3b",
+   "variants": [
+    "Venice | qwen/qwen3.5-35b-a3b-20260224"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | qwen/qwen3.5-397b-a17b",
+   "provider": "Venice",
+   "model_base": "qwen/qwen3.5-397b-a17b",
+   "variants": [
+    "Venice | qwen/qwen3.5-397b-a17b-20260216"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | qwen/qwen3.6-27b",
+   "provider": "Venice",
+   "model_base": "qwen/qwen3.6-27b",
+   "variants": [
+    "Venice | qwen/qwen3.6-27b-20260422"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | qwen/qwen3.6-35b-a3b",
+   "provider": "Venice",
+   "model_base": "qwen/qwen3.6-35b-a3b",
+   "variants": [
+    "Venice | qwen/qwen3.6-35b-a3b-20260415"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | qwen/qwen3.8-2.4t-a95b",
+   "provider": "Venice",
+   "model_base": "qwen/qwen3.8-2.4t-a95b",
+   "variants": [
+    "Venice | qwen/qwen3.8-2.4t-a95b-20260812"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | tencent/hy4-preview",
+   "provider": "Venice",
+   "model_base": "tencent/hy4-preview",
+   "variants": [
+    "Venice | tencent/hy4-preview-20260827"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | venice/uncensored",
+   "provider": "Venice",
+   "model_base": "venice/uncensored",
+   "variants": [
+    "Venice | venice/uncensored"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | xiaomi/mimo-v2.6-flash",
+   "provider": "Venice",
+   "model_base": "xiaomi/mimo-v2.6-flash",
+   "variants": [
+    "Venice | xiaomi/mimo-v2.6-flash-20260921"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | z-ai/glm-4.6",
+   "provider": "Venice",
+   "model_base": "z-ai/glm-4.6",
+   "variants": [
+    "Venice | z-ai/glm-4.6"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | z-ai/glm-4.7",
+   "provider": "Venice",
+   "model_base": "z-ai/glm-4.7",
+   "variants": [
+    "Venice | z-ai/glm-4.7-20251222"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | z-ai/glm-5.2",
+   "provider": "Venice",
+   "model_base": "z-ai/glm-5.2",
+   "variants": [
+    "Venice | z-ai/glm-5.2-20260616"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | z-ai/glm-5.3",
+   "provider": "Venice",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "Venice | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Venice | z-ai/glm-5.3-flash",
+   "provider": "Venice",
+   "model_base": "z-ai/glm-5.3-flash",
+   "variants": [
+    "Venice | z-ai/glm-5.3-flash-20260826"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Wafer | deepseek/deepseek-v4-flash",
+   "provider": "Wafer",
+   "model_base": "deepseek/deepseek-v4-flash",
+   "variants": [
+    "Wafer | deepseek/deepseek-v4-flash-20260423",
+    "Wafer | deepseek/deepseek-v4-flash-20260731"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Wafer | deepseek/deepseek-v4-pro",
+   "provider": "Wafer",
+   "model_base": "deepseek/deepseek-v4-pro",
+   "variants": [
+    "Wafer | deepseek/deepseek-v4-pro-20260813"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Wafer | deepseek/deepseek-v4.1-flash",
+   "provider": "Wafer",
+   "model_base": "deepseek/deepseek-v4.1-flash",
+   "variants": [
+    "Wafer | deepseek/deepseek-v4.1-flash-20260910",
+    "Wafer | deepseek/deepseek-v4.1-flash-20261017"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Wafer | minimax/minimax-m3.1-flash",
+   "provider": "Wafer",
+   "model_base": "minimax/minimax-m3.1-flash",
+   "variants": [
+    "Wafer | minimax/minimax-m3.1-flash-20261019"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Wafer | moonshotai/kimi-k3",
+   "provider": "Wafer",
+   "model_base": "moonshotai/kimi-k3",
+   "variants": [
+    "Wafer | moonshotai/kimi-k3-20260715"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Wafer | moonshotai/kimi-k3.1-pro",
+   "provider": "Wafer",
+   "model_base": "moonshotai/kimi-k3.1-pro",
+   "variants": [
+    "Wafer | moonshotai/kimi-k3.1-pro-20261023"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Wafer | qwen/qwen3.8-27b",
+   "provider": "Wafer",
+   "model_base": "qwen/qwen3.8-27b",
+   "variants": [
+    "Wafer | qwen/qwen3.8-27b-20260814"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Wafer | z-ai/glm-5.2",
+   "provider": "Wafer",
+   "model_base": "z-ai/glm-5.2",
+   "variants": [
+    "Wafer | z-ai/glm-5.2-20260616"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Wafer | z-ai/glm-5.3",
+   "provider": "Wafer",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "Wafer | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "Wafer | z-ai/glm-5.3-flash",
+   "provider": "Wafer",
+   "model_base": "z-ai/glm-5.3-flash",
+   "variants": [
+    "Wafer | z-ai/glm-5.3-flash-20260826"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "xAI | x-ai/grok-4.20",
+   "provider": "xAI",
+   "model_base": "x-ai/grok-4.20",
+   "variants": [
+    "xAI | x-ai/grok-4.20-20260309"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "xAI | x-ai/grok-4.20-multi-agent",
+   "provider": "xAI",
+   "model_base": "x-ai/grok-4.20-multi-agent",
+   "variants": [
+    "xAI | x-ai/grok-4.20-multi-agent-20260309"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "xAI | x-ai/grok-4.3",
+   "provider": "xAI",
+   "model_base": "x-ai/grok-4.3",
+   "variants": [
+    "xAI | x-ai/grok-4.3-20260430"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "xAI | x-ai/grok-4.5",
+   "provider": "xAI",
+   "model_base": "x-ai/grok-4.5",
+   "variants": [
+    "xAI | x-ai/grok-4.5-20260708"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "xAI | x-ai/grok-4.6",
+   "provider": "xAI",
+   "model_base": "x-ai/grok-4.6",
+   "variants": [
+    "xAI | x-ai/grok-4.6-20260810"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "xAI | x-ai/grok-4.7",
+   "provider": "xAI",
+   "model_base": "x-ai/grok-4.7",
+   "variants": [
+    "xAI | x-ai/grok-4.7-20260916"
+   ],
+   "safety_retention": false
+  }
+ ]
+}
