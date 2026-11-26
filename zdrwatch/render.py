@@ -23,9 +23,9 @@ TITLES = {
 }
 
 CAUSE_TITLES = {
-    "zdr_eligibility_lost": "lost ZDR eligibility (provider still serves the model)",
-    "endpoint_retired": "dropped from the ZDR list (provider no longer serves the model)",
-    "model_retired": "dropped from the ZDR list (model retired from the catalog)",
+    "zdr_eligibility_lost": "lost ZDR eligibility (provider still served the model at check time)",
+    "endpoint_retired": "dropped from the ZDR list (provider did not serve the model at check time)",
+    "model_retired": "dropped from the ZDR list (model absent from the catalog at check time)",
     None: "dropped from the published ZDR list",
     "unknown": "dropped from the published ZDR list",
 }
@@ -137,6 +137,10 @@ td, th {{ border: 1px solid #ddd; padding: 0.35rem 0.6rem; text-align: left; fon
 <a href="current.json">current.json</a></p>
 <div class="limits"><strong>What this is not:</strong> {html.escape(LIMITS_TEXT)}</div>
 <h2>Recent changes</h2>
+<p><small>Removal notes reflect OpenRouter's catalog as observed at check time.
+They cannot prove why a flag changed, and say nothing about what any provider
+did with data. Archive-derived removals predate classification and are only
+known to have left the published list.</small></p>
 <table><tr><th>Observation window</th><th>Route</th><th>Change</th></tr>
 {''.join(rows) if rows else '<tr><td colspan="3">No changes recorded yet.</td></tr>'}
 </table>
