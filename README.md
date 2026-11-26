@@ -69,8 +69,9 @@ by anything other than the date suffix.
 - It tracks changes in **OpenRouter's published flag only**. It cannot show
   whether any provider actually retains, reads or deletes your data.
 - Changes are dated to the **window between two observations**, not an exact
-  moment. Live checks run hourly (GitHub may delay scheduled runs); backfilled
-  history uses Internet Archive captures at irregular times.
+  moment. The intended live cadence is hourly once CI is enabled (GitHub may
+  delay scheduled runs); backfilled history uses Internet Archive captures at
+  irregular times.
 - Entries OpenRouter marks **Safety Retention** appear on the ZDR list but may
   retain data for safety reasons and are only used if the caller allows them;
   they are flagged `safety_retention` in the data. Captures from before the
@@ -85,8 +86,13 @@ by anything other than the date suffix.
   `safety_retention_changed`, `variants_changed`) to `data/history/events.jsonl`.
   Dated variant swaps (e.g. `model-20251022` -> `model-20251101`) are reported
   as variant changes, not as eligibility loss.
-- `.github/workflows/watch.yml` runs the check hourly and commits changes;
-  `pages.yml` publishes `docs/` to GitHub Pages. Both are free for public repos.
+- Continuous operation is two small GitHub Actions workflows (`watch.yml`
+  hourly check + commit, `pages.yml` deploy), free for public repos. They are
+  **not in this commit**: the token used to publish lacks the `workflow`
+  scope GitHub requires for pushing workflow files. To enable the live watch,
+  add the `workflow` scope to the token and push them, or add the two files
+  under `.github/workflows/` via the GitHub web UI once. Until then the site
+  shows the seeded history only and no new checks are running.
 - `python -m zdrwatch backfill` seeds history from Internet Archive captures
   (already run; seeded events are committed).
 
