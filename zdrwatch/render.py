@@ -13,6 +13,8 @@ LIMITS_TEXT = (
     "and this feed records when the claim appears, moves or disappears. "
     "History before the first live snapshot comes from Internet Archive captures at irregular times, "
     "so each change is dated to the window between two observations, not an exact moment. "
+    "Archived-catalog notes rest on Wayback captures whose completeness is unverified; "
+    "they record observations, not causes. "
     "Scope is one router (OpenRouter). Not affiliated with OpenRouter."
 )
 

@@ -77,7 +77,9 @@ def fetch_capture(ts, attempts=3):
 def build_index(out_path, sleep=1.0, progress=None, only=None):
     """Fetch every archived /api/v1/models capture once; store integrity metadata
     plus id sets. Resumes from the existing file. Stops (does not retry) on a
-    Wayback challenge; transient failures are skipped for a later run."""
+    Wayback challenge; transient failures are skipped for a later run.
+    Entries carrying a "blocked" marker (e.g. Wayback TLS throttling observed)
+    are never retried automatically; clear the marker deliberately to retry."""
     index = {}
     if os.path.exists(out_path):
         with open(out_path, encoding="utf-8") as f:
@@ -87,7 +89,7 @@ def build_index(out_path, sleep=1.0, progress=None, only=None):
     for ts in list_model_captures():
         if wanted is not None and ts not in wanted:
             continue
-        if ts in index and index[ts].get("models"):
+        if ts in index and (index[ts].get("models") or index[ts].get("blocked")):
             continue
         try:
             rec = fetch_capture(ts)
@@ -115,8 +117,10 @@ def _neighbor_completeness(index):
 
     A truncated or partially replayed catalog would show a count far below its
     neighbors; absence evidence from such a capture is worthless. Rule: a
-    capture is complete when its count is >= 60% of each available neighbor's
-    (edge captures compare against the single neighbor they have).
+    capture passes this screen when its count is >= 60% of each available
+    neighbor's (edge captures compare against the single neighbor they have).
+    This is a coarse anomaly screen, not proof of completeness; capture
+    completeness remains unverified.
     """
     def _count(rec):
         return rec.get("models") or len(rec.get("ids") or [])

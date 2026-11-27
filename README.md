@@ -114,8 +114,14 @@ and show the model present before and absent after, the event carries a
 cause: catalogs can be incomplete and a model can vanish and reappear between
 captures. Capture payloads are not stored; each index entry records the Wayback
 timestamp plus sha256/size/model-count so any capture can be re-fetched and
-verified. 107 of 1,216 unclassified removals currently carry this evidence
-(median bracket gaps: 3.8 days before, 1.1 days after; max 17.5).
+verified. Only events whose two bracketing captures passed that integrity
+re-fetch carry the note; captures that fail re-fetch (e.g. Wayback throttling)
+are excluded and marked blocked in the index, not retried automatically.
+A capture passes a coarse completeness screen (model count >= 60% of its
+temporal neighbors) that filters out truncated replays, but completeness is
+otherwise unverified - absence in an archived catalog is not established.
+91 of 1,216 unclassified removals currently carry this evidence
+(median bracket gaps: 3.8 days before, 2.1 days after; max 8.6 / 17.5).
 
 ## Alerts
 
