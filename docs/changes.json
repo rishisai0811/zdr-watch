@@ -41537,5 +41537,48 @@
    "Google | deepseek/deepseek-v4.1-flash-20261017"
   ],
   "variants_lost": []
+ },
+ {
+  "between": [
+   "2026-11-26T06:46:45Z",
+   "2026-11-27T03:53:10Z"
+  ],
+  "model_base": "inclusionai/lingsante-3.1-air-vl",
+  "provider": "DeepInfra",
+  "route_key": "DeepInfra | inclusionai/lingsante-3.1-air-vl",
+  "safety_retention": false,
+  "type": "route_added",
+  "variants_gained": [
+   "DeepInfra | inclusionai/lingsante-3.1-air-vl-20261126"
+  ]
+ },
+ {
+  "between": [
+   "2026-11-26T06:46:45Z",
+   "2026-11-27T03:53:10Z"
+  ],
+  "model_base": "moonshotai/kimi-k3.1-pro",
+  "provider": "Reka",
+  "route_key": "Reka | moonshotai/kimi-k3.1-pro",
+  "safety_retention": false,
+  "type": "route_added",
+  "variants_gained": [
+   "Reka | moonshotai/kimi-k3.1-pro-20261023"
+  ]
+ },
+ {
+  "between": [
+   "2026-11-26T06:46:45Z",
+   "2026-11-27T03:53:10Z"
+  ],
+  "cause": "endpoint_retired",
+  "model_base": "thinkingmachines/inkling-2-mini",
+  "provider": "Relace",
+  "route_key": "Relace | thinkingmachines/inkling-2-mini",
+  "safety_retention": false,
+  "type": "route_removed",
+  "variants_lost": [
+   "Relace | thinkingmachines/inkling-2-mini-20261120"
+  ]
  }
 ]

@@ -3,6 +3,12 @@
 Each entry is dated to the window between two observations of OpenRouter's
 published ZDR endpoint list. See README.md for what this can and cannot show.
 
+## 2026-11-27
+
+- **DeepInfra | inclusionai/lingsante-3.1-air-vl** gained ZDR eligibility between 2026-11-26 and 2026-11-27
+- **Reka | moonshotai/kimi-k3.1-pro** gained ZDR eligibility between 2026-11-26 and 2026-11-27
+- **Relace | thinkingmachines/inkling-2-mini** dropped from the ZDR list (provider did not serve the model at check time) between 2026-11-26 and 2026-11-27
+
 ## 2026-11-26
 
 - **DeepInfra | tencent/hy4** gained ZDR eligibility between 2026-11-21 and 2026-11-26

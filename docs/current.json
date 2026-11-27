@@ -1,7 +1,7 @@
 {
- "captured_at": "2026-11-26T06:46:45Z",
+ "captured_at": "2026-11-27T03:53:10Z",
  "source": "live",
- "route_count": 725,
+ "route_count": 726,
  "routes": [
   {
    "route_key": "AkashML | google/gemma-4-26b-a4b-it",
@@ -1835,6 +1835,15 @@
    "model_base": "inclusionai/ling-3.0-flash-vl",
    "variants": [
     "DeepInfra | inclusionai/ling-3.0-flash-vl-20260910"
+   ],
+   "safety_retention": false
+  },
+  {
+   "route_key": "DeepInfra | inclusionai/lingsante-3.1-air-vl",
+   "provider": "DeepInfra",
+   "model_base": "inclusionai/lingsante-3.1-air-vl",
+   "variants": [
+    "DeepInfra | inclusionai/lingsante-3.1-air-vl-20261126"
    ],
    "safety_retention": false
   },
@@ -5498,6 +5507,15 @@
    "safety_retention": false
   },
   {
+   "route_key": "Reka | moonshotai/kimi-k3.1-pro",
+   "provider": "Reka",
+   "model_base": "moonshotai/kimi-k3.1-pro",
+   "variants": [
+    "Reka | moonshotai/kimi-k3.1-pro-20261023"
+   ],
+   "safety_retention": false
+  },
+  {
    "route_key": "Reka | qwen/qwen3.6-27b",
    "provider": "Reka",
    "model_base": "qwen/qwen3.6-27b",
@@ -5605,15 +5623,6 @@
    "model_base": "relace/relace-search",
    "variants": [
     "Relace | relace/relace-search-20251208"
-   ],
-   "safety_retention": false
-  },
-  {
-   "route_key": "Relace | thinkingmachines/inkling-2-mini",
-   "provider": "Relace",
-   "model_base": "thinkingmachines/inkling-2-mini",
-   "variants": [
-    "Relace | thinkingmachines/inkling-2-mini-20261120"
    ],
    "safety_retention": false
   },
