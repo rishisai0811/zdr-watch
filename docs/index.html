@@ -11,6 +11,8 @@ td, th { border: 1px solid #ddd; padding: 0.35rem 0.6rem; text-align: left; font
 .route_added td, td.route_added { background: #e8f5e9; }
 .safety_retention_changed td, td.safety_retention_changed { background: #fff8e1; }
 .limits { background: #f5f5f5; border-left: 4px solid #999; padding: 0.6rem 1rem; font-size: 0.9rem; }
+.route { border: 1px solid #ddd; padding: 0.5rem 0.7rem; margin: 0.5rem 0; }
+.route ul { margin: 0.3rem 0 0.1rem; padding-left: 1.2rem; font-size: 0.9rem; }
 </style></head><body>
 <h1>OpenRouter ZDR eligibility watch</h1>
 <p><small>Updated once daily by a scheduled run (interim). Hourly checks start
@@ -22,6 +24,38 @@ actual freshest observation.</small></p>
 <a href="feed.xml">Atom feed</a> &middot; <a href="changes.json">changes.json</a> &middot;
 <a href="current.json">current.json</a></p>
 <div class="limits"><strong>What this is not:</strong> This tracks changes in OpenRouter&#x27;s published ZDR-eligibility list only. It cannot show whether any provider actually retains or deletes data; the flag is a claim, and this feed records when the claim appears, moves or disappears. History before the first live snapshot comes from Internet Archive captures at irregular times, so each change is dated to the window between two observations, not an exact moment. Scope is one router (OpenRouter). Not affiliated with OpenRouter.</div>
+<h2>Route history lookup</h2>
+<p><small>Type a provider or model name (e.g. <em>novita</em> or <em>kimi</em>).
+Archive starts 2025-08-27; a route with no recorded changes was
+stable across this archive's observations, which is all this site can say.
+History reflects the published list as observed - the caveat above applies.</small></p>
+<input id="q" type="search" placeholder="provider or model name"
+ style="width:100%;padding:0.4rem;box-sizing:border-box" autocomplete="off">
+<div id="lookup-results"></div>
+<script>
+let ROUTES=null;
+const q=document.getElementById('q'),res=document.getElementById('lookup-results');
+function esc(s){return s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+async function loadRoutes(){if(ROUTES)return ROUTES;const r=await fetch('routes.json');ROUTES=await r.json();return ROUTES;}
+q.addEventListener('input',async()=>{
+  const v=q.value.trim().toLowerCase();
+  if(v.length<2){res.innerHTML='';return;}
+  const data=await loadRoutes();
+  const day=data.generated_at.slice(0,10);
+  const keys=Object.keys(data.routes).filter(k=>k.toLowerCase().includes(v)).sort().slice(0,15);
+  res.innerHTML=keys.map(k=>{
+    const r=data.routes[k];
+    const status=r.now
+      ?'On the published list at last observation ('+day+')'+(r.sr?' [safety-retention]':'')
+      :'Not on the published list at last observation ('+day+')';
+    const evs=r.ev.length
+      ?'<ul>'+r.ev.map(e=>{const lo=e.b[0].slice(0,10),hi=e.b[1].slice(0,10);
+        return '<li>'+esc(lo)+(lo!==hi?' &rarr; '+esc(hi):'')+': '+esc(e.w)+'</li>';}).join('')+'</ul>'
+      :'<p><small>No recorded changes in this archive.</small></p>';
+    return '<div class="route"><strong>'+esc(k)+'</strong> <small>'+status+'</small>'+evs+'</div>';
+  }).join('')||'<p><small>No matching route.</small></p>';
+});
+</script>
 <h2>Recent changes</h2>
 <p><small>Removal notes reflect OpenRouter's catalog as observed at check time.
 They cannot prove why a flag changed, and say nothing about what any provider

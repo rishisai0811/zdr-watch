@@ -20,7 +20,7 @@ from .classify import classify_removals
 from .fetch import fetch_catalog_model_ids, fetch_live, fetch_model_providers
 from .history import append_events, dedupe_events, events_chronological, load_events
 from .model import normalize, snapshot_from_json, snapshot_to_json
-from .render import render_changelog, render_feed, render_index
+from .render import render_changelog, render_feed, render_index, render_routes_json
 
 DATA_LATEST = "data/latest.json"
 EVENTS = "data/history/events.jsonl"
@@ -52,6 +52,7 @@ def render_all(site_url):
     events = events_chronological(dedupe_events(load_events(EVENTS)))
     os.makedirs(DOCS, exist_ok=True)
     render_index(snap, events, os.path.join(DOCS, "index.html"), site_url)
+    render_routes_json(snap, events, os.path.join(DOCS, "routes.json"))
     render_feed(events, os.path.join(DOCS, "feed.xml"), site_url)
     render_changelog(events, os.path.join(DOCS, "CHANGELOG.md"))
     with open(os.path.join(DOCS, "changes.json"), "w", encoding="utf-8") as f:

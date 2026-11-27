@@ -97,8 +97,36 @@ def render_feed(events, out_path, site_url, title="OpenRouter ZDR eligibility ch
     ET.ElementTree(feed).write(out_path, encoding="utf-8", xml_declaration=True)
 
 
+def render_routes_json(current_snap, events, out_path):
+    """Per-route history index backing the site lookup (docs/routes.json).
+
+    Every route currently on the list appears (now=true), plus every route
+    with recorded events (now=false if absent from the latest snapshot).
+    Events are newest-first and pre-worded with title_for so the page's
+    JavaScript stays a dumb renderer of the same wording as the feed.
+    """
+    archive_start = min((e["between"][0] for e in events), default=None)
+    routes = {}
+    for key, r in current_snap["routes"].items():
+        routes[key] = {"now": True, "sr": r.safety_retention, "ev": []}
+    for e in events:
+        rec = routes.setdefault(e["route_key"], {"now": False, "sr": None, "ev": []})
+        rec["ev"].append({"t": e["type"], "w": title_for(e), "b": list(e["between"])})
+    for rec in routes.values():
+        rec["ev"].sort(key=lambda x: x["b"][1], reverse=True)
+    out = {
+        "generated_at": current_snap["captured_at"],
+        "archive_start": archive_start,
+        "caveat": LIMITS_TEXT,
+        "routes": routes,
+    }
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(out, f, separators=(",", ":"))
+
+
 def render_index(current_snap, events, out_path, site_url):
     routes = current_snap["routes"]
+    archive_day = (min((e["between"][0] for e in events), default="unknown") or "unknown")[:10]
     total = len(routes)
     sr_count = sum(1 for r in routes.values() if r.safety_retention is True)
     prov_counts = Counter(r.provider for r in routes.values())
@@ -128,6 +156,8 @@ td, th {{ border: 1px solid #ddd; padding: 0.35rem 0.6rem; text-align: left; fon
 .route_added td, td.route_added {{ background: #e8f5e9; }}
 .safety_retention_changed td, td.safety_retention_changed {{ background: #fff8e1; }}
 .limits {{ background: #f5f5f5; border-left: 4px solid #999; padding: 0.6rem 1rem; font-size: 0.9rem; }}
+.route {{ border: 1px solid #ddd; padding: 0.5rem 0.7rem; margin: 0.5rem 0; }}
+.route ul {{ margin: 0.3rem 0 0.1rem; padding-left: 1.2rem; font-size: 0.9rem; }}
 </style></head><body>
 <h1>OpenRouter ZDR eligibility watch</h1>
 <p><small>Updated once daily by a scheduled run (interim). Hourly checks start
@@ -139,6 +169,38 @@ actual freshest observation.</small></p>
 <a href="feed.xml">Atom feed</a> &middot; <a href="changes.json">changes.json</a> &middot;
 <a href="current.json">current.json</a></p>
 <div class="limits"><strong>What this is not:</strong> {html.escape(LIMITS_TEXT)}</div>
+<h2>Route history lookup</h2>
+<p><small>Type a provider or model name (e.g. <em>novita</em> or <em>kimi</em>).
+Archive starts {archive_day}; a route with no recorded changes was
+stable across this archive's observations, which is all this site can say.
+History reflects the published list as observed - the caveat above applies.</small></p>
+<input id="q" type="search" placeholder="provider or model name"
+ style="width:100%;padding:0.4rem;box-sizing:border-box" autocomplete="off">
+<div id="lookup-results"></div>
+<script>
+let ROUTES=null;
+const q=document.getElementById('q'),res=document.getElementById('lookup-results');
+function esc(s){{return s.replace(/[&<>"]/g,c=>({{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}}[c]));}}
+async function loadRoutes(){{if(ROUTES)return ROUTES;const r=await fetch('routes.json');ROUTES=await r.json();return ROUTES;}}
+q.addEventListener('input',async()=>{{
+  const v=q.value.trim().toLowerCase();
+  if(v.length<2){{res.innerHTML='';return;}}
+  const data=await loadRoutes();
+  const day=data.generated_at.slice(0,10);
+  const keys=Object.keys(data.routes).filter(k=>k.toLowerCase().includes(v)).sort().slice(0,15);
+  res.innerHTML=keys.map(k=>{{
+    const r=data.routes[k];
+    const status=r.now
+      ?'On the published list at last observation ('+day+')'+(r.sr?' [safety-retention]':'')
+      :'Not on the published list at last observation ('+day+')';
+    const evs=r.ev.length
+      ?'<ul>'+r.ev.map(e=>{{const lo=e.b[0].slice(0,10),hi=e.b[1].slice(0,10);
+        return '<li>'+esc(lo)+(lo!==hi?' &rarr; '+esc(hi):'')+': '+esc(e.w)+'</li>';}}).join('')+'</ul>'
+      :'<p><small>No recorded changes in this archive.</small></p>';
+    return '<div class="route"><strong>'+esc(k)+'</strong> <small>'+status+'</small>'+evs+'</div>';
+  }}).join('')||'<p><small>No matching route.</small></p>';
+}});
+</script>
 <h2>Recent changes</h2>
 <p><small>Removal notes reflect OpenRouter's catalog as observed at check time.
 They cannot prove why a flag changed, and say nothing about what any provider

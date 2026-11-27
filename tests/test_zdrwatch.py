@@ -10,7 +10,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from zdrwatch.model import normalize, route_key_for, parse_name, snapshot_to_json, snapshot_from_json
 from zdrwatch.diff import diff_snapshots, summarize
 from zdrwatch.history import dedupe_events, events_chronological
-from zdrwatch.render import render_feed, render_changelog, render_index
+from zdrwatch.render import render_feed, render_changelog, render_index, render_routes_json
 
 
 def entry(name, **kw):
@@ -133,6 +133,43 @@ class TestHistoryAndRender:
         render_index(snap, evs, str(idx), "https://example.github.io/zdr-watch")
         page = idx.read_text()
         assert "OpenRouter ZDR eligibility watch" in page and "A | m/x" in page
+
+    def test_routes_json_lookup_contract(self, tmp_path):
+        evs = [
+            {"type": "route_removed", "route_key": "A | m/x", "provider": "A", "model_base": "m/x",
+             "safety_retention": False, "variants_lost": ["A | m/x-1"], "cause": "zdr_eligibility_lost",
+             "between": ["2026-11-01T00:00:00Z", "2026-11-02T00:00:00Z"]},
+            {"type": "route_added", "route_key": "A | m/x", "provider": "A", "model_base": "m/x",
+             "safety_retention": False, "variants_gained": ["A | m/x-2"],
+             "between": ["2026-10-01T00:00:00Z", "2026-10-02T00:00:00Z"]},
+        ]
+        snap = normalize([entry("B | m/y", safety_retention=True)], "2026-11-02T00:00:00Z", "live")
+        out = tmp_path / "routes.json"
+        render_routes_json(snap, evs, str(out))
+        data = json.loads(out.read_text())
+        current = data["routes"]["B | m/y"]
+        assert current["now"] is True and current["sr"] is True and current["ev"] == []
+        removed = data["routes"]["A | m/x"]
+        assert removed["now"] is False
+        assert [e["t"] for e in removed["ev"]] == ["route_removed", "route_added"]  # newest first
+        assert removed["ev"][0]["w"].startswith("lost ZDR eligibility")
+        assert removed["ev"][0]["b"] == ["2026-11-01T00:00:00Z", "2026-11-02T00:00:00Z"]
+        assert data["archive_start"] == "2026-10-01T00:00:00Z"
+        assert data["generated_at"] == "2026-11-02T00:00:00Z"
+        assert "cannot show whether any provider actually retains" in data["caveat"]
+
+    def test_index_has_history_lookup(self, tmp_path):
+        evs = [{"type": "route_added", "route_key": "A | m/x", "provider": "A", "model_base": "m/x",
+                "safety_retention": False, "variants_gained": [],
+                "between": ["2026-11-01T00:00:00Z", "2026-11-02T00:00:00Z"]}]
+        snap = normalize([entry("A | m/x", safety_retention=False)], "2026-11-02T00:00:00Z", "live")
+        idx = tmp_path / "index.html"
+        render_index(snap, evs, str(idx), "https://example.github.io/zdr-watch")
+        page = idx.read_text()
+        assert "Route history lookup" in page
+        assert 'id="q"' in page and "routes.json" in page
+        assert "stable" in page  # archive-stability caveat wording
+        assert "2026-11-01" in page  # archive start date shown
 
 
 from zdrwatch.classify import classify_removals

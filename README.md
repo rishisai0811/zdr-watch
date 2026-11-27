@@ -99,7 +99,10 @@ by anything other than the date suffix.
 
 ## Alerts
 
-Subscribe to `feed.xml` in any feed reader (currently refreshed daily; see above), or point a Slack/Discord RSS
+Use the **route history lookup** on the site to answer "was provider X | model Y
+on the ZDR list on a given date, and when did that change?" (searches
+`routes.json`, covering every current route plus every route with recorded
+changes). Subscribe to `feed.xml` in any feed reader (currently refreshed daily; see above), or point a Slack/Discord RSS
 integration at it. You can also watch this repository; every eligibility
 change lands as a commit.
 
