@@ -140,7 +140,7 @@ def cmd_backfill_catalog(site_url):
 def main(argv=None):
     p = argparse.ArgumentParser(prog="zdrwatch")
     p.add_argument("command", choices=["check", "backfill", "backfill-catalog", "render"])
-    p.add_argument("--site-url", default=os.environ.get("SITE_URL", "https://example.github.io/zdr-watch"))
+    p.add_argument("--site-url", default=os.environ.get("SITE_URL", "https://rishisai0811.github.io/zdr-watch"))
     p.add_argument("--limit", type=int, default=None, help="backfill: only the N newest captures")
     args = p.parse_args(argv)
     if args.command == "check":
