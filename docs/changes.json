@@ -5955,9 +5955,9 @@
    "2025-11-19T23:05:39Z",
    "2025-12-03T10:23:13Z"
   ],
-  "model_base": "arcee-ai/trinity-mini-20251201:free",
+  "model_base": "arcee-ai/trinity-mini:free",
   "provider": "Arcee AI",
-  "route_key": "Arcee AI | arcee-ai/trinity-mini-20251201:free",
+  "route_key": "Arcee AI | arcee-ai/trinity-mini:free",
   "safety_retention": null,
   "type": "route_added",
   "variants_gained": [
@@ -6165,9 +6165,9 @@
    "2025-11-19T23:05:39Z",
    "2025-12-03T10:23:13Z"
   ],
-  "model_base": "allenai/olmo-3-32b-think-20251121:free",
+  "model_base": "allenai/olmo-3-32b-think:free",
   "provider": "Parasail",
-  "route_key": "Parasail | allenai/olmo-3-32b-think-20251121:free",
+  "route_key": "Parasail | allenai/olmo-3-32b-think:free",
   "safety_retention": null,
   "type": "route_added",
   "variants_gained": [
@@ -6851,9 +6851,9 @@
    "2025-12-09T12:21:25Z",
    "2025-12-23T06:54:32Z"
   ],
-  "model_base": "allenai/olmo-3.1-32b-think-20251215:free",
+  "model_base": "allenai/olmo-3.1-32b-think:free",
   "provider": "Parasail",
-  "route_key": "Parasail | allenai/olmo-3.1-32b-think-20251215:free",
+  "route_key": "Parasail | allenai/olmo-3.1-32b-think:free",
   "safety_retention": null,
   "type": "route_added",
   "variants_gained": [
@@ -7887,9 +7887,9 @@
    "2026-01-05T14:14:11Z",
    "2026-01-26T19:48:55Z"
   ],
-  "model_base": "allenai/molmo-2-8b-20260109:free",
+  "model_base": "allenai/molmo-2-8b:free",
   "provider": "Parasail",
-  "route_key": "Parasail | allenai/molmo-2-8b-20260109:free",
+  "route_key": "Parasail | allenai/molmo-2-8b:free",
   "safety_retention": null,
   "type": "route_added",
   "variants_gained": [
@@ -8587,9 +8587,9 @@
    "2026-01-05T14:14:11Z",
    "2026-01-26T19:48:55Z"
   ],
-  "model_base": "allenai/olmo-3-32b-think-20251121:free",
+  "model_base": "allenai/olmo-3-32b-think:free",
   "provider": "Parasail",
-  "route_key": "Parasail | allenai/olmo-3-32b-think-20251121:free",
+  "route_key": "Parasail | allenai/olmo-3-32b-think:free",
   "safety_retention": null,
   "type": "route_removed",
   "variants_lost": [
@@ -8601,9 +8601,9 @@
    "2026-01-05T14:14:11Z",
    "2026-01-26T19:48:55Z"
   ],
-  "model_base": "allenai/olmo-3.1-32b-think-20251215:free",
+  "model_base": "allenai/olmo-3.1-32b-think:free",
   "provider": "Parasail",
-  "route_key": "Parasail | allenai/olmo-3.1-32b-think-20251215:free",
+  "route_key": "Parasail | allenai/olmo-3.1-32b-think:free",
   "safety_retention": null,
   "type": "route_removed",
   "variants_lost": [
@@ -9819,9 +9819,9 @@
    "2026-01-29T03:33:27Z",
    "2026-02-19T04:56:05Z"
   ],
-  "model_base": "allenai/molmo-2-8b-20260109:free",
+  "model_base": "allenai/molmo-2-8b:free",
   "provider": "Parasail",
-  "route_key": "Parasail | allenai/molmo-2-8b-20260109:free",
+  "route_key": "Parasail | allenai/molmo-2-8b:free",
   "safety_retention": null,
   "type": "route_removed",
   "variants_lost": [
@@ -11079,9 +11079,9 @@
    "2026-02-23T23:56:27Z",
    "2026-03-16T07:01:01Z"
   ],
-  "model_base": "nvidia/llama-nemotron-embed-vl-1b-v2-20260224:free",
+  "model_base": "nvidia/llama-nemotron-embed-vl-1b-v2:free",
   "provider": "Nvidia",
-  "route_key": "Nvidia | nvidia/llama-nemotron-embed-vl-1b-v2-20260224:free",
+  "route_key": "Nvidia | nvidia/llama-nemotron-embed-vl-1b-v2:free",
   "safety_retention": null,
   "type": "route_added",
   "variants_gained": [
@@ -13641,9 +13641,9 @@
    "2026-03-26T21:31:22Z",
    "2026-04-15T13:45:37Z"
   ],
-  "model_base": "arcee-ai/trinity-mini-20251201:free",
+  "model_base": "arcee-ai/trinity-mini:free",
   "provider": "Arcee AI",
-  "route_key": "Arcee AI | arcee-ai/trinity-mini-20251201:free",
+  "route_key": "Arcee AI | arcee-ai/trinity-mini:free",
   "safety_retention": null,
   "type": "route_removed",
   "variants_lost": [
@@ -16217,9 +16217,9 @@
    "2026-04-15T13:45:37Z",
    "2026-05-19T21:50:47Z"
   ],
-  "model_base": "anthropic/claude-3-7-sonnet-20250219:thinking",
+  "model_base": "anthropic/claude-3-7-sonnet:thinking",
   "provider": "Google",
-  "route_key": "Google | anthropic/claude-3-7-sonnet-20250219:thinking",
+  "route_key": "Google | anthropic/claude-3-7-sonnet:thinking",
   "safety_retention": null,
   "type": "route_removed",
   "variants_lost": [
@@ -16343,9 +16343,9 @@
    "2026-04-15T13:45:37Z",
    "2026-05-19T21:50:47Z"
   ],
-  "model_base": "nvidia/llama-nemotron-embed-vl-1b-v2-20260224:free",
+  "model_base": "nvidia/llama-nemotron-embed-vl-1b-v2:free",
   "provider": "Nvidia",
-  "route_key": "Nvidia | nvidia/llama-nemotron-embed-vl-1b-v2-20260224:free",
+  "route_key": "Nvidia | nvidia/llama-nemotron-embed-vl-1b-v2:free",
   "safety_retention": null,
   "type": "route_removed",
   "variants_lost": [
@@ -20992,9 +20992,9 @@
    "2026-06-30T08:33:17Z",
    "2026-07-07T02:28:31Z"
   ],
-  "model_base": "tencent/hy3-20260706:free",
+  "model_base": "tencent/hy3:free",
   "provider": "Novita",
-  "route_key": "Novita | tencent/hy3-20260706:free",
+  "route_key": "Novita | tencent/hy3:free",
   "safety_retention": null,
   "type": "route_added",
   "variants_gained": [
@@ -22196,9 +22196,9 @@
    "2026-07-07T02:28:31Z",
    "2026-07-31T20:05:45Z"
   ],
-  "model_base": "fish-audio/s2.1-pro-free-20260729:free",
+  "model_base": "fish-audio/s2.1-pro-free:free",
   "provider": "Fish Audio",
-  "route_key": "Fish Audio | fish-audio/s2.1-pro-free-20260729:free",
+  "route_key": "Fish Audio | fish-audio/s2.1-pro-free:free",
   "safety_retention": null,
   "type": "route_added",
   "variants_gained": [
@@ -22532,9 +22532,9 @@
    "2026-07-07T02:28:31Z",
    "2026-07-31T20:05:45Z"
   ],
-  "model_base": "inclusionai/ling-3.0-flash-20260723:free",
+  "model_base": "inclusionai/ling-3.0-flash:free",
   "provider": "Novita",
-  "route_key": "Novita | inclusionai/ling-3.0-flash-20260723:free",
+  "route_key": "Novita | inclusionai/ling-3.0-flash:free",
   "safety_retention": null,
   "type": "route_added",
   "variants_gained": [
@@ -23764,9 +23764,9 @@
    "2026-07-07T02:28:31Z",
    "2026-07-31T20:05:45Z"
   ],
-  "model_base": "tencent/hy3-20260706:free",
+  "model_base": "tencent/hy3:free",
   "provider": "Novita",
-  "route_key": "Novita | tencent/hy3-20260706:free",
+  "route_key": "Novita | tencent/hy3:free",
   "safety_retention": null,
   "type": "route_removed",
   "variants_lost": [
@@ -24464,9 +24464,9 @@
    "2026-07-31T20:05:45Z",
    "2026-08-29T09:31:24Z"
   ],
-  "model_base": "z-ai/glm-5.2-20260616:free",
+  "model_base": "z-ai/glm-5.2:free",
   "provider": "Decart",
-  "route_key": "Decart | z-ai/glm-5.2-20260616:free",
+  "route_key": "Decart | z-ai/glm-5.2:free",
   "safety_retention": null,
   "type": "route_added",
   "variants_gained": [
@@ -24674,9 +24674,9 @@
    "2026-07-31T20:05:45Z",
    "2026-08-29T09:31:24Z"
   ],
-  "model_base": "deepgram/flux-tts-20260812:free",
+  "model_base": "deepgram/flux-tts:free",
   "provider": "Deepgram",
-  "route_key": "Deepgram | deepgram/flux-tts-20260812:free",
+  "route_key": "Deepgram | deepgram/flux-tts:free",
   "safety_retention": null,
   "type": "route_added",
   "variants_gained": [
@@ -25333,9 +25333,9 @@
    "2026-07-31T20:05:45Z",
    "2026-08-29T09:31:24Z"
   ],
-  "model_base": "inclusionai/ling-3.0-flash-fin-20260827:free",
+  "model_base": "inclusionai/ling-3.0-flash-fin:free",
   "provider": "Novita",
-  "route_key": "Novita | inclusionai/ling-3.0-flash-fin-20260827:free",
+  "route_key": "Novita | inclusionai/ling-3.0-flash-fin:free",
   "safety_retention": null,
   "type": "route_added",
   "variants_gained": [
@@ -26580,9 +26580,9 @@
    "2026-07-31T20:05:45Z",
    "2026-08-29T09:31:24Z"
   ],
-  "model_base": "inclusionai/ling-3.0-flash-20260723:free",
+  "model_base": "inclusionai/ling-3.0-flash:free",
   "provider": "Novita",
-  "route_key": "Novita | inclusionai/ling-3.0-flash-20260723:free",
+  "route_key": "Novita | inclusionai/ling-3.0-flash:free",
   "safety_retention": null,
   "type": "route_removed",
   "variants_lost": [
@@ -27920,9 +27920,9 @@
    "2026-08-29T09:31:34Z",
    "2026-09-19T18:24:18Z"
   ],
-  "model_base": "qwen/qwen3.8-27b-20260814:free",
+  "model_base": "qwen/qwen3.8-27b:free",
   "provider": "ModelRun",
-  "route_key": "ModelRun | qwen/qwen3.8-27b-20260814:free",
+  "route_key": "ModelRun | qwen/qwen3.8-27b:free",
   "safety_retention": null,
   "type": "route_added",
   "variants_gained": [
@@ -28004,9 +28004,9 @@
    "2026-08-29T09:31:34Z",
    "2026-09-19T18:24:18Z"
   ],
-  "model_base": "inclusionai/ling-3.0-flash-sante-20260904:free",
+  "model_base": "inclusionai/ling-3.0-flash-sante:free",
   "provider": "Novita",
-  "route_key": "Novita | inclusionai/ling-3.0-flash-sante-20260904:free",
+  "route_key": "Novita | inclusionai/ling-3.0-flash-sante:free",
   "safety_retention": null,
   "type": "route_added",
   "variants_gained": [
@@ -28018,9 +28018,9 @@
    "2026-08-29T09:31:34Z",
    "2026-09-19T18:24:18Z"
   ],
-  "model_base": "inclusionai/ling-3.0-flash-vl-20260910:free",
+  "model_base": "inclusionai/ling-3.0-flash-vl:free",
   "provider": "Novita",
-  "route_key": "Novita | inclusionai/ling-3.0-flash-vl-20260910:free",
+  "route_key": "Novita | inclusionai/ling-3.0-flash-vl:free",
   "safety_retention": null,
   "type": "route_added",
   "variants_gained": [
@@ -28032,9 +28032,9 @@
    "2026-08-29T09:31:34Z",
    "2026-09-19T18:24:18Z"
   ],
-  "model_base": "deepseek/deepseek-v4-flash-20260731:free",
+  "model_base": "deepseek/deepseek-v4-flash:free",
   "provider": "OpenInference",
-  "route_key": "OpenInference | deepseek/deepseek-v4-flash-20260731:free",
+  "route_key": "OpenInference | deepseek/deepseek-v4-flash:free",
   "safety_retention": null,
   "type": "route_added",
   "variants_gained": [
@@ -30025,9 +30025,9 @@
    "2026-09-19T18:24:18Z",
    "2026-09-27T01:39:32Z"
   ],
-  "model_base": "z-ai/glm-5.2-20260616:free",
+  "model_base": "z-ai/glm-5.2:free",
   "provider": "Decart",
-  "route_key": "Decart | z-ai/glm-5.2-20260616:free",
+  "route_key": "Decart | z-ai/glm-5.2:free",
   "safety_retention": null,
   "type": "route_removed",
   "variants_lost": [
@@ -30109,9 +30109,9 @@
    "2026-09-19T18:24:18Z",
    "2026-09-27T01:39:32Z"
   ],
-  "model_base": "inclusionai/ling-3.0-flash-vl-20260910:free",
+  "model_base": "inclusionai/ling-3.0-flash-vl:free",
   "provider": "Novita",
-  "route_key": "Novita | inclusionai/ling-3.0-flash-vl-20260910:free",
+  "route_key": "Novita | inclusionai/ling-3.0-flash-vl:free",
   "safety_retention": null,
   "type": "route_removed",
   "variants_lost": [
@@ -30123,9 +30123,9 @@
    "2026-09-19T18:24:18Z",
    "2026-09-27T01:39:32Z"
   ],
-  "model_base": "deepseek/deepseek-v4-flash-20260731:free",
+  "model_base": "deepseek/deepseek-v4-flash:free",
   "provider": "OpenInference",
-  "route_key": "OpenInference | deepseek/deepseek-v4-flash-20260731:free",
+  "route_key": "OpenInference | deepseek/deepseek-v4-flash:free",
   "safety_retention": null,
   "type": "route_removed",
   "variants_lost": [
@@ -30501,9 +30501,9 @@
    "2026-09-27T01:39:32Z",
    "2026-10-02T18:12:26Z"
   ],
-  "model_base": "apodex/apodex-1.1-mini-20261001:free",
+  "model_base": "apodex/apodex-1.1-mini:free",
   "provider": "Novita",
-  "route_key": "Novita | apodex/apodex-1.1-mini-20261001:free",
+  "route_key": "Novita | apodex/apodex-1.1-mini:free",
   "safety_retention": null,
   "type": "route_added",
   "variants_gained": [
@@ -30810,9 +30810,9 @@
    "2026-09-27T01:39:32Z",
    "2026-10-02T18:12:26Z"
   ],
-  "model_base": "deepgram/flux-tts-20260812:free",
+  "model_base": "deepgram/flux-tts:free",
   "provider": "Deepgram",
-  "route_key": "Deepgram | deepgram/flux-tts-20260812:free",
+  "route_key": "Deepgram | deepgram/flux-tts:free",
   "safety_retention": null,
   "type": "route_removed",
   "variants_lost": [
@@ -31048,9 +31048,9 @@
    "2026-09-27T01:39:32Z",
    "2026-10-02T18:12:26Z"
   ],
-  "model_base": "inclusionai/ling-3.0-flash-fin-20260827:free",
+  "model_base": "inclusionai/ling-3.0-flash-fin:free",
   "provider": "Novita",
-  "route_key": "Novita | inclusionai/ling-3.0-flash-fin-20260827:free",
+  "route_key": "Novita | inclusionai/ling-3.0-flash-fin:free",
   "safety_retention": null,
   "type": "route_removed",
   "variants_lost": [
@@ -32169,9 +32169,9 @@
    "2026-10-02T18:12:26Z",
    "2026-10-14T03:54:54Z"
   ],
-  "model_base": "qwen/qwen3.8-27b-20260814:free",
+  "model_base": "qwen/qwen3.8-27b:free",
   "provider": "ModelRun",
-  "route_key": "ModelRun | qwen/qwen3.8-27b-20260814:free",
+  "route_key": "ModelRun | qwen/qwen3.8-27b:free",
   "safety_retention": null,
   "type": "route_removed",
   "variants_lost": [
@@ -32254,9 +32254,9 @@
    "2026-10-02T18:12:26Z",
    "2026-10-14T03:54:54Z"
   ],
-  "model_base": "apodex/apodex-1.1-mini-20261001:free",
+  "model_base": "apodex/apodex-1.1-mini:free",
   "provider": "Novita",
-  "route_key": "Novita | apodex/apodex-1.1-mini-20261001:free",
+  "route_key": "Novita | apodex/apodex-1.1-mini:free",
   "safety_retention": null,
   "type": "route_removed",
   "variants_lost": [
@@ -32310,9 +32310,9 @@
    "2026-10-02T18:12:26Z",
    "2026-10-14T03:54:54Z"
   ],
-  "model_base": "inclusionai/ling-3.0-flash-sante-20260904:free",
+  "model_base": "inclusionai/ling-3.0-flash-sante:free",
   "provider": "Novita",
-  "route_key": "Novita | inclusionai/ling-3.0-flash-sante-20260904:free",
+  "route_key": "Novita | inclusionai/ling-3.0-flash-sante:free",
   "safety_retention": null,
   "type": "route_removed",
   "variants_lost": [
@@ -33362,9 +33362,9 @@
    "2026-10-14T03:54:54Z",
    "2026-10-17T06:22:05Z"
   ],
-  "model_base": "xingchen-agi/xing4.0-29b-a4b-20261015:free",
+  "model_base": "xingchen-agi/xing4.0-29b-a4b:free",
   "provider": "Phala",
-  "route_key": "Phala | xingchen-agi/xing4.0-29b-a4b-20261015:free",
+  "route_key": "Phala | xingchen-agi/xing4.0-29b-a4b:free",
   "safety_retention": null,
   "type": "route_added",
   "variants_gained": [
@@ -36529,9 +36529,9 @@
    "2026-10-30T09:31:28Z",
    "2026-11-12T11:17:25Z"
   ],
-  "model_base": "xingchen-agi/xing4.0-29b-a4b-20261015:free",
+  "model_base": "xingchen-agi/xing4.0-29b-a4b:free",
   "provider": "Phala",
-  "route_key": "Phala | xingchen-agi/xing4.0-29b-a4b-20261015:free",
+  "route_key": "Phala | xingchen-agi/xing4.0-29b-a4b:free",
   "safety_retention": null,
   "type": "route_removed",
   "variants_lost": [
@@ -37293,9 +37293,9 @@
    "2026-11-12T11:17:34Z",
    "2026-11-13T03:27:08Z"
   ],
-  "model_base": "apodex/apodex-1.1-mini-20261001:free",
+  "model_base": "apodex/apodex-1.1-mini:free",
   "provider": "Novita",
-  "route_key": "Novita | apodex/apodex-1.1-mini-20261001:free",
+  "route_key": "Novita | apodex/apodex-1.1-mini:free",
   "safety_retention": false,
   "type": "route_added",
   "variants_gained": [
@@ -37349,9 +37349,9 @@
    "2026-11-12T11:17:34Z",
    "2026-11-13T03:27:08Z"
   ],
-  "model_base": "perplexity/pplx-decider-flash-v1.3-20261112:free",
+  "model_base": "perplexity/pplx-decider-flash-v1.3:free",
   "provider": "Perplexity",
-  "route_key": "Perplexity | perplexity/pplx-decider-flash-v1.3-20261112:free",
+  "route_key": "Perplexity | perplexity/pplx-decider-flash-v1.3:free",
   "safety_retention": false,
   "type": "route_added",
   "variants_gained": [
@@ -37363,9 +37363,9 @@
    "2026-11-12T11:17:34Z",
    "2026-11-13T03:27:08Z"
   ],
-  "model_base": "perplexity/pplx-decider-v1.3-20261112:free",
+  "model_base": "perplexity/pplx-decider-v1.3:free",
   "provider": "Perplexity",
-  "route_key": "Perplexity | perplexity/pplx-decider-v1.3-20261112:free",
+  "route_key": "Perplexity | perplexity/pplx-decider-v1.3:free",
   "safety_retention": false,
   "type": "route_added",
   "variants_gained": [
@@ -37545,9 +37545,9 @@
    "2026-11-13T03:27:08Z",
    "2026-11-17T15:08:48Z"
   ],
-  "model_base": "inclusionai/ling-3.2-flash-20261113:free",
+  "model_base": "inclusionai/ling-3.2-flash:free",
   "provider": "Ant Digital",
-  "route_key": "Ant Digital | inclusionai/ling-3.2-flash-20261113:free",
+  "route_key": "Ant Digital | inclusionai/ling-3.2-flash:free",
   "safety_retention": false,
   "type": "route_added",
   "variants_gained": [
@@ -37965,9 +37965,9 @@
    "2026-11-13T03:27:08Z",
    "2026-11-17T15:08:48Z"
   ],
-  "model_base": "apodex/apodex-1.1-mini-20261001:free",
+  "model_base": "apodex/apodex-1.1-mini:free",
   "provider": "Novita",
-  "route_key": "Novita | apodex/apodex-1.1-mini-20261001:free",
+  "route_key": "Novita | apodex/apodex-1.1-mini:free",
   "safety_retention": false,
   "type": "route_removed",
   "variants_lost": [
@@ -39113,9 +39113,9 @@
    "2026-11-19T21:04:28Z",
    "2026-11-21T21:15:37Z"
   ],
-  "model_base": "fish-audio/s2.1-pro-free-20260729:free",
+  "model_base": "fish-audio/s2.1-pro-free:free",
   "provider": "Fish Audio",
-  "route_key": "Fish Audio | fish-audio/s2.1-pro-free-20260729:free",
+  "route_key": "Fish Audio | fish-audio/s2.1-pro-free:free",
   "safety_retention": false,
   "type": "route_removed",
   "variants_lost": [

@@ -101,7 +101,7 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **Fish Audio | fish-audio/s1** dropped from the published ZDR list between 2026-11-19 and 2026-11-21
 - **Fish Audio | fish-audio/s2-pro** dropped from the published ZDR list between 2026-11-19 and 2026-11-21
 - **Fish Audio | fish-audio/s2.1-pro** dropped from the published ZDR list between 2026-11-19 and 2026-11-21
-- **Fish Audio | fish-audio/s2.1-pro-free-20260729:free** dropped from the published ZDR list between 2026-11-19 and 2026-11-21
+- **Fish Audio | fish-audio/s2.1-pro-free:free** dropped from the published ZDR list between 2026-11-19 and 2026-11-21
 - **Fish Audio | fish-audio/transcribe-1** dropped from the published ZDR list between 2026-11-19 and 2026-11-21
 - **Fish Audio | fish-audio/transcribe-1-pro** dropped from the published ZDR list between 2026-11-19 and 2026-11-21
 - **Liquid | liquid/d1** dropped from the published ZDR list between 2026-11-19 and 2026-11-21
@@ -263,7 +263,7 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 
 ## 2026-11-17
 
-- **Ant Digital | inclusionai/ling-3.2-flash-20261113:free** gained ZDR eligibility between 2026-11-13 and 2026-11-17
+- **Ant Digital | inclusionai/ling-3.2-flash:free** gained ZDR eligibility between 2026-11-13 and 2026-11-17
 - **DeepInfra | thinkingmachines/inkling-2-small** gained ZDR eligibility between 2026-11-13 and 2026-11-17
 - **Doubleword | z-ai/glm-5.3** gained ZDR eligibility between 2026-11-13 and 2026-11-17
 - **Featherless | z-ai/glm-5.3** gained ZDR eligibility between 2026-11-13 and 2026-11-17
@@ -293,7 +293,7 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **DekaLLM | google/gemma-4-31b-it** dropped from the published ZDR list between 2026-11-13 and 2026-11-17
 - **DekaLLM | qwen/qwen3.6-35b-a3b** dropped from the published ZDR list between 2026-11-13 and 2026-11-17
 - **Io Net | openai/gpt-oss-120b** dropped from the published ZDR list between 2026-11-13 and 2026-11-17
-- **Novita | apodex/apodex-1.1-mini-20261001:free** dropped from the published ZDR list between 2026-11-13 and 2026-11-17
+- **Novita | apodex/apodex-1.1-mini:free** dropped from the published ZDR list between 2026-11-13 and 2026-11-17
 - **Novita | inclusionai/ling-3.0-flash-fin** dropped from the published ZDR list between 2026-11-13 and 2026-11-17
 - **Novita | inclusionai/ling-3.0-flash-sante** dropped from the published ZDR list between 2026-11-13 and 2026-11-17
 - **Novita | z-ai/glm-5.3-flashx** dropped from the published ZDR list between 2026-11-13 and 2026-11-17
@@ -314,12 +314,12 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **Google | google/gemini-4-hydrogen** gained ZDR eligibility between 2026-11-12 and 2026-11-13 [safety-retention]
 - **Google | google/gemini-nano-banana-2.1** gained ZDR eligibility between 2026-11-12 and 2026-11-13 [safety-retention]
 - **Nebius | thinkingmachines/inkling-2-small** gained ZDR eligibility between 2026-11-12 and 2026-11-13
-- **Novita | apodex/apodex-1.1-mini-20261001:free** gained ZDR eligibility between 2026-11-12 and 2026-11-13
+- **Novita | apodex/apodex-1.1-mini:free** gained ZDR eligibility between 2026-11-12 and 2026-11-13
 - **Novita | inclusionai/ling-3.0-flash-fin** gained ZDR eligibility between 2026-11-12 and 2026-11-13
 - **Novita | inclusionai/ling-3.0-flash-sante** gained ZDR eligibility between 2026-11-12 and 2026-11-13
 - **Novita | z-ai/glm-5.3-flashx** gained ZDR eligibility between 2026-11-12 and 2026-11-13
-- **Perplexity | perplexity/pplx-decider-flash-v1.3-20261112:free** gained ZDR eligibility between 2026-11-12 and 2026-11-13
-- **Perplexity | perplexity/pplx-decider-v1.3-20261112:free** gained ZDR eligibility between 2026-11-12 and 2026-11-13
+- **Perplexity | perplexity/pplx-decider-flash-v1.3:free** gained ZDR eligibility between 2026-11-12 and 2026-11-13
+- **Perplexity | perplexity/pplx-decider-v1.3:free** gained ZDR eligibility between 2026-11-12 and 2026-11-13
 - **PrimeIntellect | thinkingmachines/inkling-2-small** gained ZDR eligibility between 2026-11-12 and 2026-11-13
 - **River | z-ai/glm-5.3-flash** gained ZDR eligibility between 2026-11-12 and 2026-11-13
 - **Seed | bytedance-seed/seedream-5-5** gained ZDR eligibility between 2026-11-12 and 2026-11-13
@@ -542,7 +542,7 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **Phala | qwen/qwen3.6-35b-a3b** dropped from the published ZDR list between 2026-10-30 and 2026-11-12
 - **Phala | qwen/qwen3.8-27b** dropped from the published ZDR list between 2026-10-30 and 2026-11-12
 - **Phala | tencent/hy3** dropped from the published ZDR list between 2026-10-30 and 2026-11-12
-- **Phala | xingchen-agi/xing4.0-29b-a4b-20261015:free** dropped from the published ZDR list between 2026-10-30 and 2026-11-12
+- **Phala | xingchen-agi/xing4.0-29b-a4b:free** dropped from the published ZDR list between 2026-10-30 and 2026-11-12
 - **Phala | z-ai/glm-5.1** dropped from the published ZDR list between 2026-10-30 and 2026-11-12
 - **Phala | z-ai/glm-5.2** dropped from the published ZDR list between 2026-10-30 and 2026-11-12
 - **Phala | z-ai/glm-5.3** dropped from the published ZDR list between 2026-10-30 and 2026-11-12
@@ -643,7 +643,7 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **Parasail | google/gemma-3-4b-it** gained ZDR eligibility between 2026-10-14 and 2026-10-17
 - **Perplexity | perplexity/pplx-decider-flash-v1.2** gained ZDR eligibility between 2026-10-14 and 2026-10-17
 - **Perplexity | perplexity/pplx-decider-v1.2** gained ZDR eligibility between 2026-10-14 and 2026-10-17
-- **Phala | xingchen-agi/xing4.0-29b-a4b-20261015:free** gained ZDR eligibility between 2026-10-14 and 2026-10-17
+- **Phala | xingchen-agi/xing4.0-29b-a4b:free** gained ZDR eligibility between 2026-10-14 and 2026-10-17
 - **PrimeIntellect | deepseek/deepseek-v4.1-flash** gained ZDR eligibility between 2026-10-14 and 2026-10-17
 - **PrimeIntellect | moondream/moondream3-preview** gained ZDR eligibility between 2026-10-14 and 2026-10-17
 - **PrimeIntellect | moondream/moondream3.1-9b-a2b** gained ZDR eligibility between 2026-10-14 and 2026-10-17
@@ -736,17 +736,17 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **InferenceNet | xiaomi/mimo-v2.6-flash** dropped from the published ZDR list between 2026-10-02 and 2026-10-14
 - **Io Net | z-ai/glm-5.3-flash** dropped from the published ZDR list between 2026-10-02 and 2026-10-14
 - **Modal | qwen/qwen3.8-2.4t-a95b** dropped from the published ZDR list between 2026-10-02 and 2026-10-14
-- **ModelRun | qwen/qwen3.8-27b-20260814:free** dropped from the published ZDR list between 2026-10-02 and 2026-10-14
+- **ModelRun | qwen/qwen3.8-27b:free** dropped from the published ZDR list between 2026-10-02 and 2026-10-14
 - **Morph | deepseek/deepseek-v4-flash** dropped from the published ZDR list between 2026-10-02 and 2026-10-14
 - **NextBit | deepseek/deepseek-v4-flash** dropped from the published ZDR list between 2026-10-02 and 2026-10-14
 - **NextBit | deepseek/deepseek-v4-pro** dropped from the published ZDR list between 2026-10-02 and 2026-10-14
 - **NextBit | deepseek/deepseek-v4.1-flash** dropped from the published ZDR list between 2026-10-02 and 2026-10-14
 - **NextBit | z-ai/glm-5.3-flash** dropped from the published ZDR list between 2026-10-02 and 2026-10-14
-- **Novita | apodex/apodex-1.1-mini-20261001:free** dropped from the published ZDR list between 2026-10-02 and 2026-10-14
+- **Novita | apodex/apodex-1.1-mini:free** dropped from the published ZDR list between 2026-10-02 and 2026-10-14
 - **Novita | baidu/ernie-4.5-vl-424b-a47b** dropped from the published ZDR list between 2026-10-02 and 2026-10-14
 - **Novita | deepseek/deepseek-v4-flash-vision-exp** dropped from the published ZDR list between 2026-10-02 and 2026-10-14
 - **Novita | inclusionai/ling-3.0-flash-fin** dropped from the published ZDR list between 2026-10-02 and 2026-10-14
-- **Novita | inclusionai/ling-3.0-flash-sante-20260904:free** dropped from the published ZDR list between 2026-10-02 and 2026-10-14
+- **Novita | inclusionai/ling-3.0-flash-sante:free** dropped from the published ZDR list between 2026-10-02 and 2026-10-14
 - **Novita | inclusionai/ling-3.0-flash-vl** dropped from the published ZDR list between 2026-10-02 and 2026-10-14
 - **Novita | inclusionai/ming-image-0.1-design** dropped from the published ZDR list between 2026-10-02 and 2026-10-14
 - **Novita | inclusionai/ming-image-0.1-design-layer** dropped from the published ZDR list between 2026-10-02 and 2026-10-14
@@ -795,7 +795,7 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **Ionstream | deepseek/deepseek-v4.1-flash** gained ZDR eligibility between 2026-09-27 and 2026-10-02
 - **Liquid | liquid/d1** gained ZDR eligibility between 2026-09-27 and 2026-10-02
 - **Morph | z-ai/glm-5.2** gained ZDR eligibility between 2026-09-27 and 2026-10-02
-- **Novita | apodex/apodex-1.1-mini-20261001:free** gained ZDR eligibility between 2026-09-27 and 2026-10-02
+- **Novita | apodex/apodex-1.1-mini:free** gained ZDR eligibility between 2026-09-27 and 2026-10-02
 - **Novita | inclusionai/ling-3.0-flash-fin** gained ZDR eligibility between 2026-09-27 and 2026-10-02
 - **Novita | inclusionai/ling-3.1-flash** gained ZDR eligibility between 2026-09-27 and 2026-10-02
 - **Novita | xiaomi/mimo-v2.6-flash** gained ZDR eligibility between 2026-09-27 and 2026-10-02
@@ -817,7 +817,7 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **DeepInfra | xiaomi/mimo-v2.5** dropped from the published ZDR list between 2026-09-27 and 2026-10-02
 - **DeepInfra | xiaomi/mimo-v2.5-pro** dropped from the published ZDR list between 2026-09-27 and 2026-10-02
 - **DeepInfra | z-ai/glm-5.1** dropped from the published ZDR list between 2026-09-27 and 2026-10-02
-- **Deepgram | deepgram/flux-tts-20260812:free** dropped from the published ZDR list between 2026-09-27 and 2026-10-02
+- **Deepgram | deepgram/flux-tts:free** dropped from the published ZDR list between 2026-09-27 and 2026-10-02
 - **Fireworks | deepseek/deepseek-v4-flash** dropped from the published ZDR list between 2026-09-27 and 2026-10-02
 - **Fireworks | deepseek/deepseek-v4-flash-vision-exp** dropped from the published ZDR list between 2026-09-27 and 2026-10-02
 - **Fireworks | deepseek/deepseek-v4-pro** dropped from the published ZDR list between 2026-09-27 and 2026-10-02
@@ -834,7 +834,7 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **Novita | deepseek/deepseek-v3.1-terminus** dropped from the published ZDR list between 2026-09-27 and 2026-10-02
 - **Novita | deepseek/deepseek-v3.2** dropped from the published ZDR list between 2026-09-27 and 2026-10-02
 - **Novita | deepseek/deepseek-v3.2-exp** dropped from the published ZDR list between 2026-09-27 and 2026-10-02
-- **Novita | inclusionai/ling-3.0-flash-fin-20260827:free** dropped from the published ZDR list between 2026-09-27 and 2026-10-02
+- **Novita | inclusionai/ling-3.0-flash-fin:free** dropped from the published ZDR list between 2026-09-27 and 2026-10-02
 - **OpenInference | deepseek/deepseek-v4.1-flash** dropped from the published ZDR list between 2026-09-27 and 2026-10-02
 - **Reka | google/gemma-4-26b-a4b-it** dropped from the published ZDR list between 2026-09-27 and 2026-10-02
 - **Reka | google/gemma-4-31b-it** dropped from the published ZDR list between 2026-09-27 and 2026-10-02
@@ -901,14 +901,14 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **BaseTen | moonshotai/kimi-k2.6** dropped from the published ZDR list between 2026-09-19 and 2026-09-27
 - **BaseTen | thinkingmachines/inkling** dropped from the published ZDR list between 2026-09-19 and 2026-09-27
 - **BaseTen | thinkingmachines/inkling-small** dropped from the published ZDR list between 2026-09-19 and 2026-09-27
-- **Decart | z-ai/glm-5.2-20260616:free** dropped from the published ZDR list between 2026-09-19 and 2026-09-27
+- **Decart | z-ai/glm-5.2:free** dropped from the published ZDR list between 2026-09-19 and 2026-09-27
 - **Google | anthropic/claude-4-opus** dropped from the published ZDR list between 2026-09-19 and 2026-09-27
 - **Google | anthropic/claude-4-sonnet** dropped from the published ZDR list between 2026-09-19 and 2026-09-27
 - **Google | anthropic/claude-4.1-opus** dropped from the published ZDR list between 2026-09-19 and 2026-09-27
 - **Io Net | qwen/qwen3.6-35b-a3b** dropped from the published ZDR list between 2026-09-19 and 2026-09-27
 - **Io Net | qwen/qwen3.8-27b** dropped from the published ZDR list between 2026-09-19 and 2026-09-27
-- **Novita | inclusionai/ling-3.0-flash-vl-20260910:free** dropped from the published ZDR list between 2026-09-19 and 2026-09-27
-- **OpenInference | deepseek/deepseek-v4-flash-20260731:free** dropped from the published ZDR list between 2026-09-19 and 2026-09-27
+- **Novita | inclusionai/ling-3.0-flash-vl:free** dropped from the published ZDR list between 2026-09-19 and 2026-09-27
+- **OpenInference | deepseek/deepseek-v4-flash:free** dropped from the published ZDR list between 2026-09-19 and 2026-09-27
 - **Together | google/gemma-4-31b-it** dropped from the published ZDR list between 2026-09-19 and 2026-09-27
 - **Together | openai/gpt-oss-20b** dropped from the published ZDR list between 2026-09-19 and 2026-09-27
 - **Together | thinkingmachines/inkling-small** dropped from the published ZDR list between 2026-09-19 and 2026-09-27
@@ -967,15 +967,15 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **Mistral | mistralai/codestral-embed-2505** gained ZDR eligibility between 2026-08-29 and 2026-09-19
 - **Mistral | mistralai/mistral-embed-2312** gained ZDR eligibility between 2026-08-29 and 2026-09-19
 - **Modal | deepseek/deepseek-v4.1-flash** gained ZDR eligibility between 2026-08-29 and 2026-09-19
-- **ModelRun | qwen/qwen3.8-27b-20260814:free** gained ZDR eligibility between 2026-08-29 and 2026-09-19
+- **ModelRun | qwen/qwen3.8-27b:free** gained ZDR eligibility between 2026-08-29 and 2026-09-19
 - **Morph | deepseek/deepseek-v4.1-flash** gained ZDR eligibility between 2026-08-29 and 2026-09-19
 - **Near AI | z-ai/glm-5.3-flash** gained ZDR eligibility between 2026-08-29 and 2026-09-19
 - **NextBit | z-ai/glm-5.3-flash** gained ZDR eligibility between 2026-08-29 and 2026-09-19
 - **Novita | deepseek/deepseek-v4-flash-vision-exp** gained ZDR eligibility between 2026-08-29 and 2026-09-19
 - **Novita | deepseek/deepseek-v4.1-flash** gained ZDR eligibility between 2026-08-29 and 2026-09-19
-- **Novita | inclusionai/ling-3.0-flash-sante-20260904:free** gained ZDR eligibility between 2026-08-29 and 2026-09-19
-- **Novita | inclusionai/ling-3.0-flash-vl-20260910:free** gained ZDR eligibility between 2026-08-29 and 2026-09-19
-- **OpenInference | deepseek/deepseek-v4-flash-20260731:free** gained ZDR eligibility between 2026-08-29 and 2026-09-19
+- **Novita | inclusionai/ling-3.0-flash-sante:free** gained ZDR eligibility between 2026-08-29 and 2026-09-19
+- **Novita | inclusionai/ling-3.0-flash-vl:free** gained ZDR eligibility between 2026-08-29 and 2026-09-19
+- **OpenInference | deepseek/deepseek-v4-flash:free** gained ZDR eligibility between 2026-08-29 and 2026-09-19
 - **Parasail | deepseek/deepseek-v4.1-flash** gained ZDR eligibility between 2026-08-29 and 2026-09-19
 - **Phala | deepseek/deepseek-v4.1-flash** gained ZDR eligibility between 2026-08-29 and 2026-09-19
 - **Phala | nvidia/nemotron-3.5-lightning** gained ZDR eligibility between 2026-08-29 and 2026-09-19
@@ -1080,7 +1080,7 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **CoreWeave | nvidia/nemotron-3.5-lightning** gained ZDR eligibility between 2026-07-31 and 2026-08-29
 - **CoreWeave | qwen/qwen3.8-27b** gained ZDR eligibility between 2026-07-31 and 2026-08-29
 - **Crusoe | z-ai/glm-5.2** gained ZDR eligibility between 2026-07-31 and 2026-08-29
-- **Decart | z-ai/glm-5.2-20260616:free** gained ZDR eligibility between 2026-07-31 and 2026-08-29
+- **Decart | z-ai/glm-5.2:free** gained ZDR eligibility between 2026-07-31 and 2026-08-29
 - **DeepInfra | inclusionai/ling-3.0-flash** gained ZDR eligibility between 2026-07-31 and 2026-08-29
 - **DeepInfra | meta/muse-glimmer-30b** gained ZDR eligibility between 2026-07-31 and 2026-08-29
 - **DeepInfra | mistralai/voxtral-mini-3b-2507** gained ZDR eligibility between 2026-07-31 and 2026-08-29
@@ -1095,7 +1095,7 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **DeepInfra | qwen/qwen3.8-2.4t-a95b** gained ZDR eligibility between 2026-07-31 and 2026-08-29
 - **DeepInfra | z-ai/glm-5.3** gained ZDR eligibility between 2026-07-31 and 2026-08-29
 - **DeepInfra | z-ai/glm-5.3-flash** gained ZDR eligibility between 2026-07-31 and 2026-08-29
-- **Deepgram | deepgram/flux-tts-20260812:free** gained ZDR eligibility between 2026-07-31 and 2026-08-29
+- **Deepgram | deepgram/flux-tts:free** gained ZDR eligibility between 2026-07-31 and 2026-08-29
 - **DigitalOcean | z-ai/glm-5.3** gained ZDR eligibility between 2026-07-31 and 2026-08-29
 - **DigitalOcean | z-ai/glm-5.3-flash** gained ZDR eligibility between 2026-07-31 and 2026-08-29
 - **Fireworks | meta/muse-glimmer-30b** gained ZDR eligibility between 2026-07-31 and 2026-08-29
@@ -1142,7 +1142,7 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **NextBit | deepseek/deepseek-v4-flash** gained ZDR eligibility between 2026-07-31 and 2026-08-29
 - **NextBit | deepseek/deepseek-v4-pro** gained ZDR eligibility between 2026-07-31 and 2026-08-29
 - **Novita | inclusionai/ling-3.0-flash** gained ZDR eligibility between 2026-07-31 and 2026-08-29
-- **Novita | inclusionai/ling-3.0-flash-fin-20260827:free** gained ZDR eligibility between 2026-07-31 and 2026-08-29
+- **Novita | inclusionai/ling-3.0-flash-fin:free** gained ZDR eligibility between 2026-07-31 and 2026-08-29
 - **Novita | qwen/qwen3.8-2.4t-a95b** gained ZDR eligibility between 2026-07-31 and 2026-08-29
 - **Novita | qwen/qwen3.8-27b** gained ZDR eligibility between 2026-07-31 and 2026-08-29
 - **Novita | z-ai/glm-5.3** gained ZDR eligibility between 2026-07-31 and 2026-08-29
@@ -1231,7 +1231,7 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **NextBit | qwen/qwen3.5-35b-a3b** dropped from the published ZDR list between 2026-07-31 and 2026-08-29
 - **Novita | inclusionai/ling-2.6-1t** dropped from the published ZDR list between 2026-07-31 and 2026-08-29
 - **Novita | inclusionai/ling-2.6-flash** dropped from the published ZDR list between 2026-07-31 and 2026-08-29
-- **Novita | inclusionai/ling-3.0-flash-20260723:free** dropped from the published ZDR list between 2026-07-31 and 2026-08-29
+- **Novita | inclusionai/ling-3.0-flash:free** dropped from the published ZDR list between 2026-07-31 and 2026-08-29
 - **Novita | inclusionai/ring-2.6-1t** dropped from the published ZDR list between 2026-07-31 and 2026-08-29
 - **Parasail | allenai/olmo-3-32b-think** dropped from the published ZDR list between 2026-07-31 and 2026-08-29
 - **Parasail | minimax/minimax-m2.5** dropped from the published ZDR list between 2026-07-31 and 2026-08-29
@@ -1334,7 +1334,7 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **Fish Audio | fish-audio/s1** gained ZDR eligibility between 2026-07-07 and 2026-07-31
 - **Fish Audio | fish-audio/s2-pro** gained ZDR eligibility between 2026-07-07 and 2026-07-31
 - **Fish Audio | fish-audio/s2.1-pro** gained ZDR eligibility between 2026-07-07 and 2026-07-31
-- **Fish Audio | fish-audio/s2.1-pro-free-20260729:free** gained ZDR eligibility between 2026-07-07 and 2026-07-31
+- **Fish Audio | fish-audio/s2.1-pro-free:free** gained ZDR eligibility between 2026-07-07 and 2026-07-31
 - **Fish Audio | fish-audio/transcribe-1** gained ZDR eligibility between 2026-07-07 and 2026-07-31
 - **Google | anthropic/claude-opus-5** gained ZDR eligibility between 2026-07-07 and 2026-07-31
 - **Google | google/gemini-3.5-flash-lite** gained ZDR eligibility between 2026-07-07 and 2026-07-31
@@ -1358,7 +1358,7 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **Morph | moonshotai/kimi-k3** gained ZDR eligibility between 2026-07-07 and 2026-07-31
 - **Nebius | qwen/qwen2.5-vl-72b-instruct** gained ZDR eligibility between 2026-07-07 and 2026-07-31
 - **Nebius | qwen/qwen3-next-80b-a3b-thinking-2509** gained ZDR eligibility between 2026-07-07 and 2026-07-31
-- **Novita | inclusionai/ling-3.0-flash-20260723:free** gained ZDR eligibility between 2026-07-07 and 2026-07-31
+- **Novita | inclusionai/ling-3.0-flash:free** gained ZDR eligibility between 2026-07-07 and 2026-07-31
 - **Novita | tencent/hy3** gained ZDR eligibility between 2026-07-07 and 2026-07-31
 - **Novita | xiaomi/mimo-v2.5** gained ZDR eligibility between 2026-07-07 and 2026-07-31
 - **OpenInference | deepseek/deepseek-v4-flash** gained ZDR eligibility between 2026-07-07 and 2026-07-31
@@ -1446,7 +1446,7 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **NextBit | mistralai/ministral-3b-2512** dropped from the published ZDR list between 2026-07-07 and 2026-07-31
 - **NextBit | mistralai/ministral-8b-2512** dropped from the published ZDR list between 2026-07-07 and 2026-07-31
 - **NextBit | qwen/qwen3-30b-a3b-04-28** dropped from the published ZDR list between 2026-07-07 and 2026-07-31
-- **Novita | tencent/hy3-20260706:free** dropped from the published ZDR list between 2026-07-07 and 2026-07-31
+- **Novita | tencent/hy3:free** dropped from the published ZDR list between 2026-07-07 and 2026-07-31
 - **Phala | qwen/qwen3-30b-a3b-instruct-2507** dropped from the published ZDR list between 2026-07-07 and 2026-07-31
 - **Phala | qwen/qwen3-vl-30b-a3b-instruct** dropped from the published ZDR list between 2026-07-07 and 2026-07-31
 - **Phala | z-ai/glm-4.7** dropped from the published ZDR list between 2026-07-07 and 2026-07-31
@@ -1498,7 +1498,7 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **Nebius | moonshotai/kimi-k2.6** gained ZDR eligibility between 2026-06-30 and 2026-07-07
 - **Nebius | qwen/qwen3-235b-a22b-07-25** gained ZDR eligibility between 2026-06-30 and 2026-07-07
 - **Nebius | z-ai/glm-5.1** gained ZDR eligibility between 2026-06-30 and 2026-07-07
-- **Novita | tencent/hy3-20260706:free** gained ZDR eligibility between 2026-06-30 and 2026-07-07
+- **Novita | tencent/hy3:free** gained ZDR eligibility between 2026-06-30 and 2026-07-07
 - **Parasail | meta-llama/llama-3.2-3b-instruct** gained ZDR eligibility between 2026-06-30 and 2026-07-07
 - **Phala | deepseek/deepseek-v3.2** gained ZDR eligibility between 2026-06-30 and 2026-07-07
 - **Phala | qwen/qwen3-30b-a3b-instruct-2507** gained ZDR eligibility between 2026-06-30 and 2026-07-07
@@ -1978,7 +1978,7 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **Fireworks | openai/gpt-oss-120b** dropped from the published ZDR list between 2026-04-15 and 2026-05-19
 - **Fireworks | z-ai/glm-5** dropped from the published ZDR list between 2026-04-15 and 2026-05-19
 - **Google | anthropic/claude-3-7-sonnet** dropped from the published ZDR list between 2026-04-15 and 2026-05-19
-- **Google | anthropic/claude-3-7-sonnet-20250219:thinking** dropped from the published ZDR list between 2026-04-15 and 2026-05-19
+- **Google | anthropic/claude-3-7-sonnet:thinking** dropped from the published ZDR list between 2026-04-15 and 2026-05-19
 - **Google | meta-llama/llama-4-maverick-17b-128e-instruct** dropped from the published ZDR list between 2026-04-15 and 2026-05-19
 - **Inceptron | moonshotai/kimi-k2.5-0127** dropped from the published ZDR list between 2026-04-15 and 2026-05-19
 - **Io Net | moonshotai/kimi-k2.5-0127** dropped from the published ZDR list between 2026-04-15 and 2026-05-19
@@ -1987,7 +1987,7 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **Mancer 2 | alpindale/goliath-120b** dropped from the published ZDR list between 2026-04-15 and 2026-05-19
 - **Nebius | minimax/minimax-m2.5** dropped from the published ZDR list between 2026-04-15 and 2026-05-19
 - **Novita | minimax/minimax-m1-80k** dropped from the published ZDR list between 2026-04-15 and 2026-05-19
-- **Nvidia | nvidia/llama-nemotron-embed-vl-1b-v2-20260224:free** dropped from the published ZDR list between 2026-04-15 and 2026-05-19
+- **Nvidia | nvidia/llama-nemotron-embed-vl-1b-v2:free** dropped from the published ZDR list between 2026-04-15 and 2026-05-19
 - **SambaNova | deepseek/deepseek-chat-v3-0324** dropped from the published ZDR list between 2026-04-15 and 2026-05-19
 - **SambaNova | deepseek/deepseek-r1-distill-llama-70b** dropped from the published ZDR list between 2026-04-15 and 2026-05-19
 - **SambaNova | minimax/minimax-m2.5** dropped from the published ZDR list between 2026-04-15 and 2026-05-19
@@ -2058,7 +2058,7 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **Z.AI | z-ai/glm-5.1** gained ZDR eligibility between 2026-03-26 and 2026-04-15
 - **Z.AI | z-ai/glm-5v-turbo** gained ZDR eligibility between 2026-03-26 and 2026-04-15
 - **Amazon Bedrock | anthropic/claude-3.5-sonnet** dropped from the published ZDR list between 2026-03-26 and 2026-04-15
-- **Arcee AI | arcee-ai/trinity-mini-20251201:free** dropped from the published ZDR list between 2026-03-26 and 2026-04-15
+- **Arcee AI | arcee-ai/trinity-mini:free** dropped from the published ZDR list between 2026-03-26 and 2026-04-15
 - **AtlasCloud | kwaipilot/kat-coder-pro-v1** dropped from the published ZDR list between 2026-03-26 and 2026-04-15
 - **AtlasCloud | meituan/longcat-flash-chat** dropped from the published ZDR list between 2026-03-26 and 2026-04-15
 - **AtlasCloud | minimax/minimax-m2.7** dropped from the published ZDR list between 2026-03-26 and 2026-04-15
@@ -2204,7 +2204,7 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **NextBit | moonshotai/kimi-k2.5-0127** gained ZDR eligibility between 2026-02-23 and 2026-03-16
 - **Novita | qwen/qwen3.5-122b-a10b** gained ZDR eligibility between 2026-02-23 and 2026-03-16
 - **Novita | qwen/qwen3.5-27b** gained ZDR eligibility between 2026-02-23 and 2026-03-16
-- **Nvidia | nvidia/llama-nemotron-embed-vl-1b-v2-20260224:free** gained ZDR eligibility between 2026-02-23 and 2026-03-16
+- **Nvidia | nvidia/llama-nemotron-embed-vl-1b-v2:free** gained ZDR eligibility between 2026-02-23 and 2026-03-16
 - **Parasail | qwen/qwen3.5-35b-a3b** gained ZDR eligibility between 2026-02-23 and 2026-03-16
 - **Phala | moonshotai/kimi-k2.5-0127** gained ZDR eligibility between 2026-02-23 and 2026-03-16
 - **Seed | bytedance-seed/seed-2.0-lite** gained ZDR eligibility between 2026-02-23 and 2026-03-16
@@ -2398,7 +2398,7 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **ModelRun | meta-llama/llama-3.1-405b-instruct:free** dropped from the published ZDR list between 2026-01-29 and 2026-02-19
 - **ModelRun | meta-llama/llama-3.3-70b-instruct:free** dropped from the published ZDR list between 2026-01-29 and 2026-02-19
 - **ModelRun | qwen/qwen-2-vl-7b-instruct:free** dropped from the published ZDR list between 2026-01-29 and 2026-02-19
-- **Parasail | allenai/molmo-2-8b-20260109:free** dropped from the published ZDR list between 2026-01-29 and 2026-02-19
+- **Parasail | allenai/molmo-2-8b:free** dropped from the published ZDR list between 2026-01-29 and 2026-02-19
 - **Parasail | deepseek/deepseek-v3.2-speciale** dropped from the published ZDR list between 2026-01-29 and 2026-02-19
 - **Parasail | moonshotai/kimi-k2-0905** dropped from the published ZDR list between 2026-01-29 and 2026-02-19
 - **Parasail | z-ai/glm-4.6** dropped from the published ZDR list between 2026-01-29 and 2026-02-19
@@ -2465,7 +2465,7 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **Novita | kwaipilot/kat-coder-pro-v1** gained ZDR eligibility between 2026-01-05 and 2026-01-26
 - **Novita | xiaomi/mimo-v2-flash** gained ZDR eligibility between 2026-01-05 and 2026-01-26
 - **Novita | z-ai/glm-4.7-flash** gained ZDR eligibility between 2026-01-05 and 2026-01-26
-- **Parasail | allenai/molmo-2-8b-20260109:free** gained ZDR eligibility between 2026-01-05 and 2026-01-26
+- **Parasail | allenai/molmo-2-8b:free** gained ZDR eligibility between 2026-01-05 and 2026-01-26
 - **Parasail | allenai/olmo-3-32b-think** gained ZDR eligibility between 2026-01-05 and 2026-01-26
 - **Parasail | allenai/olmo-3.1-32b-think** gained ZDR eligibility between 2026-01-05 and 2026-01-26
 - **Phala | z-ai/glm-4.7-flash** gained ZDR eligibility between 2026-01-05 and 2026-01-26
@@ -2515,8 +2515,8 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **Novita | meta-llama/llama-3.2-3b-instruct** dropped from the published ZDR list between 2026-01-05 and 2026-01-26
 - **Novita | qwen/qwen3-8b-04-28** dropped from the published ZDR list between 2026-01-05 and 2026-01-26
 - **Novita | thudm/glm-4.1v-9b-thinking** dropped from the published ZDR list between 2026-01-05 and 2026-01-26
-- **Parasail | allenai/olmo-3-32b-think-20251121:free** dropped from the published ZDR list between 2026-01-05 and 2026-01-26
-- **Parasail | allenai/olmo-3.1-32b-think-20251215:free** dropped from the published ZDR list between 2026-01-05 and 2026-01-26
+- **Parasail | allenai/olmo-3-32b-think:free** dropped from the published ZDR list between 2026-01-05 and 2026-01-26
+- **Parasail | allenai/olmo-3.1-32b-think:free** dropped from the published ZDR list between 2026-01-05 and 2026-01-26
 - **Perplexity | perplexity/sonar-reasoning** dropped from the published ZDR list between 2026-01-05 and 2026-01-26
 - **Phala | qwen/qwen2.5-vl-72b-instruct** dropped from the published ZDR list between 2026-01-05 and 2026-01-26
 - **SiliconFlow | nex-agi/deepseek-v3.1-nex-n1:free** dropped from the published ZDR list between 2026-01-05 and 2026-01-26
@@ -2555,7 +2555,7 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **ModelRun | meta-llama/llama-3.1-405b-instruct:free** gained ZDR eligibility between 2025-12-09 and 2025-12-23
 - **ModelRun | qwen/qwen-2-vl-7b-instruct:free** gained ZDR eligibility between 2025-12-09 and 2025-12-23
 - **Nebius | qwen/qwen3-next-80b-a3b-thinking-2509** gained ZDR eligibility between 2025-12-09 and 2025-12-23
-- **Parasail | allenai/olmo-3.1-32b-think-20251215:free** gained ZDR eligibility between 2025-12-09 and 2025-12-23
+- **Parasail | allenai/olmo-3.1-32b-think:free** gained ZDR eligibility between 2025-12-09 and 2025-12-23
 - **Parasail | deepseek/deepseek-v3.2** gained ZDR eligibility between 2025-12-09 and 2025-12-23
 - **Parasail | deepseek/deepseek-v3.2-speciale** gained ZDR eligibility between 2025-12-09 and 2025-12-23
 - **Parasail | z-ai/glm-4.7** gained ZDR eligibility between 2025-12-09 and 2025-12-23
@@ -2615,7 +2615,7 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 
 - **Amazon Bedrock | amazon/nova-2-lite-v1** gained ZDR eligibility between 2025-11-19 and 2025-12-03
 - **Amazon Bedrock | anthropic/claude-4.5-opus** gained ZDR eligibility between 2025-11-19 and 2025-12-03
-- **Arcee AI | arcee-ai/trinity-mini-20251201:free** gained ZDR eligibility between 2025-11-19 and 2025-12-03
+- **Arcee AI | arcee-ai/trinity-mini:free** gained ZDR eligibility between 2025-11-19 and 2025-12-03
 - **AtlasCloud | deepseek/deepseek-v3.2** gained ZDR eligibility between 2025-11-19 and 2025-12-03
 - **AtlasCloud | deepseek/deepseek-v3.2-speciale** gained ZDR eligibility between 2025-11-19 and 2025-12-03
 - **AtlasCloud | kwaipilot/kat-coder-pro-v1:free** gained ZDR eligibility between 2025-11-19 and 2025-12-03
@@ -2630,7 +2630,7 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **Nebius | moonshotai/kimi-k2-thinking** gained ZDR eligibility between 2025-11-19 and 2025-12-03
 - **Nebius | prime-intellect/intellect-3** gained ZDR eligibility between 2025-11-19 and 2025-12-03
 - **Novita | deepseek/deepseek-v3.2** gained ZDR eligibility between 2025-11-19 and 2025-12-03
-- **Parasail | allenai/olmo-3-32b-think-20251121:free** gained ZDR eligibility between 2025-11-19 and 2025-12-03
+- **Parasail | allenai/olmo-3-32b-think:free** gained ZDR eligibility between 2025-11-19 and 2025-12-03
 - **Parasail | allenai/olmo-3-7b-instruct** gained ZDR eligibility between 2025-11-19 and 2025-12-03
 - **Parasail | allenai/olmo-3-7b-think** gained ZDR eligibility between 2025-11-19 and 2025-12-03
 - **Parasail | prime-intellect/intellect-3** gained ZDR eligibility between 2025-11-19 and 2025-12-03

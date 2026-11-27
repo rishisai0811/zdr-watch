@@ -97,6 +97,13 @@ by anything other than the date suffix.
 - `python -m zdrwatch backfill` seeds history from Internet Archive captures
   (already run; seeded events are committed).
 
+## Data notes
+
+Route keys are canonical: dated endpoint variants (`-YYYYMMDD`) merge under one
+route. Early history recorded some keys in the dated form; readers canonicalize
+at load time, so each route shows one merged timeline (the raw JSONL and raw
+capture snapshots are never rewritten).
+
 ## Alerts
 
 Use the **route history lookup** on the site to answer "was provider X | model Y

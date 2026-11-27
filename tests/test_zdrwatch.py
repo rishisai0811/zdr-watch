@@ -9,7 +9,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from zdrwatch.model import normalize, route_key_for, parse_name, snapshot_to_json, snapshot_from_json
 from zdrwatch.diff import diff_snapshots, summarize
-from zdrwatch.history import dedupe_events, events_chronological
+from zdrwatch.history import dedupe_events, events_chronological, canonicalize_event
 from zdrwatch.render import render_feed, render_changelog, render_index, render_routes_json
 
 
@@ -98,6 +98,17 @@ class TestDiff:
 
 
 class TestHistoryAndRender:
+    def test_canonicalize_merges_dated_keys(self):
+        e = {"type": "route_added", "route_key": "Novita | apodex/apodex-1.1-mini-20261001:free",
+             "model_base": "apodex/apodex-1.1-mini-20261001:free",
+             "between": ["2026-11-12T00:00:00Z", "2026-11-13T00:00:00Z"]}
+        c = canonicalize_event(e)
+        assert c["route_key"] == "Novita | apodex/apodex-1.1-mini:free"
+        assert c["model_base"] == "apodex/apodex-1.1-mini:free"
+        assert e["route_key"].endswith("-20261001:free")  # original untouched
+        plain = {"type": "route_added", "route_key": "Novita | x/y", "between": ["a", "b"]}
+        assert canonicalize_event(plain) is plain  # no copy when already canonical
+
     def test_dedupe_and_order(self):
         evs = [
             {"type": "route_added", "route_key": "A | m/x", "provider": "A", "model_base": "m/x",

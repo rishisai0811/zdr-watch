@@ -187,7 +187,8 @@ q.addEventListener('input',async()=>{{
   if(v.length<2){{res.innerHTML='';return;}}
   const data=await loadRoutes();
   const day=data.generated_at.slice(0,10);
-  const keys=Object.keys(data.routes).filter(k=>k.toLowerCase().includes(v)).sort().slice(0,15);
+  const toks=v.split(/\s+/);
+  const keys=Object.keys(data.routes).filter(k=>{{const lk=k.toLowerCase();return toks.every(t=>lk.includes(t));}}).sort().slice(0,15);
   res.innerHTML=keys.map(k=>{{
     const r=data.routes[k];
     const status=r.now
