@@ -144,6 +144,9 @@ class TestHistoryAndRender:
         render_index(snap, evs, str(idx), "https://example.github.io/zdr-watch")
         page = idx.read_text()
         assert "OpenRouter ZDR eligibility watch" in page and "A | m/x" in page
+        # lookup is shareable: typing syncs ?q= into the URL, and the box is labelled
+        assert "replaceState" in page and 'searchParams.set(\'q\'' in page
+        assert 'aria-label="provider or model name"' in page
 
     def test_routes_json_lookup_contract(self, tmp_path):
         evs = [
