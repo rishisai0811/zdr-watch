@@ -47,19 +47,19 @@ published ZDR endpoint list. See README.md for what this can and cannot show.
 - **DekaLLM | qwen/qwen3.8-27b** dropped from the ZDR list (provider did not serve the model at check time) between 2026-11-21 and 2026-11-26
 - **DekaLLM | z-ai/glm-5.3-flash** dropped from the ZDR list (provider did not serve the model at check time) between 2026-11-21 and 2026-11-26
 - **DigitalOcean | deepseek/deepseek-v3.2** dropped from the ZDR list (provider did not serve the model at check time) between 2026-11-21 and 2026-11-26
-- **DigitalOcean | xiaomi/mimo-v2.5-pro** dropped from the ZDR list (model absent from the catalog at check time) between 2026-11-21 and 2026-11-26
+- **DigitalOcean | xiaomi/mimo-v2.5-pro** dropped from the ZDR list (model absent from the catalog in the nearest catalog observation) between 2026-11-21 and 2026-11-26
 - **Io Net | moonshotai/kimi-k3** dropped from the ZDR list (provider did not serve the model at check time) between 2026-11-21 and 2026-11-26
-- **Liquid | liquid/d1.1** dropped from the ZDR list (model absent from the catalog at check time) between 2026-11-21 and 2026-11-26
+- **Liquid | liquid/d1.1** dropped from the ZDR list (model absent from the catalog in the nearest catalog observation) between 2026-11-21 and 2026-11-26
 - **Makora | minimax/minimax-m3.1-flash** dropped from the ZDR list (provider did not serve the model at check time) between 2026-11-21 and 2026-11-26
-- **Mistral | mistralai/mistral-medium-3** dropped from the ZDR list (model absent from the catalog at check time) between 2026-11-21 and 2026-11-26
-- **Mistral | mistralai/mistral-medium-3.1** dropped from the ZDR list (model absent from the catalog at check time) between 2026-11-21 and 2026-11-26
+- **Mistral | mistralai/mistral-medium-3** dropped from the ZDR list (model absent from the catalog in the nearest catalog observation) between 2026-11-21 and 2026-11-26
+- **Mistral | mistralai/mistral-medium-3.1** dropped from the ZDR list (model absent from the catalog in the nearest catalog observation) between 2026-11-21 and 2026-11-26
 - **Parasail | qwen/qwen3.6-35b-a3b** dropped from the ZDR list (provider did not serve the model at check time) between 2026-11-21 and 2026-11-26
 - **PrimeIntellect | deepseek/deepseek-v4-flash** dropped from the ZDR list (provider did not serve the model at check time) between 2026-11-21 and 2026-11-26
-- **Unbiased | unbiased/pareto-26.10** dropped from the ZDR list (model absent from the catalog at check time) between 2026-11-21 and 2026-11-26
+- **Unbiased | unbiased/pareto-26.10** dropped from the ZDR list (model absent from the catalog in the nearest catalog observation) between 2026-11-21 and 2026-11-26
 - **Venice | minimax/minimax-m2.5** dropped from the ZDR list (provider did not serve the model at check time) between 2026-11-21 and 2026-11-26
 - **Venice | moonshotai/kimi-k2.7-code** dropped from the ZDR list (provider did not serve the model at check time) between 2026-11-21 and 2026-11-26
 - **Venice | qwen/qwen3.8-27b** dropped from the ZDR list (provider did not serve the model at check time) between 2026-11-21 and 2026-11-26
-- **Venice | xiaomi/mimo-v2.5** dropped from the ZDR list (model absent from the catalog at check time) between 2026-11-21 and 2026-11-26
+- **Venice | xiaomi/mimo-v2.5** dropped from the ZDR list (model absent from the catalog in the nearest catalog observation) between 2026-11-21 and 2026-11-26
 - **Venice | z-ai/glm-5** dropped from the ZDR list (provider did not serve the model at check time) between 2026-11-21 and 2026-11-26
 - **Venice | z-ai/glm-5.1** dropped from the ZDR list (provider did not serve the model at check time) between 2026-11-21 and 2026-11-26
 - **DigitalOcean | deepseek/deepseek-v4-pro** changed endpoint variants between 2026-11-21 and 2026-11-26

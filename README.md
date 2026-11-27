@@ -104,6 +104,19 @@ route. Early history recorded some keys in the dated form; readers canonicalize
 at load time, so each route shows one merged timeline (the raw JSONL and raw
 capture snapshots are never rewritten).
 
+## Catalog evidence for historical removals
+
+Provider-level causes (eligibility lost vs endpoint retired) are not decidable
+historically: no archived per-model endpoint captures exist. Where archived
+`/api/v1/models` captures (Wayback, roughly weekly) bracket a removal window
+and show the model present before and absent after, the event carries a
+`catalog_evidence` note (with the exact capture dates) - an observation, not a
+cause: catalogs can be incomplete and a model can vanish and reappear between
+captures. Capture payloads are not stored; each index entry records the Wayback
+timestamp plus sha256/size/model-count so any capture can be re-fetched and
+verified. 107 of 1,216 unclassified removals currently carry this evidence
+(median bracket gaps: 3.8 days before, 1.1 days after; max 17.5).
+
 ## Alerts
 
 Use the **route history lookup** on the site to answer "was provider X | model Y

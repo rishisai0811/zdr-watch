@@ -236,8 +236,8 @@ class TestCauseWording:
         e["cause"] = "zdr_eligibility_lost"
         assert "lost ZDR eligibility" in title_for(e)
         e["cause"] = "model_retired"
-        assert "catalog at check time" in title_for(e)
-        assert "retired" not in title_for(e) or "at check time" in title_for(e)
+        assert "nearest catalog observation" in title_for(e)
+        assert "retired" not in title_for(e) or "nearest catalog observation" in title_for(e)
 
     def test_free_variant_merging(self):
         snap = normalize([
@@ -247,3 +247,94 @@ class TestCauseWording:
         assert list(snap["routes"]) == ["Ant Digital | inclusionai/ling-3.2-flash:free"]
         r = snap["routes"]["Ant Digital | inclusionai/ling-3.2-flash:free"]
         assert len(r.variants) == 2
+
+
+from zdrwatch.catalog_archive import catalog_evidence, _present
+
+
+class TestCatalogEvidence:
+    def _idx(self, entries):
+        return {ts: {"ids": ids, "sha256": "x", "bytes": 1, "models": len(ids)}
+                for ts, ids in entries.items()}
+
+    INDEX = None
+
+    def setUp(self):
+        pass
+
+    def _rem(self, model, lo, hi):
+        return {"type": "route_removed", "route_key": "P | " + model, "provider": "P",
+                "model_base": model, "safety_retention": False, "variants_lost": [],
+                "between": [lo, hi]}
+
+    def _index(self):
+        return self._idx({
+            "20250901000000": ["a/m-1", "b/m-2", "c/m-3:free"],
+            "20251001000000": ["a/m-1", "c/m-3:free"],
+            "20251101000000": ["a/m-1", "c/m-3:free"],
+        })
+
+    def test_evidence_attached_not_cause(self):
+        evs = [self._rem("b/m-2", "2025-09-15T00:00:00Z", "2025-09-20T00:00:00Z")]
+        out = catalog_evidence(evs, self._index())
+        assert "cause" not in out[0]  # cause is never overwritten
+        ev = out[0]["catalog_evidence"]
+        assert ev["present_at"] == "2025-09-01T00:00:00Z"
+        assert ev["absent_at"] == "2025-10-01T00:00:00Z"
+        assert ev["gap_before_days"] == 14.0 and ev["gap_after_days"] == 11.0
+
+    def test_still_present_gets_no_evidence(self):
+        evs = [self._rem("a/m-1", "2025-09-15T00:00:00Z", "2025-09-20T00:00:00Z")]
+        assert "catalog_evidence" not in catalog_evidence(evs, self._index())[0]
+
+    def test_no_bracketing_capture_no_evidence(self):
+        evs = [self._rem("b/m-2", "2025-07-01T00:00:00Z", "2025-07-02T00:00:00Z")]
+        assert "catalog_evidence" not in catalog_evidence(evs, self._index())[0]
+
+    def test_free_suffix_matches_base_id(self):
+        assert _present("c/m-3", ["c/m-3:free"]) and _present("c/m-3:free", ["c/m-3"])
+
+    def test_idempotent_and_preserves_existing_cause(self):
+        e = self._rem("b/m-2", "2025-09-15T00:00:00Z", "2025-09-20T00:00:00Z")
+        e["cause"] = "model_retired"
+        out = catalog_evidence([e], self._index())[0]
+        assert out["cause"] == "model_retired" and "catalog_evidence" not in out
+
+    def test_dated_model_base_canonicalized(self):
+        evs = [self._rem("b/m-2-20250910", "2025-09-15T00:00:00Z", "2025-09-20T00:00:00Z")]
+        assert "catalog_evidence" in catalog_evidence(evs, self._index())[0]
+
+
+class TestEvidenceProvenance:
+    def _rem(self, model, lo, hi):
+        return {"type": "route_removed", "route_key": "P | " + model, "provider": "P",
+                "model_base": model, "safety_retention": False, "variants_lost": [],
+                "between": [lo, hi]}
+
+    def _rec(self, ids, hashed=True):
+        r = {"ids": ids, "bytes": 1, "models": len(ids)}
+        if hashed:
+            r["sha256"] = "abc"
+        return r
+
+    def test_unhashed_captures_give_no_note(self):
+        idx = {"20250901000000": self._rec(["a/m-1", "b/m-2"], hashed=False),
+               "20251001000000": self._rec(["a/m-1"])}
+        evs = [self._rem("b/m-2", "2025-09-15T00:00:00Z", "2025-09-20T00:00:00Z")]
+        assert "catalog_evidence" not in catalog_evidence(evs, idx)[0]
+
+    def test_implausibly_small_absent_capture_gives_no_note(self):
+        # absent-capture with 1 model next to 2-model and 300-model neighbors:
+        # 1 < 0.6*300 -> incomplete -> no absence evidence
+        idx = {"20250901000000": self._rec(["a/m-1", "b/m-2"]),
+               "20251001000000": self._rec(["a/m-1"]),
+               "20251101000000": self._rec(["a/m-1"] + [f"x/m{i}" for i in range(300)])}
+        evs = [self._rem("b/m-2", "2025-09-15T00:00:00Z", "2025-09-20T00:00:00Z")]
+        assert "catalog_evidence" not in catalog_evidence(evs, idx)[0]
+
+    def test_plausible_captures_give_note(self):
+        idx = {"20250901000000": self._rec(["a/m-1", "b/m-2"] + [f"x/m{i}" for i in range(300)]),
+               "20251001000000": self._rec(["a/m-1"] + [f"x/m{i}" for i in range(298)]),
+               "20251101000000": self._rec(["a/m-1"] + [f"x/m{i}" for i in range(301)])}
+        evs = [self._rem("b/m-2", "2025-09-15T00:00:00Z", "2025-09-20T00:00:00Z")]
+        assert "catalog_evidence" in catalog_evidence(evs, idx)[0]

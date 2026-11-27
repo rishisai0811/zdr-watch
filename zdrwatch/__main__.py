@@ -4,6 +4,8 @@ Commands:
   check      Fetch live list, diff against data/latest.json, update history,
              site and feed. This is what the scheduled workflow runs.
   backfill   Seed history from Internet Archive captures (one-time, polite).
+  backfill-catalog  Build the archived model-catalog index used to classify
+             historical removals as model retirements (positive evidence only).
   render     Rebuild site/feed/changelog from existing data files.
 """
 from __future__ import annotations
@@ -16,6 +18,7 @@ import sys
 
 from .backfill import backfill as run_backfill
 from .diff import diff_snapshots, summarize
+from .catalog_archive import build_index, catalog_evidence
 from .classify import classify_removals
 from .fetch import fetch_catalog_model_ids, fetch_live, fetch_model_providers
 from .history import append_events, dedupe_events, events_chronological, load_events
@@ -24,6 +27,7 @@ from .render import render_changelog, render_feed, render_index, render_routes_j
 
 DATA_LATEST = "data/latest.json"
 EVENTS = "data/history/events.jsonl"
+CATALOG_INDEX = "data/catalog/models-index.json"
 DOCS = "docs"
 
 
@@ -50,6 +54,9 @@ def render_all(site_url):
         print("no data/latest.json; run check first", file=sys.stderr)
         return 1
     events = events_chronological(dedupe_events(load_events(EVENTS)))
+    if os.path.exists(CATALOG_INDEX):
+        with open(CATALOG_INDEX, encoding="utf-8") as f:
+            events = catalog_evidence(events, json.load(f))
     os.makedirs(DOCS, exist_ok=True)
     render_index(snap, events, os.path.join(DOCS, "index.html"), site_url)
     render_routes_json(snap, events, os.path.join(DOCS, "routes.json"))
@@ -124,9 +131,15 @@ def cmd_backfill(site_url, limit):
     return 0
 
 
+def cmd_backfill_catalog(site_url):
+    built = build_index(CATALOG_INDEX, progress=lambda ts, n: print(f"{ts}: {n} models", file=sys.stderr))
+    print(f"catalog index: {len(built)} captures")
+    return render_all(site_url)
+
+
 def main(argv=None):
     p = argparse.ArgumentParser(prog="zdrwatch")
-    p.add_argument("command", choices=["check", "backfill", "render"])
+    p.add_argument("command", choices=["check", "backfill", "backfill-catalog", "render"])
     p.add_argument("--site-url", default=os.environ.get("SITE_URL", "https://example.github.io/zdr-watch"))
     p.add_argument("--limit", type=int, default=None, help="backfill: only the N newest captures")
     args = p.parse_args(argv)
@@ -134,6 +147,8 @@ def main(argv=None):
         return cmd_check(args.site_url)
     if args.command == "backfill":
         return cmd_backfill(args.site_url, args.limit)
+    if args.command == "backfill-catalog":
+        return cmd_backfill_catalog(args.site_url)
     return render_all(args.site_url)
 
 

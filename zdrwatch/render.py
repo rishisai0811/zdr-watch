@@ -25,7 +25,7 @@ TITLES = {
 CAUSE_TITLES = {
     "zdr_eligibility_lost": "lost ZDR eligibility (provider still served the model at check time)",
     "endpoint_retired": "dropped from the ZDR list (provider did not serve the model at check time)",
-    "model_retired": "dropped from the ZDR list (model absent from the catalog at check time)",
+    "model_retired": "dropped from the ZDR list (model absent from the catalog in the nearest catalog observation)",
     None: "dropped from the published ZDR list",
     "unknown": "dropped from the published ZDR list",
 }
@@ -111,7 +111,12 @@ def render_routes_json(current_snap, events, out_path):
         routes[key] = {"now": True, "sr": r.safety_retention, "ev": []}
     for e in events:
         rec = routes.setdefault(e["route_key"], {"now": False, "sr": None, "ev": []})
-        rec["ev"].append({"t": e["type"], "w": title_for(e), "b": list(e["between"])})
+        item = {"t": e["type"], "w": title_for(e), "b": list(e["between"])}
+        if e.get("catalog_evidence"):
+            ce = e["catalog_evidence"]
+            item["cat"] = (f"archived catalog: model present {ce['present_at'][:10]}, "
+                           f"absent {ce['absent_at'][:10]}")
+        rec["ev"].append(item)
     for rec in routes.values():
         rec["ev"].sort(key=lambda x: x["b"][1], reverse=True)
     out = {
@@ -196,11 +201,14 @@ q.addEventListener('input',async()=>{{
       :'Not on the published list at last observation ('+day+')';
     const evs=r.ev.length
       ?'<ul>'+r.ev.map(e=>{{const lo=e.b[0].slice(0,10),hi=e.b[1].slice(0,10);
-        return '<li>'+esc(lo)+(lo!==hi?' &rarr; '+esc(hi):'')+': '+esc(e.w)+'</li>';}}).join('')+'</ul>'
+        return '<li>'+esc(lo)+(lo!==hi?' &rarr; '+esc(hi):'')+': '+esc(e.w)
+          +(e.cat?' <small>('+esc(e.cat)+')</small>':'')+'</li>';}}).join('')+'</ul>'
       :'<p><small>No recorded changes in this archive.</small></p>';
     return '<div class="route"><strong>'+esc(k)+'</strong> <small>'+status+'</small>'+evs+'</div>';
   }}).join('')||'<p><small>No matching route.</small></p>';
 }});
+const qp=new URLSearchParams(location.search).get('q');
+if(qp){{q.value=qp;q.dispatchEvent(new Event('input'));}}
 </script>
 <h2>Recent changes</h2>
 <p><small>Removal notes reflect OpenRouter's catalog as observed at check time.

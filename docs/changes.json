@@ -25,7 +25,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Together | deepseek/deepseek-r1-distill-qwen-1.5b"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-08-25T21:44:08Z",
+   "absent_at": "2025-09-04T19:23:12Z",
+   "gap_before_days": 1.6,
+   "gap_after_days": 7.1
+  }
  },
  {
   "between": [
@@ -109,7 +115,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Together | qwen/qwen-2-72b-instruct"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-08-25T21:44:08Z",
+   "absent_at": "2025-09-04T19:23:12Z",
+   "gap_before_days": 1.6,
+   "gap_after_days": 7.1
+  }
  },
  {
   "between": [
@@ -389,7 +401,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Together | nousresearch/nous-hermes-2-mixtral-8x7b-dpo"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-08-25T21:44:08Z",
+   "absent_at": "2025-09-04T19:23:12Z",
+   "gap_before_days": 2.8,
+   "gap_after_days": 2.9
+  }
  },
  {
   "between": [
@@ -697,7 +715,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Together | scb10x/llama3.1-typhoon2-70b-instruct"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-08-25T21:44:08Z",
+   "absent_at": "2025-09-11T10:37:22Z",
+   "gap_before_days": 7.0,
+   "gap_after_days": 2.5
+  }
  },
  {
   "between": [
@@ -1439,7 +1463,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Nebius | nvidia/llama-3.3-nemotron-super-49b-v1"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-09-04T19:23:12Z",
+   "absent_at": "2025-09-18T18:54:01Z",
+   "gap_before_days": 4.1,
+   "gap_after_days": 0.1
+  }
  },
  {
   "between": [
@@ -1523,7 +1553,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Parasail | infermatic/mn-inferor-12b"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-09-04T19:23:12Z",
+   "absent_at": "2025-09-18T18:54:01Z",
+   "gap_before_days": 4.1,
+   "gap_after_days": 0.1
+  }
  },
  {
   "between": [
@@ -1565,7 +1601,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Parasail | pygmalionai/mythalion-13b"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-09-04T19:23:12Z",
+   "absent_at": "2025-09-18T18:54:01Z",
+   "gap_before_days": 4.1,
+   "gap_after_days": 0.1
+  }
  },
  {
   "between": [
@@ -1831,7 +1873,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Google | google/gemini-flash-1.5"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-09-17T07:09:09Z",
+   "absent_at": "2025-09-26T16:37:32Z",
+   "gap_before_days": 1.4,
+   "gap_after_days": 0.9
+  }
  },
  {
   "between": [
@@ -1845,7 +1893,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Google | google/gemini-pro-1.5"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-09-17T07:09:09Z",
+   "absent_at": "2025-09-26T16:37:32Z",
+   "gap_before_days": 1.4,
+   "gap_after_days": 0.9
+  }
  },
  {
   "between": [
@@ -1859,7 +1913,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Hyperbolic | qwen/qwq-32b-preview"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-09-17T07:09:09Z",
+   "absent_at": "2025-09-26T16:37:32Z",
+   "gap_before_days": 1.4,
+   "gap_after_days": 0.9
+  }
  },
  {
   "between": [
@@ -2139,7 +2199,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Parasail | thedrummer/anubis-pro-105b-v1"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-09-26T16:37:32Z",
+   "absent_at": "2025-10-01T17:10:35Z",
+   "gap_before_days": 0.8,
+   "gap_after_days": 0.1
+  }
  },
  {
   "between": [
@@ -2349,7 +2415,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Featherless | neversleep/llama-3-lumimaid-70b"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-09-27T11:44:36Z",
+   "absent_at": "2025-10-12T02:22:33Z",
+   "gap_before_days": 4.1,
+   "gap_after_days": 3.6
+  }
  },
  {
   "between": [
@@ -3427,7 +3499,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Perplexity | perplexity/r1-1776"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-10-12T02:22:33Z",
+   "absent_at": "2025-10-31T18:00:25Z",
+   "gap_before_days": 0.3,
+   "gap_after_days": 8.1
+  }
  },
  {
   "between": [
@@ -5402,7 +5480,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Infermatic | anthracite-org/magnum-v2-72b"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-10-22T18:39:11Z",
+   "absent_at": "2025-11-19T13:07:12Z",
+   "gap_before_days": 0.9,
+   "gap_after_days": 3.2
+  }
  },
  {
   "between": [
@@ -5864,7 +5948,13 @@
   "type": "route_removed",
   "variants_lost": [
    "SiliconFlow | inclusionai/ling-1t"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-11-14T18:31:10Z",
+   "absent_at": "2025-11-30T07:53:55Z",
+   "gap_before_days": 1.8,
+   "gap_after_days": 10.4
+  }
  },
  {
   "between": [
@@ -5878,7 +5968,13 @@
   "type": "route_removed",
   "variants_lost": [
    "SiliconFlow | inclusionai/ring-1t"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-11-14T18:31:10Z",
+   "absent_at": "2025-11-30T07:53:55Z",
+   "gap_before_days": 1.8,
+   "gap_after_days": 10.4
+  }
  },
  {
   "between": [
@@ -6368,7 +6464,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Together | arcee-ai/afm-4.5b"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-11-19T13:07:12Z",
+   "absent_at": "2025-12-06T22:41:51Z",
+   "gap_before_days": 0.4,
+   "gap_after_days": 3.5
+  }
  },
  {
   "between": [
@@ -6662,7 +6764,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Together | deepcogito/cogito-v2-preview-deepseek-671b"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-11-30T07:53:55Z",
+   "absent_at": "2025-12-09T14:39:43Z",
+   "gap_before_days": 3.1,
+   "gap_after_days": 0.1
+  }
  },
  {
   "between": [
@@ -7166,7 +7274,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Parasail | moonshotai/kimi-linear-48b-a3b-instruct-20251029"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-12-06T22:41:51Z",
+   "absent_at": "2025-12-28T07:47:58Z",
+   "gap_before_days": 2.6,
+   "gap_after_days": 5.0
+  }
  },
  {
   "between": [
@@ -7208,7 +7322,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Parasail | thedrummer/anubis-70b-v1.1"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-12-06T22:41:51Z",
+   "absent_at": "2025-12-28T07:47:58Z",
+   "gap_before_days": 2.6,
+   "gap_after_days": 5.0
+  }
  },
  {
   "between": [
@@ -8062,7 +8182,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Azure | microsoft/phi-3-medium-128k-instruct"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-12-28T07:47:58Z",
+   "absent_at": "2026-01-28T22:57:15Z",
+   "gap_before_days": 8.3,
+   "gap_after_days": 2.1
+  }
  },
  {
   "between": [
@@ -8076,7 +8202,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Azure | microsoft/phi-3-mini-128k-instruct"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-12-28T07:47:58Z",
+   "absent_at": "2026-01-28T22:57:15Z",
+   "gap_before_days": 8.3,
+   "gap_after_days": 2.1
+  }
  },
  {
   "between": [
@@ -8090,7 +8222,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Azure | microsoft/phi-3.5-mini-128k-instruct"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-12-28T07:47:58Z",
+   "absent_at": "2026-01-28T22:57:15Z",
+   "gap_before_days": 8.3,
+   "gap_after_days": 2.1
+  }
  },
  {
   "between": [
@@ -8146,7 +8284,13 @@
   "type": "route_removed",
   "variants_lost": [
    "DeepInfra | deepseek/deepseek-prover-v2"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-12-28T07:47:58Z",
+   "absent_at": "2026-01-28T22:57:15Z",
+   "gap_before_days": 8.3,
+   "gap_after_days": 2.1
+  }
  },
  {
   "between": [
@@ -8216,7 +8360,13 @@
   "type": "route_removed",
   "variants_lost": [
    "DeepInfra | meta-llama/llama-3.2-90b-vision-instruct"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-12-28T07:47:58Z",
+   "absent_at": "2026-01-28T22:57:15Z",
+   "gap_before_days": 8.3,
+   "gap_after_days": 2.1
+  }
  },
  {
   "between": [
@@ -8244,7 +8394,13 @@
   "type": "route_removed",
   "variants_lost": [
    "DeepInfra | microsoft/phi-4-multimodal-instruct"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-12-28T07:47:58Z",
+   "absent_at": "2026-01-28T22:57:15Z",
+   "gap_before_days": 8.3,
+   "gap_after_days": 2.1
+  }
  },
  {
   "between": [
@@ -8272,7 +8428,13 @@
   "type": "route_removed",
   "variants_lost": [
    "DeepInfra | mistralai/devstral-small-2505"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-12-28T07:47:58Z",
+   "absent_at": "2026-01-28T22:57:15Z",
+   "gap_before_days": 8.3,
+   "gap_after_days": 2.1
+  }
  },
  {
   "between": [
@@ -8398,7 +8560,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Google | anthropic/claude-3-opus"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-12-28T07:47:58Z",
+   "absent_at": "2026-01-28T22:57:15Z",
+   "gap_before_days": 8.3,
+   "gap_after_days": 2.1
+  }
  },
  {
   "between": [
@@ -8412,7 +8580,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Google | google/gemini-2.5-flash-image-preview"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-12-28T07:47:58Z",
+   "absent_at": "2026-01-28T22:57:15Z",
+   "gap_before_days": 8.3,
+   "gap_after_days": 2.1
+  }
  },
  {
   "between": [
@@ -8468,7 +8642,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Novita | deepseek/deepseek-r1-0528-qwen3-8b"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-12-28T07:47:58Z",
+   "absent_at": "2026-01-28T22:57:15Z",
+   "gap_before_days": 8.3,
+   "gap_after_days": 2.1
+  }
  },
  {
   "between": [
@@ -8482,7 +8662,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Novita | deepseek/deepseek-r1-distill-qwen-14b"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-12-28T07:47:58Z",
+   "absent_at": "2026-01-28T22:57:15Z",
+   "gap_before_days": 8.3,
+   "gap_after_days": 2.1
+  }
  },
  {
   "between": [
@@ -8580,7 +8766,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Novita | thudm/glm-4.1v-9b-thinking"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-12-28T07:47:58Z",
+   "absent_at": "2026-01-28T22:57:15Z",
+   "gap_before_days": 8.3,
+   "gap_after_days": 2.1
+  }
  },
  {
   "between": [
@@ -8622,7 +8814,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Perplexity | perplexity/sonar-reasoning"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2025-12-28T07:47:58Z",
+   "absent_at": "2026-01-28T22:57:15Z",
+   "gap_before_days": 8.3,
+   "gap_after_days": 2.1
+  }
  },
  {
   "between": [
@@ -12710,7 +12908,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Google | google/gemini-3-pro-preview-20251117"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-03-19T16:24:47Z",
+   "absent_at": "2026-03-27T17:48:19Z",
+   "gap_before_days": 0.2,
+   "gap_after_days": 0.8
+  }
  },
  {
   "between": [
@@ -12752,7 +12956,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Hyperbolic | meta-llama/llama-3.1-405b"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-03-19T16:24:47Z",
+   "absent_at": "2026-03-27T17:48:19Z",
+   "gap_before_days": 0.2,
+   "gap_after_days": 0.8
+  }
  },
  {
   "between": [
@@ -12878,7 +13088,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Parasail | allenai/molmo-2-8b-20260109"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-03-19T16:24:47Z",
+   "absent_at": "2026-03-27T17:48:19Z",
+   "gap_before_days": 0.2,
+   "gap_after_days": 0.8
+  }
  },
  {
   "between": [
@@ -12892,7 +13108,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Parasail | allenai/olmo-3-7b-instruct-20251121"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-03-19T16:24:47Z",
+   "absent_at": "2026-03-27T17:48:19Z",
+   "gap_before_days": 0.2,
+   "gap_after_days": 0.8
+  }
  },
  {
   "between": [
@@ -12906,7 +13128,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Parasail | allenai/olmo-3-7b-think-20251121"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-03-19T16:24:47Z",
+   "absent_at": "2026-03-27T17:48:19Z",
+   "gap_before_days": 0.2,
+   "gap_after_days": 0.8
+  }
  },
  {
   "between": [
@@ -13634,7 +13862,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Amazon Bedrock | anthropic/claude-3.5-sonnet"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-03-26T01:36:18Z",
+   "absent_at": "2026-04-23T14:04:46Z",
+   "gap_before_days": 0.8,
+   "gap_after_days": 8.0
+  }
  },
  {
   "between": [
@@ -13676,7 +13910,13 @@
   "type": "route_removed",
   "variants_lost": [
    "AtlasCloud | meituan/longcat-flash-chat"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-03-26T01:36:18Z",
+   "absent_at": "2026-04-23T14:04:46Z",
+   "gap_before_days": 0.8,
+   "gap_after_days": 8.0
+  }
  },
  {
   "between": [
@@ -13788,7 +14028,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Featherless | eleutherai/llemma_7b"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-03-26T01:36:18Z",
+   "absent_at": "2026-04-23T14:04:46Z",
+   "gap_before_days": 0.8,
+   "gap_after_days": 8.0
+  }
  },
  {
   "between": [
@@ -13816,7 +14062,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Inception | inception/mercury"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-03-26T01:36:18Z",
+   "absent_at": "2026-04-23T14:04:46Z",
+   "gap_before_days": 0.8,
+   "gap_after_days": 8.0
+  }
  },
  {
   "between": [
@@ -13928,7 +14180,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Nebius | google/gemma-2-9b-it"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-03-26T01:36:18Z",
+   "absent_at": "2026-04-23T14:04:46Z",
+   "gap_before_days": 0.8,
+   "gap_after_days": 8.0
+  }
  },
  {
   "between": [
@@ -13984,7 +14242,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Nebius | nvidia/llama-3.1-nemotron-ultra-253b-v1"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-03-26T01:36:18Z",
+   "absent_at": "2026-04-23T14:04:46Z",
+   "gap_before_days": 0.8,
+   "gap_after_days": 8.0
+  }
  },
  {
   "between": [
@@ -14012,7 +14276,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Nebius | qwen/qwen2.5-coder-7b-instruct"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-03-26T01:36:18Z",
+   "absent_at": "2026-04-23T14:04:46Z",
+   "gap_before_days": 0.8,
+   "gap_after_days": 8.0
+  }
  },
  {
   "between": [
@@ -14194,7 +14464,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Parasail | allenai/olmo-3.1-32b-think-20251215"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-03-26T01:36:18Z",
+   "absent_at": "2026-04-23T14:04:46Z",
+   "gap_before_days": 0.8,
+   "gap_after_days": 8.0
+  }
  },
  {
   "between": [
@@ -16042,7 +16318,13 @@
   "type": "route_removed",
   "variants_lost": [
    "DeepInfra | allenai/olmo-3.1-32b-instruct-20251215"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-04-10T23:51:08Z",
+   "absent_at": "2026-05-20T23:22:41Z",
+   "gap_before_days": 4.6,
+   "gap_after_days": 1.1
+  }
  },
  {
   "between": [
@@ -16070,7 +16352,13 @@
   "type": "route_removed",
   "variants_lost": [
    "DeepInfra | mistralai/mixtral-8x7b-instruct"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-04-10T23:51:08Z",
+   "absent_at": "2026-05-20T23:22:41Z",
+   "gap_before_days": 4.6,
+   "gap_after_days": 1.1
+  }
  },
  {
   "between": [
@@ -16084,7 +16372,13 @@
   "type": "route_removed",
   "variants_lost": [
    "DeepInfra | nvidia/llama-3.1-nemotron-70b-instruct"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-04-10T23:51:08Z",
+   "absent_at": "2026-05-20T23:22:41Z",
+   "gap_before_days": 4.6,
+   "gap_after_days": 1.1
+  }
  },
  {
   "between": [
@@ -16112,7 +16406,13 @@
   "type": "route_removed",
   "variants_lost": [
    "DeepInfra | qwen/qwen2.5-vl-32b-instruct"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-04-10T23:51:08Z",
+   "absent_at": "2026-05-20T23:22:41Z",
+   "gap_before_days": 4.6,
+   "gap_after_days": 1.1
+  }
  },
  {
   "between": [
@@ -16308,7 +16608,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Mancer 2 | alpindale/goliath-120b"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-04-10T23:51:08Z",
+   "absent_at": "2026-05-20T23:22:41Z",
+   "gap_before_days": 4.6,
+   "gap_after_days": 1.1
+  }
  },
  {
   "between": [
@@ -16504,7 +16810,13 @@
   "type": "route_removed",
   "variants_lost": [
    "SiliconFlow | qwen/qwq-32b"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-04-10T23:51:08Z",
+   "absent_at": "2026-05-20T23:22:41Z",
+   "gap_before_days": 4.6,
+   "gap_after_days": 1.1
+  }
  },
  {
   "between": [
@@ -16771,7 +17083,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Arcee AI | arcee-ai/trinity-large-preview"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-05-18T03:01:48Z",
+   "absent_at": "2026-05-29T05:01:40Z",
+   "gap_before_days": 1.9,
+   "gap_after_days": 4.7
+  }
  },
  {
   "between": [
@@ -17135,7 +17453,13 @@
   "type": "route_removed",
   "variants_lost": [
    "AtlasCloud | alibaba/tongyi-deepresearch-30b-a3b"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-05-24T12:25:44Z",
+   "absent_at": "2026-05-31T02:01:50Z",
+   "gap_before_days": 0.0,
+   "gap_after_days": 0.3
+  }
  },
  {
   "between": [
@@ -17149,7 +17473,13 @@
   "type": "route_removed",
   "variants_lost": [
    "AtlasCloud | deepseek/deepseek-v3.2-speciale-20251201"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-05-24T12:25:44Z",
+   "absent_at": "2026-05-31T02:01:50Z",
+   "gap_before_days": 0.0,
+   "gap_after_days": 0.3
+  }
  },
  {
   "between": [
@@ -17303,7 +17633,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Featherless | alfredpros/codellama-7b-instruct-solidity"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-05-30T18:05:55Z",
+   "absent_at": "2026-06-06T04:57:27Z",
+   "gap_before_days": 0.0,
+   "gap_after_days": 5.1
+  }
  },
  {
   "between": [
@@ -17331,7 +17667,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Novita | baidu/ernie-4.5-21b-a3b"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-05-30T18:05:55Z",
+   "absent_at": "2026-06-06T04:57:27Z",
+   "gap_before_days": 0.0,
+   "gap_after_days": 5.1
+  }
  },
  {
   "between": [
@@ -17345,7 +17687,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Novita | baidu/ernie-4.5-21b-a3b-thinking"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-05-30T18:05:55Z",
+   "absent_at": "2026-06-06T04:57:27Z",
+   "gap_before_days": 0.0,
+   "gap_after_days": 5.1
+  }
  },
  {
   "between": [
@@ -17765,7 +18113,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Google | google/gemini-2.0-flash-001"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-05-31T02:01:50Z",
+   "absent_at": "2026-06-16T14:56:08Z",
+   "gap_before_days": 1.0,
+   "gap_after_days": 3.9
+  }
  },
  {
   "between": [
@@ -17779,7 +18133,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Google | google/gemini-2.0-flash-lite-001"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-05-31T02:01:50Z",
+   "absent_at": "2026-06-16T14:56:08Z",
+   "gap_before_days": 1.0,
+   "gap_after_days": 3.9
+  }
  },
  {
   "between": [
@@ -17849,7 +18209,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Novita | baidu/ernie-4.5-300b-a47b"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-05-31T02:01:50Z",
+   "absent_at": "2026-06-16T14:56:08Z",
+   "gap_before_days": 1.0,
+   "gap_after_days": 3.9
+  }
  },
  {
   "between": [
@@ -17863,7 +18229,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Novita | baidu/ernie-4.5-vl-28b-a3b"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-05-31T02:01:50Z",
+   "absent_at": "2026-06-16T14:56:08Z",
+   "gap_before_days": 1.0,
+   "gap_after_days": 3.9
+  }
  },
  {
   "between": [
@@ -17891,7 +18263,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Novita | nousresearch/hermes-2-pro-llama-3-8b"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-05-31T02:01:50Z",
+   "absent_at": "2026-06-16T14:56:08Z",
+   "gap_before_days": 1.0,
+   "gap_after_days": 3.9
+  }
  },
  {
   "between": [
@@ -17947,7 +18325,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Novita | sao10k/l3-euryale-70b"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-05-31T02:01:50Z",
+   "absent_at": "2026-06-16T14:56:08Z",
+   "gap_before_days": 1.0,
+   "gap_after_days": 3.9
+  }
  },
  {
   "between": [
@@ -18213,7 +18597,13 @@
   "type": "route_removed",
   "variants_lost": [
    "SiliconFlow | nex-agi/deepseek-v3.1-nex-n1"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-05-31T02:01:50Z",
+   "absent_at": "2026-06-16T14:56:08Z",
+   "gap_before_days": 1.0,
+   "gap_after_days": 3.9
+  }
  },
  {
   "between": [
@@ -18689,7 +19079,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Together | arcee-ai/maestro-reasoning"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-05-31T02:01:50Z",
+   "absent_at": "2026-06-16T14:56:08Z",
+   "gap_before_days": 1.0,
+   "gap_after_days": 3.9
+  }
  },
  {
   "between": [
@@ -18703,7 +19099,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Together | arcee-ai/spotlight"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-05-31T02:01:50Z",
+   "absent_at": "2026-06-16T14:56:08Z",
+   "gap_before_days": 1.0,
+   "gap_after_days": 3.9
+  }
  },
  {
   "between": [
@@ -18801,7 +19203,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Z.AI | z-ai/glm-5v-turbo-20260401"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-05-31T02:01:50Z",
+   "absent_at": "2026-06-16T14:56:08Z",
+   "gap_before_days": 1.0,
+   "gap_after_days": 3.9
+  }
  },
  {
   "between": [
@@ -20593,7 +21001,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Nebius | prime-intellect/intellect-3-20251126"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-06-06T04:57:27Z",
+   "absent_at": "2026-07-17T21:09:31Z",
+   "gap_before_days": 6.5,
+   "gap_after_days": 17.5
+  }
  },
  {
   "between": [
@@ -20621,7 +21035,13 @@
   "type": "route_removed",
   "variants_lost": [
    "NextBit | deepseek/deepseek-r1-distill-qwen-32b"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-06-06T04:57:27Z",
+   "absent_at": "2026-07-17T21:09:31Z",
+   "gap_before_days": 6.5,
+   "gap_after_days": 17.5
+  }
  },
  {
   "between": [
@@ -20691,7 +21111,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Novita | meta-llama/llama-3-70b-instruct"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-06-06T04:57:27Z",
+   "absent_at": "2026-07-17T21:09:31Z",
+   "gap_before_days": 6.5,
+   "gap_after_days": 17.5
+  }
  },
  {
   "between": [
@@ -20747,7 +21173,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Together | essentialai/rnj-1-instruct"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-06-06T04:57:27Z",
+   "absent_at": "2026-07-17T21:09:31Z",
+   "gap_before_days": 6.5,
+   "gap_after_days": 17.5
+  }
  },
  {
   "between": [
@@ -21405,7 +21837,13 @@
   "type": "route_removed",
   "variants_lost": [
    "WandB | microsoft/phi-4-mini-instruct"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-06-28T13:08:05Z",
+   "absent_at": "2026-07-17T21:09:31Z",
+   "gap_before_days": 1.8,
+   "gap_after_days": 10.8
+  }
  },
  {
   "between": [
@@ -23309,7 +23747,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Azure | openai/gpt-5.1-chat-20251113"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-06-28T13:08:05Z",
+   "absent_at": "2026-07-31T22:42:18Z",
+   "gap_before_days": 8.6,
+   "gap_after_days": 0.1
+  }
  },
  {
   "between": [
@@ -23337,7 +23781,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Clarifai | arcee-ai/trinity-mini-20251201"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-06-28T13:08:05Z",
+   "absent_at": "2026-07-31T22:42:18Z",
+   "gap_before_days": 8.6,
+   "gap_after_days": 0.1
+  }
  },
  {
   "between": [
@@ -23351,7 +23801,13 @@
   "type": "route_removed",
   "variants_lost": [
    "DeepInfra | meta-llama/llama-3.2-11b-vision-instruct"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-06-28T13:08:05Z",
+   "absent_at": "2026-07-31T22:42:18Z",
+   "gap_before_days": 8.6,
+   "gap_after_days": 0.1
+  }
  },
  {
   "between": [
@@ -23379,7 +23835,13 @@
   "type": "route_removed",
   "variants_lost": [
    "DeepInfra | nvidia/llama-3.3-nemotron-super-49b-v1.5"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-06-28T13:08:05Z",
+   "absent_at": "2026-07-31T22:42:18Z",
+   "gap_before_days": 8.6,
+   "gap_after_days": 0.1
+  }
  },
  {
   "between": [
@@ -23505,7 +23967,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Google | google/gemini-2.5-flash-lite-preview-09-2025"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-06-28T13:08:05Z",
+   "absent_at": "2026-07-31T22:42:18Z",
+   "gap_before_days": 8.6,
+   "gap_after_days": 0.1
+  }
  },
  {
   "between": [
@@ -23561,7 +24029,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Infermatic | sao10k/l3.1-70b-hanami-x1"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-06-28T13:08:05Z",
+   "absent_at": "2026-07-31T22:42:18Z",
+   "gap_before_days": 8.6,
+   "gap_after_days": 0.1
+  }
  },
  {
   "between": [
@@ -23827,7 +24301,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Together | arcee-ai/coder-large"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-06-28T13:08:05Z",
+   "absent_at": "2026-07-31T22:42:18Z",
+   "gap_before_days": 8.6,
+   "gap_after_days": 0.1
+  }
  },
  {
   "between": [
@@ -23841,7 +24321,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Together | liquid/lfm-2-24b-a2b-20260224"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-06-28T13:08:05Z",
+   "absent_at": "2026-07-31T22:42:18Z",
+   "gap_before_days": 8.6,
+   "gap_after_days": 0.1
+  }
  },
  {
   "between": [
@@ -23855,7 +24341,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Together | meta-llama/llama-3-8b-instruct"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-06-28T13:08:05Z",
+   "absent_at": "2026-07-31T22:42:18Z",
+   "gap_before_days": 8.6,
+   "gap_after_days": 0.1
+  }
  },
  {
   "between": [
@@ -26153,7 +26645,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Azure | openai/gpt-5.3-chat-20260303"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-07-28T01:59:36Z",
+   "absent_at": "2026-08-29T16:33:40Z",
+   "gap_before_days": 3.8,
+   "gap_after_days": 0.3
+  }
  },
  {
   "between": [
@@ -26559,7 +27057,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Novita | inclusionai/ling-2.6-1t-20260423"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-07-28T01:59:36Z",
+   "absent_at": "2026-08-29T16:33:40Z",
+   "gap_before_days": 3.8,
+   "gap_after_days": 0.3
+  }
  },
  {
   "between": [
@@ -26573,7 +27077,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Novita | inclusionai/ling-2.6-flash-20260421"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-07-28T01:59:36Z",
+   "absent_at": "2026-08-29T16:33:40Z",
+   "gap_before_days": 3.8,
+   "gap_after_days": 0.3
+  }
  },
  {
   "between": [
@@ -26601,7 +27111,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Novita | inclusionai/ring-2.6-1t-20260508"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-07-28T01:59:36Z",
+   "absent_at": "2026-08-29T16:33:40Z",
+   "gap_before_days": 3.8,
+   "gap_after_days": 0.3
+  }
  },
  {
   "between": [
@@ -26615,7 +27131,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Parasail | allenai/olmo-3-32b-think-20251121"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-07-28T01:59:36Z",
+   "absent_at": "2026-08-29T16:33:40Z",
+   "gap_before_days": 3.8,
+   "gap_after_days": 0.3
+  }
  },
  {
   "between": [
@@ -26643,7 +27165,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Parasail | thedrummer/rocinante-12b"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-07-28T01:59:36Z",
+   "absent_at": "2026-08-29T16:33:40Z",
+   "gap_before_days": 3.8,
+   "gap_after_days": 0.3
+  }
  },
  {
   "between": [
@@ -26755,7 +27283,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Together | arcee-ai/virtuoso-large"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-07-28T01:59:36Z",
+   "absent_at": "2026-08-29T16:33:40Z",
+   "gap_before_days": 3.8,
+   "gap_after_days": 0.3
+  }
  },
  {
   "between": [
@@ -26769,7 +27303,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Together | deepcogito/cogito-v2.1-671b-20251118"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-07-28T01:59:36Z",
+   "absent_at": "2026-08-29T16:33:40Z",
+   "gap_before_days": 3.8,
+   "gap_after_days": 0.3
+  }
  },
  {
   "between": [
@@ -26783,7 +27323,13 @@
   "type": "route_removed",
   "variants_lost": [
    "Together | google/gemma-3n-e4b-it"
-  ]
+  ],
+  "catalog_evidence": {
+   "present_at": "2026-07-28T01:59:36Z",
+   "absent_at": "2026-08-29T16:33:40Z",
+   "gap_before_days": 3.8,
+   "gap_after_days": 0.3
+  }
  },
  {
   "between": [
