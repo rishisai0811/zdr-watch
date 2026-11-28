@@ -1,7 +1,7 @@
 {
- "captured_at": "2026-11-27T03:53:10Z",
+ "captured_at": "2026-11-28T03:52:54Z",
  "source": "live",
- "route_count": 726,
+ "route_count": 724,
  "routes": [
   {
    "route_key": "AkashML | google/gemma-4-26b-a4b-it",
@@ -441,24 +441,6 @@
    "model_base": "deepseek/deepseek-v4-pro",
    "variants": [
     "Azure | deepseek/deepseek-v4-pro-20260423"
-   ],
-   "safety_retention": false
-  },
-  {
-   "route_key": "Azure | microsoft/mai-image-2.5",
-   "provider": "Azure",
-   "model_base": "microsoft/mai-image-2.5",
-   "variants": [
-    "Azure | microsoft/mai-image-2.5"
-   ],
-   "safety_retention": false
-  },
-  {
-   "route_key": "Azure | microsoft/mai-image-2.5-pro",
-   "provider": "Azure",
-   "model_base": "microsoft/mai-image-2.5-pro",
-   "variants": [
-    "Azure | microsoft/mai-image-2.5-pro-20260723"
    ],
    "safety_retention": false
   },
@@ -2424,15 +2406,6 @@
    "safety_retention": false
   },
   {
-   "route_key": "DeepInfra | tencent/hy4-preview",
-   "provider": "DeepInfra",
-   "model_base": "tencent/hy4-preview",
-   "variants": [
-    "DeepInfra | tencent/hy4-preview-20260827"
-   ],
-   "safety_retention": false
-  },
-  {
    "route_key": "DeepInfra | thenlper/gte-base",
    "provider": "DeepInfra",
    "model_base": "thenlper/gte-base",
@@ -2836,15 +2809,6 @@
    "variants": [
     "Featherless | deepseek/deepseek-v4.1-flash-20260910",
     "Featherless | deepseek/deepseek-v4.1-flash-20261017"
-   ],
-   "safety_retention": false
-  },
-  {
-   "route_key": "Featherless | minimax/minimax-m3",
-   "provider": "Featherless",
-   "model_base": "minimax/minimax-m3",
-   "variants": [
-    "Featherless | minimax/minimax-m3-20260531"
    ],
    "safety_retention": false
   },
@@ -4675,6 +4639,15 @@
    "safety_retention": false
   },
   {
+   "route_key": "NextBit | mistralai/mistral-nemo",
+   "provider": "NextBit",
+   "model_base": "mistralai/mistral-nemo",
+   "variants": [
+    "NextBit | mistralai/mistral-nemo"
+   ],
+   "safety_retention": false
+  },
+  {
    "route_key": "NextBit | qwen/qwen3-14b-04-28",
    "provider": "NextBit",
    "model_base": "qwen/qwen3-14b-04-28",
@@ -5552,6 +5525,15 @@
    "safety_retention": false
   },
   {
+   "route_key": "Reka | z-ai/glm-5.3",
+   "provider": "Reka",
+   "model_base": "z-ai/glm-5.3",
+   "variants": [
+    "Reka | z-ai/glm-5.3-20260816"
+   ],
+   "safety_retention": false
+  },
+  {
    "route_key": "Reka | z-ai/glm-5.3-flash",
    "provider": "Reka",
    "model_base": "z-ai/glm-5.3-flash",
@@ -5871,15 +5853,6 @@
    "safety_retention": false
   },
   {
-   "route_key": "Tenstorrent | z-ai/glm-5.3-flash",
-   "provider": "Tenstorrent",
-   "model_base": "z-ai/glm-5.3-flash",
-   "variants": [
-    "Tenstorrent | z-ai/glm-5.3-flash-20260826"
-   ],
-   "safety_retention": false
-  },
-  {
    "route_key": "Together | canopylabs/orpheus-3b-0.1-ft",
    "provider": "Together",
    "model_base": "canopylabs/orpheus-3b-0.1-ft",
@@ -6169,6 +6142,15 @@
    "safety_retention": false
   },
   {
+   "route_key": "Venice | deepseek/deepseek-v3.2",
+   "provider": "Venice",
+   "model_base": "deepseek/deepseek-v3.2",
+   "variants": [
+    "Venice | deepseek/deepseek-v3.2-20251201"
+   ],
+   "safety_retention": false
+  },
+  {
    "route_key": "Venice | deepseek/deepseek-v4-flash",
    "provider": "Venice",
    "model_base": "deepseek/deepseek-v4-flash",
@@ -6253,6 +6235,15 @@
    "safety_retention": false
   },
   {
+   "route_key": "Venice | nvidia/nemotron-3.5-lightning",
+   "provider": "Venice",
+   "model_base": "nvidia/nemotron-3.5-lightning",
+   "variants": [
+    "Venice | nvidia/nemotron-3.5-lightning-20260807"
+   ],
+   "safety_retention": false
+  },
+  {
    "route_key": "Venice | nvidia/nemotron-3.5-super-vl",
    "provider": "Venice",
    "model_base": "nvidia/nemotron-3.5-super-vl",
@@ -6276,15 +6267,6 @@
    "model_base": "qwen/qwen3-235b-a22b-07-25",
    "variants": [
     "Venice | qwen/qwen3-235b-a22b-07-25"
-   ],
-   "safety_retention": false
-  },
-  {
-   "route_key": "Venice | qwen/qwen3-235b-a22b-thinking-2507",
-   "provider": "Venice",
-   "model_base": "qwen/qwen3-235b-a22b-thinking-2507",
-   "variants": [
-    "Venice | qwen/qwen3-235b-a22b-thinking-2507"
    ],
    "safety_retention": false
   },

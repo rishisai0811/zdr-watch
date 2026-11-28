@@ -42126,5 +42126,151 @@
   "variants_lost": [
    "Relace | thinkingmachines/inkling-2-mini-20261120"
   ]
+ },
+ {
+  "between": [
+   "2026-11-27T03:53:10Z",
+   "2026-11-28T03:52:54Z"
+  ],
+  "model_base": "mistralai/mistral-nemo",
+  "provider": "NextBit",
+  "route_key": "NextBit | mistralai/mistral-nemo",
+  "safety_retention": false,
+  "type": "route_added",
+  "variants_gained": [
+   "NextBit | mistralai/mistral-nemo"
+  ]
+ },
+ {
+  "between": [
+   "2026-11-27T03:53:10Z",
+   "2026-11-28T03:52:54Z"
+  ],
+  "model_base": "z-ai/glm-5.3",
+  "provider": "Reka",
+  "route_key": "Reka | z-ai/glm-5.3",
+  "safety_retention": false,
+  "type": "route_added",
+  "variants_gained": [
+   "Reka | z-ai/glm-5.3-20260816"
+  ]
+ },
+ {
+  "between": [
+   "2026-11-27T03:53:10Z",
+   "2026-11-28T03:52:54Z"
+  ],
+  "model_base": "deepseek/deepseek-v3.2",
+  "provider": "Venice",
+  "route_key": "Venice | deepseek/deepseek-v3.2",
+  "safety_retention": false,
+  "type": "route_added",
+  "variants_gained": [
+   "Venice | deepseek/deepseek-v3.2-20251201"
+  ]
+ },
+ {
+  "between": [
+   "2026-11-27T03:53:10Z",
+   "2026-11-28T03:52:54Z"
+  ],
+  "model_base": "nvidia/nemotron-3.5-lightning",
+  "provider": "Venice",
+  "route_key": "Venice | nvidia/nemotron-3.5-lightning",
+  "safety_retention": false,
+  "type": "route_added",
+  "variants_gained": [
+   "Venice | nvidia/nemotron-3.5-lightning-20260807"
+  ]
+ },
+ {
+  "between": [
+   "2026-11-27T03:53:10Z",
+   "2026-11-28T03:52:54Z"
+  ],
+  "cause": "model_retired",
+  "model_base": "microsoft/mai-image-2.5",
+  "provider": "Azure",
+  "route_key": "Azure | microsoft/mai-image-2.5",
+  "safety_retention": false,
+  "type": "route_removed",
+  "variants_lost": [
+   "Azure | microsoft/mai-image-2.5"
+  ]
+ },
+ {
+  "between": [
+   "2026-11-27T03:53:10Z",
+   "2026-11-28T03:52:54Z"
+  ],
+  "cause": "model_retired",
+  "model_base": "microsoft/mai-image-2.5-pro",
+  "provider": "Azure",
+  "route_key": "Azure | microsoft/mai-image-2.5-pro",
+  "safety_retention": false,
+  "type": "route_removed",
+  "variants_lost": [
+   "Azure | microsoft/mai-image-2.5-pro-20260723"
+  ]
+ },
+ {
+  "between": [
+   "2026-11-27T03:53:10Z",
+   "2026-11-28T03:52:54Z"
+  ],
+  "cause": "endpoint_retired",
+  "model_base": "tencent/hy4-preview",
+  "provider": "DeepInfra",
+  "route_key": "DeepInfra | tencent/hy4-preview",
+  "safety_retention": false,
+  "type": "route_removed",
+  "variants_lost": [
+   "DeepInfra | tencent/hy4-preview-20260827"
+  ]
+ },
+ {
+  "between": [
+   "2026-11-27T03:53:10Z",
+   "2026-11-28T03:52:54Z"
+  ],
+  "cause": "endpoint_retired",
+  "model_base": "minimax/minimax-m3",
+  "provider": "Featherless",
+  "route_key": "Featherless | minimax/minimax-m3",
+  "safety_retention": false,
+  "type": "route_removed",
+  "variants_lost": [
+   "Featherless | minimax/minimax-m3-20260531"
+  ]
+ },
+ {
+  "between": [
+   "2026-11-27T03:53:10Z",
+   "2026-11-28T03:52:54Z"
+  ],
+  "cause": "endpoint_retired",
+  "model_base": "z-ai/glm-5.3-flash",
+  "provider": "Tenstorrent",
+  "route_key": "Tenstorrent | z-ai/glm-5.3-flash",
+  "safety_retention": false,
+  "type": "route_removed",
+  "variants_lost": [
+   "Tenstorrent | z-ai/glm-5.3-flash-20260826"
+  ]
+ },
+ {
+  "between": [
+   "2026-11-27T03:53:10Z",
+   "2026-11-28T03:52:54Z"
+  ],
+  "cause": "model_retired",
+  "model_base": "qwen/qwen3-235b-a22b-thinking-2507",
+  "provider": "Venice",
+  "route_key": "Venice | qwen/qwen3-235b-a22b-thinking-2507",
+  "safety_retention": false,
+  "type": "route_removed",
+  "variants_lost": [
+   "Venice | qwen/qwen3-235b-a22b-thinking-2507"
+  ]
  }
 ]

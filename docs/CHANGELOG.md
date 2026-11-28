@@ -3,6 +3,19 @@
 Each entry is dated to the window between two observations of OpenRouter's
 published ZDR endpoint list. See README.md for what this can and cannot show.
 
+## 2026-11-28
+
+- **NextBit | mistralai/mistral-nemo** gained ZDR eligibility between 2026-11-27 and 2026-11-28
+- **Reka | z-ai/glm-5.3** gained ZDR eligibility between 2026-11-27 and 2026-11-28
+- **Venice | deepseek/deepseek-v3.2** gained ZDR eligibility between 2026-11-27 and 2026-11-28
+- **Venice | nvidia/nemotron-3.5-lightning** gained ZDR eligibility between 2026-11-27 and 2026-11-28
+- **Azure | microsoft/mai-image-2.5** dropped from the ZDR list (model absent from the catalog in the nearest catalog observation) between 2026-11-27 and 2026-11-28
+- **Azure | microsoft/mai-image-2.5-pro** dropped from the ZDR list (model absent from the catalog in the nearest catalog observation) between 2026-11-27 and 2026-11-28
+- **DeepInfra | tencent/hy4-preview** dropped from the ZDR list (provider did not serve the model at check time) between 2026-11-27 and 2026-11-28
+- **Featherless | minimax/minimax-m3** dropped from the ZDR list (provider did not serve the model at check time) between 2026-11-27 and 2026-11-28
+- **Tenstorrent | z-ai/glm-5.3-flash** dropped from the ZDR list (provider did not serve the model at check time) between 2026-11-27 and 2026-11-28
+- **Venice | qwen/qwen3-235b-a22b-thinking-2507** dropped from the ZDR list (model absent from the catalog in the nearest catalog observation) between 2026-11-27 and 2026-11-28
+
 ## 2026-11-27
 
 - **DeepInfra | inclusionai/lingsante-3.1-air-vl** gained ZDR eligibility between 2026-11-26 and 2026-11-27
